@@ -17,7 +17,7 @@ Mais informação: https://ansol.org/normasabertas/rnid
 | www.exercito.pt | Flash | [Vário conteúdo Flash](http://www.exercito.pt/Paginas/default.aspx) | 2015/03/23 |
 | www.portugal.gov.pt | Flash | [Vídeos Flash](http://www.portugal.gov.pt/pt/fotos-e-videos/videos/20150319-msess-formacao-ogma.aspx) | 2015/03/23 |
 | lxi.cm-lisboa.pt | Flash | [Site Flash](http://lxi.cm-lisboa.pt/lxi/) | 2015/03/23 |
-| www.ipma.pt | [Gráficos Flash](http://www.ipma.pt/pt/otempo/prev.localidade/index.jsp) | 2015/03/23 |
+| www.ipma.pt | Flash | [Gráficos Flash](http://www.ipma.pt/pt/otempo/prev.localidade/index.jsp) | 2015/03/23 |
 | www4.seg-social.pt | Java embebido | [Necessita plugin JAVA](http://www4.seg-social.pt/simulador) | 2015/03/23 |
 | portaldasfinancas.gov.pt | Java embebido | [Necessita plugin JAVA](https://irs.portaldasfinancas.gov.pt) | 2014 |
 | geoportal.lneg.pt | Flash | [Site Flash](http://geoportal.lneg.pt/index.php) | 2015/03/23 |
