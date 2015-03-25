@@ -1,0 +1,18 @@
+Assunto: Incumprimento do RNID
+
+Caríssimos,
+
+A ANSOL -- Associação Nacional para o Software Livre -- vem por este meio
+alertar que a vossa presença web não está a cumprir o Regulamento Nacional de
+Interoperabilidade Digital, ao estar a usar formatos que não são Normas Abertas
+em conteúdos sem uma alternativa usando Normas Abertas.
+
+Damos, como exemplos em particular, os ficheiros disponibilizados em formatos
+TODO
+
+Na esperança que tal incumprimento seja resolvido com brevidade,
+Com os nossos melhores cumprimentos,
+-- 
+TODO - NOME
+Associação Nacional para o Software Livre
+http://ansol.org
