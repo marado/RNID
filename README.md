@@ -22,5 +22,6 @@ Mais informação: https://ansol.org/normasabertas/rnid
 | portaldasfinancas.gov.pt | Java embebido | [Necessita plugin JAVA](https://irs.portaldasfinancas.gov.pt) | 2014 |
 | geoportal.lneg.pt | Flash | [Site Flash](http://geoportal.lneg.pt/index.php) | 2015/03/23 |
 | www.igeoe.pt | Vário conteúdo Flash | [Site Flash](http://www.igeoe.pt/igeosig/) | 2015/03/23 |
+| http://www.ansr.pt | Documentos em DOCX | [Documentos em formato proprietário](http://www.ansr.pt/Contraordenacoes/Formularios/Pages/default.aspx﻿) | 2015/0_/__ |
 
 Encontrarão também um [template](template.txt) utilizado pela ANSOL para enviar um pedido de resolução do problema.
