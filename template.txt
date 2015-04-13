@@ -2,7 +2,7 @@ Assunto: Incumprimento do RNID
 
 Caríssimos,
 
-A ANSOL -- Associação Nacional para o Software Livre -- vem por este meio
+A ANSOL -- Associação Nacional para o Software Livre e a Comunidade LibreOffice Portugal -- vem por este meio
 alertar que a vossa presença web não está a cumprir o Regulamento Nacional de
 Interoperabilidade Digital, ao estar a usar formatos que não são Normas Abertas
 em conteúdos sem uma alternativa usando Normas Abertas.
@@ -16,3 +16,5 @@ Com os nossos melhores cumprimentos,
 TODO - NOME
 Associação Nacional para o Software Livre
 http://ansol.org
+Comunidade LibreOffice Portugal
+http://www.libreoffice.pt
