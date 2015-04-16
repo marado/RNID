@@ -9,7 +9,6 @@ Mais informação: https://ansol.org/normasabertas/rnid
 | www.infarmed.pt | Microsoft Excel | [página com documento Microsoft Excel](http://www.infarmed.pt/pt/licenciamento_inspeccao/dims/index.html) | 2015/03/22 | 2015/03/25 |
 | www.dgae.min-economia.pt | Microsoft Word | [página com formulários Microsoft Word](http://www.dgae.min-economia.pt/pagina.aspx?f=1&lws=1&mcna=0&lnc=AAAAAAAAAAAAAAAAAAAAAAAA&parceiroid=0&codigoms=0&codigono=80958335AAAAAAAAAAAAAAAA) | 2015/03/22 | 2015/03/25 |
 | www.dges.mctes.pt | Microsoft Excel | [página com documentos Microsoft Excel](http://www.dges.mctes.pt/DGES/pt/Estudantes/Rede/Ensino%20Superior/Estabelecimentos/Rede%20P%C3%BAblica/) | 2015/03/22 | 2015/03/25 |
-| www.cne.pt | Flash | [vídeos em Flash](http://www.cne.pt/) | 2015/03/23 | 2015/03/25 |
 | portal.iefp.pt | Flash | [site em Flash](http://portal.iefp.pt/cdrom/introducao.html) | 2015/03/23 |
 | www.infosociety.gov.pt | Flash | [Destaques em Flash](http://www.infosociety.gov.pt/) | 2015/03/23 |
 | www.rtp.pt | Flash, Real Media e WMV | [Página sobre Flash](http://www.rtp.pt/wportal/utilizacao/flashplayer.php); [Página sobre RM e WMV](http://www.rtp.pt/wportal/utilizacao/real_wm_player.htm) | 2015/03/23 |
