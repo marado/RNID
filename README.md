@@ -22,5 +22,6 @@ Mais informação: https://ansol.org/normasabertas/rnid
 | geoportal.lneg.pt | Flash | [Site Flash](http://geoportal.lneg.pt/index.php) | 2015/03/23 |
 | www.igeoe.pt | Vário conteúdo Flash | [Site Flash](http://www.igeoe.pt/igeoesig/) | 2015/03/23 |
 | www.ansr.pt | Documentos em DOCX | [Documentos em formato proprietário](http://www.ansr.pt/Contraordenacoes/Formularios/Pages/default.aspx) | 2015/04/14 | 2015/04/14 |
+| www.igeo.pt | Documento anunciado como XLS | [botão "exportar" devolve HTML mas con a extensão XLS](http://www.igeo.pt/DadosAbertos/Listagem.aspx) | 2015/04/23 | |
 
 Encontrarão também um [template](template.txt) utilizado pela ANSOL para enviar um pedido de resolução do problema.
