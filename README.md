@@ -18,7 +18,7 @@ Mais informação: https://ansol.org/normasabertas/rnid
 | lxi.cm-lisboa.pt | Flash | [Site Flash](http://lxi.cm-lisboa.pt/lxi/) | 2015/03/23 |
 | www.ipma.pt | Flash | [Gráficos Flash](http://www.ipma.pt/pt/otempo/prev.localidade/index.jsp) | 2015/03/23 |
 | www4.seg-social.pt | Java embebido | [Necessita plugin JAVA](http://www4.seg-social.pt/simulador) | 2015/03/23 |
-| portaldasfinancas.gov.pt | Java embebido | [Necessita plugin JAVA](https://irs.portaldasfinancas.gov.pt) | 2014 |
+| portaldasfinancas.gov.pt | Java embebido | [Necessita plugin JAVA](https://irs.portaldasfinancas.gov.pt) | 2015/05/24 |
 | geoportal.lneg.pt | Flash | [Site Flash](http://geoportal.lneg.pt/index.php) | 2015/03/23 |
 | www.igeoe.pt | Vário conteúdo Flash | [Site Flash](http://www.igeoe.pt/igeoesig/) | 2015/03/23 |
 | www.ansr.pt | Documentos em DOCX | [Documentos em formato proprietário](http://www.ansr.pt/Contraordenacoes/Formularios/Pages/default.aspx) | 2015/04/14 | 2015/04/14 |
