@@ -23,4 +23,4 @@ Mais informação: https://ansol.org/normasabertas/rnid
 | www.igeo.pt | Documento anunciado como XLS | [botão "exportar" devolve HTML mas con a extensão XLS](http://www.igeo.pt/DadosAbertos/Listagem.aspx) | 2015/04/23 | |
 | http://www.dgaiec.min-financas.pt | Documentos OOXML | [lista de formulários, quase na totalidade em formatos proprietários](http://www.dgaiec.min-financas.pt/pt/publicacoes_formularios/formularios/default.htm) | 2015/05/13 | |
 
-Encontrarão também um [template](template.txt) utilizado pela ANSOL para enviar um pedido de resolução do problema.
+Encontrarão também um [template](template.txt) utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
