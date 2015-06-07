@@ -10,7 +10,7 @@ Mais informação: https://ansol.org/normasabertas/rnid
 | www.dges.mctes.pt | Microsoft Excel | [página com documentos Microsoft Excel](http://www.dges.mctes.pt/DGES/pt/Estudantes/Rede/Ensino%20Superior/Estabelecimentos/Rede%20P%C3%BAblica/) | 2015/03/22 | 2015/03/25 |
 | portal.iefp.pt | Flash | [site em Flash](http://portal.iefp.pt/cdrom/introducao.html) | 2015/06/07 |2015/06/07 |
 | www.rtp.pt | Flash, Real Media e WMV | [Página sobre Flash](http://www.rtp.pt/wportal/utilizacao/flashplayer.php); [Página sobre RM e WMV](http://www.rtp.pt/wportal/utilizacao/real_wm_player.htm) | 2015/06/27 | 2015/06/27 |
-| www.visitalgarve.pt | Flash | [Vário conteúdo Flash](http://www.visitalgarve.pt/) | 2015/03/23 |
+| www.visitalgarve.pt | Flash | [Vário conteúdo Flash](http://www.visitalgarve.pt/) | 2015/06/27 | 2015/06/27 |
 | www.exercito.pt | Flash | [Vário conteúdo Flash](http://www.exercito.pt/Paginas/default.aspx) | 2015/03/23 |
 | www.portugal.gov.pt | Flash | [Vídeos Flash](http://www.portugal.gov.pt/pt/fotos-e-videos/videos/20150319-msess-formacao-ogma.aspx) | 2015/03/23 |
 | lxi.cm-lisboa.pt | Flash | [Site Flash](http://lxi.cm-lisboa.pt/lxi/) | 2015/03/23 |
