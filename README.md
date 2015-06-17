@@ -22,5 +22,6 @@ Mais informação: https://ansol.org/normasabertas/rnid
 | www.ansr.pt | Documentos em DOCX | [Documentos em formato proprietário](http://www.ansr.pt/Contraordenacoes/Formularios/Pages/default.aspx) | 2015/04/14 | 2015/04/14 |
 | www.igeo.pt | Documento anunciado como XLS | [botão "exportar" devolve HTML mas con a extensão XLS](http://www.igeo.pt/DadosAbertos/Listagem.aspx) | 2015/04/23 | |
 | http://www.dgaiec.min-financas.pt | Documentos OOXML | [lista de formulários, quase na totalidade em formatos proprietários](http://www.dgaiec.min-financas.pt/pt/publicacoes_formularios/formularios/default.htm) | 2015/05/13 | |
+| http://www.portalautarquico.pt/ | Documento XLS | [lista de trabalhadores](http://www.portalautarquico.pt/pt-PT/administracao-local/recursos-humanos/) | 2015/06/17 | |
 
 Encontrarão também um [template](template.txt) utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
