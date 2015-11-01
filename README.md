@@ -8,7 +8,7 @@ Mais informação: https://ansol.org/normasabertas/rnid
 | http://www.dgap.gov.pt | Microsoft Excel + Microsoft Word + Microsoft Powerpoint | [documento Microsoft Word](http://www.dgaep.gov.pt/upload/Emprego_publico/Mod_Cont_Trab2014/CONTRATO_TEMPO_INDETERMINADO.docx) | 2015/03/22 | 2015/03/25 |
 | www.dgae.min-economia.pt | Microsoft Word | [página com formulários Microsoft Word](http://www.dgae.min-economia.pt/pagina.aspx?f=1&lws=1&mcna=0&lnc=AAAAAAAAAAAAAAAAAAAAAAAA&parceiroid=0&codigoms=0&codigono=80958335AAAAAAAAAAAAAAAA) | 2015/03/22 | 2015/03/25 |
 | www.dges.mctes.pt | Microsoft Excel | [página com documentos Microsoft Excel](http://www.dges.mctes.pt/DGES/pt/Estudantes/Rede/Ensino%20Superior/Estabelecimentos/Rede%20P%C3%BAblica/) | 2015/03/22 | 2015/03/25 |
-| portal.iefp.pt | Flash | [site em Flash](http://portal.iefp.pt/cdrom/introducao.html) | 2015/06/07 |2015/06/07 |
+| http://portal.iefp.pt | Flash | [site em Flash](http://portal.iefp.pt/cdrom/introducao.html) | 2015/06/07 |2015/06/07 |
 | www.rtp.pt | Flash, Real Media e WMV | [Página sobre Flash](http://www.rtp.pt/wportal/utilizacao/flashplayer.php); [Página sobre RM e WMV](http://www.rtp.pt/wportal/utilizacao/real_wm_player.htm) | 2015/06/07 | 2015/06/07 |
 | www.visitalgarve.pt | Flash | [Vário conteúdo Flash](http://www.visitalgarve.pt/) | 2015/06/07 | 2015/06/07 |
 | www.exercito.pt | Flash | [Vário conteúdo Flash](http://www.exercito.pt/Paginas/default.aspx) | 2015/06/07 | 2015/06/07 |
