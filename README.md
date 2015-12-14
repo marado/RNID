@@ -25,5 +25,6 @@ Mais informação: https://ansol.org/normasabertas/rnid
 | http://www.portalautarquico.pt/ | Documento XLS | [lista de trabalhadores](http://www.portalautarquico.pt/pt-PT/administracao-local/recursos-humanos/) | 2015/06/17 | |
 | https://cmd.autenticacao.gov.pt/ | Precisa de Plugin Java para funcionar | [autenticação](https://cmd.autenticacao.gov.pt/Ama.Authentication.Frontend/) | 2015/09/01 | |
 | https://citius.tribunaisnet.mj.pt | Precisa de Plugin Java para funcionar | [notícia](http://www.dn.pt/portugal/interior/advogados-nao-conseguem-navegar-no-google-chrome-4765649.html) | 2015/09/07 | |
+| http://www.sg.mai.gov.pt | XLS | [http://www.sg.mai.gov.pt/AdministracaoEleitoral/RecenseamentoEleitoral/ResultadosRecenseamento/Paginas/default.aspx](cadernos eleitorais) | 2015/12/14 | |
 
 Encontrarão também um [template](template.txt) utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
