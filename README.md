@@ -18,7 +18,7 @@ Mais informação: https://ansol.org/normasabertas/rnid
 | www4.seg-social.pt | Java embebido | [Necessita plugin JAVA](http://www4.seg-social.pt/simulador) | 2015/03/23 |
 | portaldasfinancas.gov.pt | Java embebido, Documentos Microsoft | [Necessita plugin JAVA](https://www.portaldasfinancas.gov.pt/pt/external/ipm/downloadModelo1IMI.jsp), [XLS, XLSX e DOC](http://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/tabela_ret_doclib/), [XLS](https://info.portaldasfinancas.gov.pt/pt/dgci/contactos_servicos/enderecos_contactos/), [exportação para XLS](https://faturas.portaldasfinancas.gov.pt) | 2016/01/08 |
 | geoportal.lneg.pt | Flash | [Site Flash](http://geoportal.lneg.pt/index.php) | 2016/01/15 | 2016/01/15 |
-| www.igeoe.pt | Vário conteúdo Flash | [Site Flash](http://www.igeoe.pt/igeoesig/) | 2015/03/23 |
+| www.igeoe.pt | Vário conteúdo Flash | [Site Flash](http://www.igeoe.pt/igeoesig/) | 2016/01/21 | 2016/01/21 |
 | www.ansr.pt | Documentos em DOCX | [Documentos em formato proprietário](http://www.ansr.pt/Contraordenacoes/Formularios/Pages/default.aspx) | 2015/04/14 | 2015/04/14 |
 | www.igeo.pt | Documento anunciado como XLS | [botão "exportar" devolve HTML mas com a extensão XLS](http://www.igeo.pt/DadosAbertos/Listagem.aspx) | 2015/04/23 | |
 | http://www.dgaiec.min-financas.pt | Documentos OOXML | [lista de formulários, quase na totalidade em formatos proprietários](http://www.dgaiec.min-financas.pt/pt/publicacoes_formularios/formularios/default.htm) | 2015/05/13 | |
