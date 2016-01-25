@@ -22,7 +22,7 @@ Mais informação: https://ansol.org/normasabertas/rnid
 | www.ansr.pt | Documentos em DOCX | [Documentos em formato proprietário](http://www.ansr.pt/Contraordenacoes/Formularios/Pages/default.aspx) | 2015/04/14 | 2015/04/14 |
 | www.igeo.pt | Documento anunciado como XLS | [botão "exportar" devolve HTML mas com a extensão XLS](http://www.igeo.pt/DadosAbertos/Listagem.aspx) | 2015/04/23 | |
 | http://www.dgaiec.min-financas.pt | Documentos OOXML | [lista de formulários, quase na totalidade em formatos proprietários](http://www.dgaiec.min-financas.pt/pt/publicacoes_formularios/formularios/default.htm) | 2015/05/13 | |
-| http://www.portalautarquico.pt/ | Documento XLS | [lista de trabalhadores](http://www.portalautarquico.pt/pt-PT/administracao-local/recursos-humanos/) | 2015/06/17 | |
+| http://www.portalautarquico.pt/ | Documento XLS | [lista de trabalhadores](http://www.portalautarquico.pt/pt-PT/administracao-local/recursos-humanos/) | 2016/01/25 | 2016/01/25 |
 | https://cmd.autenticacao.gov.pt/ | Precisa de Plugin Java para funcionar | [autenticação](https://cmd.autenticacao.gov.pt/Ama.Authentication.Frontend/) | 2015/09/01 | |
 | https://citius.tribunaisnet.mj.pt | Precisa de Plugin Java para funcionar | [notícia](http://www.dn.pt/portugal/interior/advogados-nao-conseguem-navegar-no-google-chrome-4765649.html) | 2015/09/07 | |
 | http://www.sg.mai.gov.pt | XLS | [cadernos eleitorais](http://www.sg.mai.gov.pt/AdministracaoEleitoral/RecenseamentoEleitoral/ResultadosRecenseamento/Paginas/default.aspx) | 2015/12/14 | |
