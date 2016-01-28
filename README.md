@@ -25,7 +25,7 @@ Mais informação: https://ansol.org/normasabertas/rnid
 | http://www.portalautarquico.pt/ | Documento XLS | [lista de trabalhadores](http://www.portalautarquico.pt/pt-PT/administracao-local/recursos-humanos/) | 2016/01/25 | 2016/01/25 |
 | https://cmd.autenticacao.gov.pt/ | Precisa de Plugin Java para funcionar | [autenticação](https://cmd.autenticacao.gov.pt/Ama.Authentication.Frontend/) | 2015/09/01 | |
 | https://citius.tribunaisnet.mj.pt | Precisa de Plugin Java para funcionar | [notícia](http://www.dn.pt/portugal/interior/advogados-nao-conseguem-navegar-no-google-chrome-4765649.html) | 2015/09/07 | |
-| http://www.sg.mai.gov.pt | XLS | [cadernos eleitorais](http://www.sg.mai.gov.pt/AdministracaoEleitoral/RecenseamentoEleitoral/ResultadosRecenseamento/Paginas/default.aspx) | 2015/12/14 | |
+| http://www.sg.mai.gov.pt | XLS | [cadernos eleitorais](http://www.sg.mai.gov.pt/AdministracaoEleitoral/RecenseamentoEleitoral/ResultadosRecenseamento/Paginas/default.aspx) | 2016/01/28 | 2016/01/28 |
 | http://www.rcaap.pt/ | obriga depósito de dados em formatos não-livres ([lista de formatos autorizados](https://dre.pt/application/conteudo/72779297)) | MP3 | 2015/12/17 | |
 | http://planetario.marinha.pt/ | Flash | [conteúdo Flash](http://planetario.marinha.pt/) | 2016/01/24 |  |
 
