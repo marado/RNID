@@ -1,6 +1,12 @@
+Estas listas, regularmente actualizadas, registam ocorrências ou reportadas à ANSOL, ou observadas pela ANSOL, de sites que não usam Normas Abertas, como especificado na Lei das Normas Abertas.
+
+Mais informação sobre a Lei das Normas Abertas em https://ansol.org/normasabertas/rnid
+
 Lista regularmente actualizada de ocorrências de incumprimento da Lei das Normas Abertas.
 
-Mais informação: https://ansol.org/normasabertas/rnid
+# Ocorrências de incumprimento
+
+Esta tabela mostra casos de incumprimento do regulamento:
 
 | Sítio Web | Incumprimento | Exemplo | Última avaliação | Pedido de Resolução |
 |---|---|---|---|---|
@@ -18,7 +24,6 @@ Mais informação: https://ansol.org/normasabertas/rnid
 | www4.seg-social.pt | Java embebido | [Necessita plugin JAVA](http://www4.seg-social.pt/simulador) | 2015/03/23 |
 | portaldasfinancas.gov.pt | Java embebido, Documentos Microsoft | [Necessita plugin JAVA](https://www.portaldasfinancas.gov.pt/pt/external/ipm/downloadModelo1IMI.jsp), [XLS, XLSX e DOC](http://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/tabela_ret_doclib/), [XLS](https://info.portaldasfinancas.gov.pt/pt/dgci/contactos_servicos/enderecos_contactos/), [exportação para XLS](https://faturas.portaldasfinancas.gov.pt) | 2016/01/08 |
 | geoportal.lneg.pt | Flash | [Site Flash](http://geoportal.lneg.pt/index.php) | 2016/01/15 | 2016/01/15 |
-| www.igeoe.pt | Vário conteúdo Flash | [Site Flash](http://www.igeoe.pt/igeoesig/) | 2016/01/21 | 2016/01/21 |
 | www.ansr.pt | Documentos em DOCX | [Documentos em formato proprietário](http://www.ansr.pt/Contraordenacoes/Formularios/Pages/default.aspx) | 2015/04/14 | 2015/04/14 |
 | http://www.dgaiec.min-financas.pt | Documentos OOXML | [lista de formulários, quase na totalidade em formatos proprietários](http://www.dgaiec.min-financas.pt/pt/publicacoes_formularios/formularios/default.htm) | 2015/05/13 | |
 | http://www.portalautarquico.pt/ | Documento XLS | [lista de trabalhadores](http://www.portalautarquico.pt/pt-PT/administracao-local/recursos-humanos/) | 2016/01/25 | 2016/01/25 |
@@ -28,4 +33,12 @@ Mais informação: https://ansol.org/normasabertas/rnid
 | http://www.rcaap.pt/ | obriga depósito de dados em formatos não-livres ([lista de formatos autorizados](https://dre.pt/application/conteudo/72779297)) | MP3 | 2015/12/17 | |
 | http://planetario.marinha.pt/ | Flash | [conteúdo Flash](http://planetario.marinha.pt/) | 2016/01/24 |  |
 
-Encontrarão também um [template](template.txt) utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
+Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
+
+# Outras ocorrências
+
+Esta lista mostra sítios web que, não usando Normas Abertas, não incorrem de incumprimento:
+
+| Sítio Web | Exemplo | Justificação |
+|---|---|---|
+| www.igeoe.pt | [Site Flash](http://www.igeoe.pt/igeoesig/) | Da alteração da tecnologia utilizada no serviço para HTML 4.01 ou superior/Javascript 1.5 ou superior resultará um aumento de encargos, pelo que esta ocorrência se insere na exceção prevista no nº 4 da Resolução do Conselho de Ministros nº91/2012 |
