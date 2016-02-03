@@ -2,8 +2,6 @@ Estas listas, regularmente actualizadas, registam ocorrências ou reportadas à 
 
 Mais informação sobre a Lei das Normas Abertas em https://ansol.org/normasabertas/rnid
 
-Lista regularmente actualizada de ocorrências de incumprimento da Lei das Normas Abertas.
-
 # Ocorrências de incumprimento
 
 Esta tabela mostra casos de incumprimento do regulamento:
