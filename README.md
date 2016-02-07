@@ -29,7 +29,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | https://citius.tribunaisnet.mj.pt | Precisa de Plugin Java para funcionar | [notícia](http://www.dn.pt/portugal/interior/advogados-nao-conseguem-navegar-no-google-chrome-4765649.html) | 2015/09/07 | |
 | http://www.sg.mai.gov.pt | XLS | [cadernos eleitorais](http://www.sg.mai.gov.pt/AdministracaoEleitoral/RecenseamentoEleitoral/ResultadosRecenseamento/Paginas/default.aspx) | 2016/01/28 | 2016/01/28 |
 | http://www.rcaap.pt/ | obriga depósito de dados em formatos não-livres ([lista de formatos autorizados](https://dre.pt/application/conteudo/72779297)) | MP3 | 2015/12/17 | |
-| http://planetario.marinha.pt/ | Flash | [conteúdo Flash](http://planetario.marinha.pt/) | 2016/01/24 |  |
+| http://planetario.marinha.pt/ | Flash | [conteúdo Flash](http://planetario.marinha.pt/) | 2016/02/07 | 2016/02/07 |
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
 
