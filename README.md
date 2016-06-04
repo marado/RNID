@@ -30,6 +30,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | http://www.sg.mai.gov.pt | XLS | [cadernos eleitorais](http://www.sg.mai.gov.pt/AdministracaoEleitoral/RecenseamentoEleitoral/ResultadosRecenseamento/Paginas/default.aspx) | 2016/01/28 | 2016/01/28 |
 | http://www.rcaap.pt/ | obriga depósito de dados em formatos não-livres ([lista de formatos autorizados](https://dre.pt/application/conteudo/72779297)) | MP3 | 2015/12/17 | |
 | http://planetario.marinha.pt/ | Flash | [conteúdo Flash](http://planetario.marinha.pt/) | 2016/02/07 | 2016/02/07 |
+| https://www.portaldasescolas.pt | Necessita de Plugin Java | [Matrícula Electrónica](https://www.portaldasescolas.pt/portal/server.pt/community/07_matriculasnet/289) | 2016/06/05 | |
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
 
