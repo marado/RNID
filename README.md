@@ -11,7 +11,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | www.parlamento.pt | Vídeos disponibilizados em WMV, Canal Parlamento em Flash | [vídeo de audição](http://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheAudiencia.aspx?BID=99371), [canal parlamento](http://www.canal.parlamento.pt) | 2016/04/09 | 2015/03/25 |
 | http://www.dgap.gov.pt | Microsoft Excel + Microsoft Word + Microsoft Powerpoint | [documentos Microsoft Word](http://www.dgap.gov.pt/index.cfm?OBJID=92f87be6-bd38-4eee-9585-38f9cf0d6777) | 2016/03/26 | 2015/03/25 |
 | www.dgae.min-economia.pt | Microsoft Word | [página com formulários Microsoft Word](http://www.dgae.min-economia.pt/pagina.aspx?f=1&lws=1&mcna=0&lnc=AAAAAAAAAAAAAAAAAAAAAAAA&parceiroid=0&codigoms=0&codigono=80958335AAAAAAAAAAAAAAAA) | 2016/03/26 | 2015/03/25 |
-| www.dges.mctes.pt | Microsoft Excel | [página com documento Microsoft Excel](http://www.dges.mctes.pt/DGES/pt/Estudantes/Rede/Ensino%20Superior/Estabelecimentos/Rede%20P%C3%BAblica/) | 2016/05/09 | 2015/03/25 |
+| www.dges.mctes.pt | Microsoft Excel | [página com documento Microsoft Excel](http://www.dges.mctes.pt/DGES/pt/Estudantes/Rede/Ensino%20Superior/Estabelecimentos/Rede%20P%C3%BAblica/) | 2016/07/07 | 2016/07/07 |
 | http://iefp.pt | Acessibilidade | [site não cumpre WCAG 2.0 AA](http://iefp.pt) | 2016/03/26 | 2016/01/05 |
 | www.rtp.pt | Flash, Real Media e WMV | [Página sobre Flash](http://www.rtp.pt/wportal/utilizacao/flashplayer.php); [Página sobre RM e WMV](http://www.rtp.pt/wportal/utilizacao/real_wm_player.htm) | 2016/03/26 | 2015/06/07 |
 | www.visitalgarve.pt | Flash | [Vário conteúdo Flash](http://www.visitalgarve.pt/) | 2016/03/26 | 2015/06/07 |
