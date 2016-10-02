@@ -17,7 +17,6 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | www.visitalgarve.pt | Flash | [Vário conteúdo Flash](http://www.visitalgarve.pt/) | 2016/03/26 | 2015/06/07 |
 | www.exercito.pt | Flash | [Vário conteúdo Flash](http://www.exercito.pt/Paginas/default.aspx) | 2016/03/26 | 2015/06/07 |
 | www.portugal.gov.pt | Acessibilidade | [Conformidade Parcial](http://www.portugal.gov.pt/pt/acessibilidade/declaracao-de-conformidade-parcial.aspx) | 2016/03/26 | 2016/01/22 |
-| lxi.cm-lisboa.pt | Flash | [Site Flash](http://lxi.cm-lisboa.pt/lxi/) | 2016/03/26 | 2015/06/07 |
 | www.ipma.pt | Flash | [Gráficos Flash](http://www.ipma.pt/pt/otempo/prev.localidade/index.jsp) | 2016/03/26 | 2015/06/07 |
 | www4.seg-social.pt | Java embebido | [Necessita plugin JAVA](http://www4.seg-social.pt/simulador) | 2016/03/26 | 2016/03/26 |
 | portaldasfinancas.gov.pt | Documentos Microsoft | [XLS, XLSX e DOC](http://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/tabela_ret_doclib/), [exportação para XLS, necessita Flash](https://faturas.portaldasfinancas.gov.pt) | 2016/08/31 |
