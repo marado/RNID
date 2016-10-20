@@ -31,6 +31,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | https://www.portaldasescolas.pt | Necessita de Plugin Java | [Matrícula Electrónica](https://www.portaldasescolas.pt/portal/server.pt/community/07_matriculasnet/289) | 2016/06/05 | |
 | https://servicos.min-saude.pt/PortalUtente | Acessibilidade | [site não cumpre WCAG 2.0 AA](https://servicos.min-saude.pt/PortalUtente) | 2016/09/27 | 2016/09/27 |
 | https://www.min-saude.pt/ | Certificado https inválido | https://www.min-saude.pt/ | 2016/10/01 | 2016/10/01 |
+| http://www.act.gov.pt/ | Acessibilidade | [site não cumpre WCAG 2.0 A](http://www.act.gov.pt/) | 2016/10/20 ||
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
 
