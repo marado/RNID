@@ -33,6 +33,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | https://www.min-saude.pt/ | Certificado https inválido | https://www.min-saude.pt/ | 2016/10/01 | 2016/10/01 |
 | http://www.act.gov.pt/ | Acessibilidade | [site não cumpre WCAG 2.0 A](http://www.act.gov.pt/) | 2016/10/20 ||
 | http://www.ciencia-aberta.pt/ | Flash | [conteúdo Flash](http://www.ciencia-aberta.pt/) | 2016/10/26 ||
+| https://www.igcp.pt/ | XLS | [conteúdo em XLS](https://www.igcp.pt/pt/gca/?id=80) | 2016/12/26 ||
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
 
