@@ -21,7 +21,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | geoportal.lneg.pt | Flash | [Site Flash](http://geoportal.lneg.pt/index.php) | 2016/12/29 | 2016/01/15 |
 | www.ansr.pt | Documentos em DOCX | [Documentos em formato proprietário](http://www.ansr.pt/Contraordenacoes/Formularios/Pages/default.aspx) | 2016/12/29 | 2015/04/14 |
 | https://cmd.autenticacao.gov.pt/ | Precisa de Plugin Java, ou [extensão autenticacao.gov.pt](https://www.portaldocidadao.pt/web/entidade-gestora/desativacao-de-java-no-google-chrome-obriga-a-novo-metodo-para-autenticacao-no-portal-do-cidadao-e-balcao-do-empreendedor) para funcionar | [autenticação](https://cmd.autenticacao.gov.pt/Ama.Authentication.Frontend/) | 2016/12/29 | |
-| https://citius.tribunaisnet.mj.pt | Precisa de Plugin Java para funcionar | [notícia](http://www.dn.pt/portugal/interior/advogados-nao-conseguem-navegar-no-google-chrome-4765649.html) | 2015/09/07 | |
+| https://citius.tribunaisnet.mj.pt | Precisa de Plugin Java para funcionar | [documentação](https://citius.tribunaisnet.mj.pt/habilus/Docs/CITIUS_WEB_FIREFOX_MARCO_2017.pdf) | 2017/03/10 | |
 | http://www.sg.mai.gov.pt | XLS | [cadernos eleitorais](http://www.sg.mai.gov.pt/AdministracaoEleitoral/RecenseamentoEleitoral/ResultadosRecenseamento/Paginas/default.aspx) | 2016/12/29 | 2016/01/28 |
 | http://www.rcaap.pt/ | obriga depósito de dados em formatos não-livres ([lista de formatos autorizados](https://dre.pt/application/conteudo/72779297)) | MP3 | 2015/12/17 | |
 | https://www.portaldasescolas.pt | Necessita de Plugin Java | [Matrícula Electrónica](https://www.portaldasescolas.pt/portal/server.pt/community/07_matriculasnet/289) | 2016/12/29 | |
