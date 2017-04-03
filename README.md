@@ -23,7 +23,6 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | https://citius.tribunaisnet.mj.pt | Precisa de Plugin Java para funcionar | [documentação](https://citius.tribunaisnet.mj.pt/habilus/Docs/CITIUS_WEB_FIREFOX_MARCO_2017.pdf) | 2017/03/10 | |
 | http://www.sg.mai.gov.pt | XLS | [cadernos eleitorais](http://www.sg.mai.gov.pt/AdministracaoEleitoral/RecenseamentoEleitoral/ResultadosRecenseamento/Paginas/default.aspx) | 2016/12/29 | 2016/01/28 |
 | http://www.rcaap.pt/ | obriga depósito de dados em formatos não-livres ([lista de formatos autorizados](https://dre.pt/application/conteudo/72779297)) | MP3 | 2015/12/17 | |
-| https://www.portaldasescolas.pt | Necessita de Plugin Java | [Matrícula Electrónica](https://www.portaldasescolas.pt/portal/server.pt/community/07_matriculasnet/289) | 2016/12/29 | |
 | https://servicos.min-saude.pt/utente/ | Acessibilidade | [site não cumpre WCAG 2.0 AA](https://servicos.min-saude.pt/utente/) | 2017/01/06 | 2016/09/27 |
 | https://www.min-saude.pt/ | Certificado https inválido | https://www.min-saude.pt/ | 2016/12/29 | 2016/10/01 |
 | http://www.act.gov.pt/ | Acessibilidade | [site não cumpre WCAG 2.0 A](http://www.act.gov.pt/) | 2016/10/20 ||
