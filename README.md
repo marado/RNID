@@ -29,6 +29,9 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | https://www.igcp.pt/ | XLS | [conteúdo em XLS](https://www.igcp.pt/pt/gca/?id=80) | 2016/12/29 ||
 | https://www.portalviva.pt/ | Java | [necessita plugin JAVA](https://www.portalviva.pt/lx/pt/myvivaclient/client-account-area/loads/new-load.aspx) | 2017/01/05 ||
 | https://prevpap.gov.pt | Acessibilidade | [site não cumpre WCAG 2.0 A](https://prevpap.gov.pt) | 2017/05/23 ||
+| http://www.museudoazulejo.gov.pt/ | Flash | [conteúdo Flash](http://www.museudoazulejo.gov.pt/) | 2017/07/03 ||
+| http://www.matriznet.dgpc.pt/ | Flash | [conteúdo Flash](http://www.matriznet.dgpc.pt/) | 2017/07/03 ||
+| http://www.matrizpix.dgpc.pt/ | Flash | [conteúdo Flash](http://www.matrizpix.dgpc.pt/) | 2017/07/03 ||
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
 
