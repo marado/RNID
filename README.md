@@ -14,6 +14,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | www.rtp.pt | Flash e WMV | [Página com informação sobre o uso de Flash e WMV](http://media.rtp.pt/institucional/utilizacao/termos-e-condicoes/) | 2017/07/31 | 2015/06/07 |
 | www.visitalgarve.pt | Flash | [Vário conteúdo Flash](http://www.visitalgarve.pt/) | 2017/07/31 | 2015/06/07 |
 | www.portugal.gov.pt | Acessibilidade | [Conformidade Parcial](http://www.portugal.gov.pt/pt/acessibilidade/declaracao-de-conformidade-parcial.aspx) | 2017/07/31 | 2016/01/22 |
+| lxi.cm-lisboa.pt | Flash | [Site Flash](http://lxi.cm-lisboa.pt/lxi/) | 2017/10/26 | 2015/06/07 |
 | www.ipma.pt | Flash | [Gráficos Flash](http://www.ipma.pt/pt/otempo/prev.localidade/index.jsp) | 2017/07/31 | 2015/06/07 |
 | www4.seg-social.pt | Java embebido | [Necessita plugin JAVA](http://www4.seg-social.pt/simulador) | 2017/07/31 | 2016/03/26 |
 | Portais do Ministrio das Finanças | Documentos Microsoft | [XLS, XLSX e DOC](http://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/tabela_ret_doclib/), [endereços e contactos em XLSX](https://www.portaldasfinancas.gov.pt/pt/contactosEbalcao.action), [lista de formulários, quase na totalidade em formatos proprietários](http://www.dgaiec.min-financas.pt/pt/publicacoes_formularios/formularios/default.htm) | 2017/07/31 | 2017/03/25 |
