@@ -28,14 +28,14 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | https://servicos.min-saude.pt/utente/ | Acessibilidade | [site não cumpre WCAG 2.0 AA](https://servicos.min-saude.pt/utente/) | 2017/07/31 | 2016/09/27 |
 | https://www.min-saude.pt/ | Certificado https inválido | https://www.min-saude.pt/ | 2018/03/24 | 2016/10/01 |
 | http://www.act.gov.pt/ | Acessibilidade | [site não cumpre WCAG 2.0 A](http://www.act.gov.pt/) | 2017/07/31 ||
-| https://www.igcp.pt/ | XLS | [conteúdo em XLS](https://www.igcp.pt/pt/gca/?id=80) | 2017/07/31 ||
-| https://www.portalviva.pt/ | Java | [necessita plugin JAVA](https://www.portalviva.pt/lx/pt/myvivaclient/client-account-area/loads/new-load.aspx) | 2017/07/31 ||
+| https://www.igcp.pt/ | XLS | [conteúdo em XLS](https://www.igcp.pt/pt/gca/?id=80) | 2018/03/29 ||
+| https://www.portalviva.pt/ | Java | [necessita plugin JAVA](https://www.portalviva.pt/lx/pt/myvivaclient/client-account-area/loads/new-load.aspx) | 2018/03/29 ||
 | https://prevpap.gov.pt | Acessibilidade | [site não cumpre WCAG 2.0 A](https://prevpap.gov.pt) | 2017/07/31 ||
-| http://www.museudoazulejo.gov.pt/ | Flash | [conteúdo Flash](http://www.museudoazulejo.gov.pt/) | 2017/07/31 ||
-| http://www.matriznet.dgpc.pt/ | Flash | [conteúdo Flash](http://www.matriznet.dgpc.pt/) | 2017/07/31 ||
-| http://www.matrizpix.dgpc.pt/ | Flash | [conteúdo Flash](http://www.matrizpix.dgpc.pt/) | 2017/07/31 ||
+| http://www.museudoazulejo.gov.pt/ | Flash | [conteúdo Flash](http://www.museudoazulejo.gov.pt/) | 2018/03/29 ||
+| http://www.matriznet.dgpc.pt/ | Flash | [conteúdo Flash](http://www.matriznet.dgpc.pt/) | 2018/03/29 ||
+| http://www.matrizpix.dgpc.pt/ | Flash | [conteúdo Flash](http://www.matrizpix.dgpc.pt/) | 2018/03/29 ||
 | https://www.autarquicas2017.mai.gov.pt/ | CSS inválido | [análise do CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwww.autarquicas2017.mai.gov.pt%2F&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en) | 2017/10/02 ||
-| http://snirh.pt | Autenticação sem HTTPS, XHTML inválido, CSS inválido | [análise do XHTML](https://validator.w3.org/check?uri=http%3A%2F%2Fsnirh.pt&charset=%28detect+automatically%29&doctype=Inline&group=0), [análise do CSS](https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fsnirh.pt&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en) | 2017/12/01 ||
+| http://snirh.pt | Autenticação sem HTTPS, XHTML inválido, CSS inválido | [análise do XHTML](https://validator.w3.org/check?uri=http%3A%2F%2Fsnirh.pt&charset=%28detect+automatically%29&doctype=Inline&group=0), [análise do CSS](https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fsnirh.pt&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en) | 2018/03/29 ||
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
 
