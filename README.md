@@ -17,7 +17,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | lxi.cm-lisboa.pt | Flash | [Site Flash](http://lxi.cm-lisboa.pt/lxi/) | 2017/10/26 | 2015/06/07 |
 | http://www.cm-lisboa.pt/ | PDF com XFA | [PDF com XFA](http://www.cm-lisboa.pt/fileadmin/DOCS/Formularios/transversais/CML_participacao_ocorrencia.pdf) | 2017/10/24 ||
 | www.ipma.pt | Flash | [Gráficos Flash](http://www.ipma.pt/pt/otempo/prev.localidade/index.jsp) | 2017/07/31 | 2015/06/07 |
-| www4.seg-social.pt | Java embebido | [Necessita plugin JAVA](http://www4.seg-social.pt/simulador) | 2017/07/31 | 2016/03/26 |
+| www4.seg-social.pt | Java embebido | [Necessita plugin JAVA](http://www4.seg-social.pt/simulador) | 2018/04/30 | 2016/03/26 |
 | Portais do Ministrio das Finanças | Documentos Microsoft | [XLS, XLSX e DOC](http://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/tabela_ret_doclib/), [endereços e contactos em XLSX](https://www.portaldasfinancas.gov.pt/pt/contactosEbalcao.action), [lista de formulários, quase na totalidade em formatos proprietários](http://www.dgaiec.min-financas.pt/pt/publicacoes_formularios/formularios/default.htm) | 2017/07/31 | 2017/03/25 |
 | geoportal.lneg.pt | Flash | [Site Flash](http://geoportal.lneg.pt/index.php) | 2017/07/31 | 2016/01/15 |
 | www.ansr.pt | Documentos em DOCX | [Documentos em formato proprietário](http://www.ansr.pt/Contraordenacoes/Formularios/Pages/default.aspx) | 2017/07/31 | 2015/04/14 |
