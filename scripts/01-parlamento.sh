@@ -22,10 +22,10 @@ test $(wget http://www.canal.parlamento.pt/ -o /dev/null -O -|grep embedplayer.m
 
 ## resultados:
 if [ ! "$a" -eq "0" ]; then
-	echo "Incumprimento 'a' (videos em wmv) pode estar resolvido.";
+	echo "parlamento: Incumprimento 'a' (videos em wmv) pode estar resolvido.";
 fi
 if [ ! "$b" -eq "0" ]; then
-	echo "Incumprimento 'b' (flash no canal paralamento) pode estar resolvido ($b).";
+	echo "parlamento: Incumprimento 'b' (flash no canal paralamento) pode estar resolvido ($b).";
 fi
 if [ $((a + b)) -eq "0" ]; then
 	echo "parlamento: incumprimento mantém-se, a actualizar README (faça um git diff, valide, e commit!)";
