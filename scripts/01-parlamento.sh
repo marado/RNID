@@ -28,5 +28,11 @@ if [ ! "$b" -eq "0" ]; then
 	echo "Incumprimento 'b' (flash no canal paralamento) pode estar resolvido ($b).";
 fi
 if [ $((a + b)) -eq "0" ]; then
-	echo "parlamento: incumprimento mantém-se, actualizar README";
+	echo "parlamento: incumprimento mantém-se, a actualizar README (faça um git diff, valide, e commit!)";
+	while IFS='' read -r line || [[ -n "$line" ]]; do
+		test $(echo "$line"|grep -v www.parlamento.pt|wc -l) -eq "1" \
+			&& echo "$line" \
+			|| (h=$(echo "$line"|cut -d\| -f1-4); t=$(echo "$line"|cut -d\| -f6-); echo "$h| $(date +%Y/%m/%d) |$t");
+	done < README.md > new
+	mv new README.md
 fi
