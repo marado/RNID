@@ -13,7 +13,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | http://www.iefp.pt | Acessibilidade | [site não cumpre WCAG 2.0 AA](http://www.iefp.pt) | 2018/05/20 | 2016/01/05 |
 | www.rtp.pt | Flash e WMV | [Página com informação sobre o uso de Flash e WMV](http://media.rtp.pt/institucional/utilizacao/termos-e-condicoes/) | 2018/05/20 | 2015/06/07 |
 | www.portugal.gov.pt | Acessibilidade | [site não cumpre WCAG 2.0 A](http://www.portugal.gov.pt) | 2018/05/20 | 2016/01/22 |
-| lxi.cm-lisboa.pt | Flash | [Site Flash](http://lxi.cm-lisboa.pt/lxi/) | 2017/10/26 | 2015/06/07 |
+| lxi.cm-lisboa.pt | Flash | [Site Flash](http://lxi.cm-lisboa.pt/lxi/) | 2018/05/20 | 2015/06/07 |
 | http://www.cm-lisboa.pt/ | PDF com XFA | [PDF com XFA](http://www.cm-lisboa.pt/fileadmin/DOCS/Formularios/transversais/CML_participacao_ocorrencia.pdf) | 2017/10/24 ||
 | www.ipma.pt | Flash | [Gráficos Flash](http://www.ipma.pt/pt/otempo/prev.localidade/index.jsp) | 2017/07/31 | 2015/06/07 |
 | Portais do Ministrio das Finanças | Documentos Microsoft | [XLS, XLSX e DOC](http://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/tabela_ret_doclib/), [endereços e contactos em XLSX](https://www.portaldasfinancas.gov.pt/pt/contactosEbalcao.action), [lista de formulários, quase na totalidade em formatos proprietários](http://www.dgaiec.min-financas.pt/pt/publicacoes_formularios/formularios/default.htm) | 2018/04/30 | 2017/03/25 |
