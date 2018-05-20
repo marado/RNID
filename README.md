@@ -11,7 +11,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | www.parlamento.pt | Vídeos disponibilizados em WMV, Canal Parlamento em Flash | [vídeo de audição](http://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheAudiencia.aspx?BID=99371), [canal parlamento](http://www.canal.parlamento.pt) | 2018/05/20 | 2015/03/25 |
 | www.dgae.min-economia.pt | Microsoft Word | [página com formulários Microsoft Word](http://www.dgae.min-economia.pt/pagina.aspx?f=1&lws=1&mcna=0&lnc=AAAAAAAAAAAAAAAAAAAAAAAA&parceiroid=0&codigoms=0&codigono=80958335AAAAAAAAAAAAAAAA) | 2018/05/20 | 2015/03/25 |
 | http://www.iefp.pt | Acessibilidade | [site não cumpre WCAG 2.0 AA](http://www.iefp.pt) | 2018/05/20 | 2016/01/05 |
-| www.rtp.pt | Flash e WMV | [Página com informação sobre o uso de Flash e WMV](http://media.rtp.pt/institucional/utilizacao/termos-e-condicoes/) | 2017/07/31 | 2015/06/07 |
+| www.rtp.pt | Flash e WMV | [Página com informação sobre o uso de Flash e WMV](http://media.rtp.pt/institucional/utilizacao/termos-e-condicoes/) | 2018/05/20 | 2015/06/07 |
 | www.visitalgarve.pt | Flash | [Vário conteúdo Flash](http://www.visitalgarve.pt/) | 2018/03/09 | 2015/06/07 |
 | www.portugal.gov.pt | Acessibilidade | [site não cumpre WCAG 2.0 A](http://www.portugal.gov.pt) | 2018/03/09 | 2016/01/22 |
 | lxi.cm-lisboa.pt | Flash | [Site Flash](http://lxi.cm-lisboa.pt/lxi/) | 2017/10/26 | 2015/06/07 |
