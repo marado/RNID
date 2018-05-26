@@ -17,7 +17,7 @@
 	<!-- all OOTB css -->
 	<link rel="stylesheet" type="text/css" href="/Style%20Library/pt-PT/Themable/Core%20Styles/controls.css"/>
 <link rel="stylesheet" type="text/css" href="/_layouts/2070/styles/Themable/corev4.css?rev=aQ081tG%2FfyykGmYcyvF6vg%3D%3D"/>
-<link id="CssRegistration1" rel="stylesheet" type="text/css" href="/Style%20Library/sgmai/style.css"/>
+<link id="CssRegistration1" rel="stylesheet" type="text/css" href="/Style%20Library/sgmai/style.css?v=1.1"/>
 
 	
 	<!-- page manager interacts with script and the sharepoint object model -->
