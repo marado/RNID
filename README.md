@@ -12,7 +12,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | www.dgae.min-economia.pt | Microsoft Word | [página com formulários Microsoft Word](http://www.dgae.min-economia.pt/pagina.aspx?f=1&lws=1&mcna=0&lnc=AAAAAAAAAAAAAAAAAAAAAAAA&parceiroid=0&codigoms=0&codigono=80958335AAAAAAAAAAAAAAAA) | 2018/05/26 | 2015/03/25 |
 | http://www.iefp.pt | Acessibilidade | [site não cumpre WCAG 2.0 AA](http://www.iefp.pt) | 2018/05/26 | 2016/01/05 |
 | www.rtp.pt | Flash e WMV | Páginas com informação sobre o uso de [Flash](http://media.rtp.pt/empresa/utilizacao/flash-player/) e [WMV](http://media.rtp.pt/empresa/utilizacao/windows-media-player/) | 2018/05/26 | 2015/06/07 |
-| www.portugal.gov.pt | Acessibilidade | [site não cumpre WCAG 2.0 A](http://www.portugal.gov.pt) | 2018/05/20 | 2016/01/22 |
+| www.portugal.gov.pt | Acessibilidade | [site não cumpre WCAG 2.0 A](http://www.portugal.gov.pt) | 2018/05/26 | 2016/01/22 |
 | lxi.cm-lisboa.pt | Flash | [Site Flash](http://lxi.cm-lisboa.pt/lxi/) | 2018/05/20 | 2015/06/07 |
 | http://www.cm-lisboa.pt/ | PDF com XFA | [PDF com XFA](http://www.cm-lisboa.pt/fileadmin/DOCS/Formularios/transversais/CML_participacao_ocorrencia.pdf) | 2018/05/20 ||
 | www.ipma.pt | Flash | [Gráficos Flash](http://www.ipma.pt/) | 2018/05/20 | 2015/06/07 |
