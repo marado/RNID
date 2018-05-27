@@ -24,7 +24,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | http://www.sg.mai.gov.pt | XLS | [cadernos eleitorais](http://www.sg.mai.gov.pt/AdministracaoEleitoral/RecenseamentoEleitoral/ResultadosRecenseamento/Paginas/default.aspx) | 2018/05/27 | 2016/01/28 |
 | http://www.rcaap.pt/ | obriga depósito de dados em formatos não-livres ([lista de formatos autorizados](https://dre.pt/application/conteudo/72779297)) | MP3 | 2018/05/27 | |
 | https://servicos.min-saude.pt/utente/ | Acessibilidade | [site não cumpre WCAG 2.0 AA](https://servicos.min-saude.pt/utente/) | 2018/05/27 | 2016/09/27 |
-| https://www.min-saude.pt/ | Certificado https inválido | https://www.min-saude.pt/ | 2018/03/24 | 2016/10/01 |
+| https://www.min-saude.pt/ | Certificado https inválido | https://www.min-saude.pt/ | 2018/05/27 | 2016/10/01 |
 | http://www.act.gov.pt/ | Acessibilidade | [site não cumpre WCAG 2.0 A](http://www.act.gov.pt/) | 2017/07/31 ||
 | https://www.igcp.pt/ | XLS | [conteúdo em XLS](https://www.igcp.pt/pt/gca/?id=80) | 2018/03/29 ||
 | https://www.portalviva.pt/ | Java | [necessita plugin JAVA](https://www.portalviva.pt/lx/pt/myvivaclient/client-account-area/loads/new-load.aspx) | 2018/03/29 ||
