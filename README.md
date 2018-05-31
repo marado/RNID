@@ -17,7 +17,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | http://www.cm-lisboa.pt/ | PDF com XFA | [PDF com XFA](http://www.cm-lisboa.pt/fileadmin/DOCS/Formularios/transversais/CML_participacao_ocorrencia.pdf) | 2018/05/31 ||
 | www.ipma.pt | Flash | [Gráficos Flash](http://www.ipma.pt/) | 2018/05/31 | 2015/06/07 |
 | Portais do Ministrio das Finanças | Documentos Microsoft | [XLS, XLSX e DOC](http://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/tabela_ret_doclib/), [endereços e contactos em XLSX](https://www.portaldasfinancas.gov.pt/pt/contactosEbalcao.action), [lista de formulários, quase na totalidade em formatos proprietários](http://info-aduaneiro.portaldasfinancas.gov.pt/pt/publicacoes_formularios/formularios/Pages/formularios.aspx) | 2018/05/31 | 2017/03/25 |
-| geoportal.lneg.pt | Flash | [Site Flash](http://geoportal.lneg.pt/index.php) | 2018/05/27 | 2016/01/15 |
+| geoportal.lneg.pt | Flash | [Site Flash](http://geoportal.lneg.pt/index.php) | 2018/05/31 | 2016/01/15 |
 | www.ansr.pt | Documentos em DOCX | [Documentos em formato proprietário](http://www.ansr.pt/Contraordenacoes/Formularios/Pages/default.aspx) | 2018/05/27 | 2015/04/14 |
 | https://www.autenticacao.gov.pt/ | Precisa de [extensão autenticacao.gov.pt](https://autenticacao.gov.pt/fa/ajuda/autenticacaogovpt.aspx#installAgent) para funcionar | [autenticação](https://cmd.autenticacao.gov.pt/Ama.Authentication.Frontend/) | 2018/05/27 | |
 | https://citius.tribunaisnet.mj.pt | Precisa de Plugin Java para funcionar | [documentação](https://citius.tribunaisnet.mj.pt/habilus/Docs/CITIUS_WEB_FIREFOX_MARCO_2017.pdf) | 2018/05/27 | 2017/06/12 |
