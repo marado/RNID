@@ -4,12 +4,11 @@
 
 maybeOK=0;
 
-wget "https://validator.w3.org/check?uri=https%3A%2F%2Fsnirh.apambiente.pt&charset=%28detect+automatically%29&doctype=Inline&group=0" -o /dev/null -O - |hxnormalize -x -l 1000|hxselect .invalid|hxselect h3 -c > xhtml
-if [ ! "$(diff xhtml scripts/26/xhtml|wc -l)" -eq "0" ]; then
-	echo "xhtml snirh: incumprimento pode já não existir";
+xhtmlErrors=$(wget "https://validator.w3.org/check?uri=https%3A%2F%2Fsnirh.apambiente.pt&charset=%28detect+automatically%29&doctype=Inline&group=0" -o /dev/null -O - |hxnormalize -x -l 1000|hxselect .invalid|hxselect h3 -c|cut -d: -f2|cut -d" " -f2)
+if [ "$xhtmlErrors" -eq "0" ]; then
+	echo "xhtml snirh: incumprimento já não existe";
 	maybeOK=1;
 fi
-rm xhtml
 
 wget "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsnirh.apambiente.pt&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en" -o /dev/null -O - |grep \#errors|cut -d\> -f3|cut -d\< -f1 > css
 if [ ! "$(diff css scripts/26/css|wc -l)" -eq "0" ]; then
