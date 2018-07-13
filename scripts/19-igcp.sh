@@ -2,7 +2,7 @@
 
 # | https://www.igcp.pt/ | XLS | [conteúdo em XLS](https://www.igcp.pt/pt/gca/?id=80) | 2018/03/29 ||
 
-wget "https://www.igcp.pt/pt/gca/?id=80" -O - -o /dev/null |hxnormalize -x -l 1000|hxselect .texto > igcp
+wget "https://www.igcp.pt/pt/gca/?id=80" -O - -o /dev/null |hxnormalize -x -l 1000|hxselect .texto|hxselect table > igcp
 if [ ! "$(diff igcp scripts/19/igcp-table|wc -l)" -eq "0" ]; then
 	echo "igcp: incumprimento pode já não existir";
 else
