@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # [página com formulários Microsoft Word]
-wget "http://www.dgae.min-economia.pt/pagina.aspx?f=1&lws=1&mcna=0&lnc=AAAAAAAAAAAAAAAAAAAAAAAA&parceiroid=0&codigoms=0&codigono=80958335AAAAAAAAAAAAAAAA" -o /dev/null -O - | \
+wget "http://www.dgae.gov.pt/pagina.aspx?f=1&lws=1&mcna=0&lnc=AAAAAAAAAAAAAAAAAAAAAAAA&parceiroid=0&codigoms=0&codigono=80958335AAAAAAAAAAAAAAAA" -o /dev/null -O - | \
 	grep mlkFrame > teste;
 diferencas=$(diff teste scripts/02/pagina.aspx|wc -l)
 if [ ! "$diferencas" -eq "0" ]; then
