@@ -8,7 +8,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 
 | Sítio Web | Incumprimento | Exemplo | Última avaliação | Pedido de Resolução |
 |---|---|---|---|---|
-| www.parlamento.pt | Vídeos disponibilizados em WMV, Canal Parlamento em Flash | [vídeo de audição](http://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheAudiencia.aspx?BID=99371), [canal parlamento](http://www.canal.parlamento.pt) | 2018/07/14 | 2015/03/25 |
+| www.parlamento.pt | Vídeos disponibilizados em WMV, Canal Parlamento em Flash | [vídeo de audição](http://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheAudiencia.aspx?BID=99371), [canal parlamento](http://www.canal.parlamento.pt) | 2018/08/20 | 2015/03/25 |
 | www.dgae.min-economia.pt | Microsoft Word | [página com formulários Microsoft Word](http://www.dgae.min-economia.pt/pagina.aspx?f=1&lws=1&mcna=0&lnc=AAAAAAAAAAAAAAAAAAAAAAAA&parceiroid=0&codigoms=0&codigono=80958335AAAAAAAAAAAAAAAA) | 2018/07/14 | 2015/03/25 |
 | http://www.iefp.pt | Acessibilidade | [site não cumpre WCAG 2.0 AA](http://www.iefp.pt) | 2018/07/14 | 2016/01/05 |
 | www.rtp.pt | Flash e WMV | Páginas com informação sobre o uso de [Flash](http://media.rtp.pt/empresa/utilizacao/flash-player/) e [WMV](http://media.rtp.pt/empresa/utilizacao/windows-media-player/) | 2018/07/14 | 2015/06/07 |
