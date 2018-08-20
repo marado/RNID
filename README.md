@@ -21,16 +21,16 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | https://www.autenticacao.gov.pt/ | Precisa de [extensão autenticacao.gov.pt](https://autenticacao.gov.pt/fa/ajuda/autenticacaogovpt.aspx#installAgent) para funcionar | [autenticação](https://cmd.autenticacao.gov.pt/Ama.Authentication.Frontend/) | 2018/08/20 | |
 | https://citius.tribunaisnet.mj.pt | Precisa de Plugin Java para funcionar | [documentação](https://citius.tribunaisnet.mj.pt/habilus/Docs/CITIUS_WEB_FIREFOX_MARCO_2017.pdf) | 2018/08/20 | 2017/06/12 |
 | http://www.sg.mai.gov.pt | XLS, certificado HTTPS inválido | [cadernos eleitorais](http://www.sg.mai.gov.pt/AdministracaoEleitoral/RecenseamentoEleitoral/ResultadosRecenseamento/Paginas/default.aspx) | 2018/08/20 | 2016/01/28 |
-| http://www.rcaap.pt/ | obriga depósito de dados em formatos não-livres ([lista de formatos autorizados](https://dre.pt/application/conteudo/72779297)) | MP3 | 2018/07/14 | |
-| https://servicos.min-saude.pt/utente/ | Acessibilidade | [site não cumpre WCAG 2.0 AA](https://servicos.min-saude.pt/utente/) | 2018/07/14 | 2016/09/27 |
-| https://www.min-saude.pt/ | Certificado https inválido | https://www.min-saude.pt/ | 2018/07/14 | 2016/10/01 |
-| http://www.act.gov.pt/ | Acessibilidade | [site não cumpre WCAG 2.0 A](http://www.act.gov.pt/) | 2018/07/14 ||
-| https://www.igcp.pt/ | XLS | [conteúdo em XLS](https://www.igcp.pt/pt/gca/?id=80) | 2018/07/14 ||
-| https://www.portalviva.pt/ | Java | [necessita plugin JAVA](https://www.portalviva.pt/lx/pt/myvivaclient/client-account-area/loads/new-load.aspx) | 2018/07/14 ||
-| https://prevpap.gov.pt | Acessibilidade | [site não cumpre WCAG 2.0 A](https://prevpap.gov.pt) | 2018/07/14 ||
-| http://www.museudoazulejo.gov.pt/ | Flash | [conteúdo Flash](http://www.museudoazulejo.gov.pt/) | 2018/07/14 ||
-| http://www.matriznet.dgpc.pt/ | Flash | [conteúdo Flash](http://www.matriznet.dgpc.pt/) | 2018/07/14 ||
-| http://www.matrizpix.dgpc.pt/ | Flash | [conteúdo Flash](http://www.matrizpix.dgpc.pt/) | 2018/07/14 ||
+| http://www.rcaap.pt/ | obriga depósito de dados em formatos não-livres ([lista de formatos autorizados](https://dre.pt/application/conteudo/72779297)) | MP3 | 2018/08/20 | |
+| https://servicos.min-saude.pt/utente/ | Acessibilidade | [site não cumpre WCAG 2.0 AA](https://servicos.min-saude.pt/utente/) | 2018/08/20 | 2016/09/27 |
+| https://www.min-saude.pt/ | Certificado https inválido | https://www.min-saude.pt/ | 2018/08/20 | 2016/10/01 |
+| http://www.act.gov.pt/ | Acessibilidade | [site não cumpre WCAG 2.0 A](http://www.act.gov.pt/) | 2018/08/20 ||
+| https://www.igcp.pt/ | XLS | [conteúdo em XLS](https://www.igcp.pt/pt/gca/?id=80) | 2018/08/20 ||
+| https://www.portalviva.pt/ | Java | [necessita plugin JAVA](https://www.portalviva.pt/lx/pt/myvivaclient/client-account-area/loads/new-load.aspx) | 2018/08/20 ||
+| https://prevpap.gov.pt | Acessibilidade | [site não cumpre WCAG 2.0 A](https://prevpap.gov.pt) | 2018/08/20 ||
+| http://www.museudoazulejo.gov.pt/ | Flash | [conteúdo Flash](http://www.museudoazulejo.gov.pt/) | 2018/08/20 ||
+| http://www.matriznet.dgpc.pt/ | Flash | [conteúdo Flash](http://www.matriznet.dgpc.pt/) | 2018/08/20 ||
+| http://www.matrizpix.dgpc.pt/ | Flash | [conteúdo Flash](http://www.matrizpix.dgpc.pt/) | 2018/08/20 ||
 | https://www.autarquicas2017.mai.gov.pt/ | certificado SSL inválido, CSS inválido | [análise do CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwww.autarquicas2017.mai.gov.pt%2F&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en) | 2018/07/14 ||
 | https://snirh.apambiente.pt/ | XHTML inválido, CSS inválido | [análise do XHTML](https://validator.w3.org/check?uri=https%3A%2F%2Fsnirh.apambiente.pt&charset=%28detect+automatically%29&doctype=Inline&group=0), [análise do CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsnirh.apambiente.pt&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en) | 2018/07/14 ||
 | https://www.cnpd.pt | Formulário em XLSX | [link para o formulário](https://www.cnpd.pt/bin/notifica_rgpd/epd_dpo.htm) | 2018/07/14 ||
