@@ -2,7 +2,7 @@
 
 # https://autenticacao.gov.pt/fa/ajuda/autenticacaogovpt.aspx - pagina com informacao sobre o plugin
 
-wget https://autenticacao.gov.pt/fa/ajuda/autenticacaogovpt.aspx -o /dev/null -O autenticacaogovpt.aspx
+wget https://autenticacao.gov.pt/fa/ajuda/autenticacaogovpt.aspx -o /dev/null -O - | hxnormalize -x -l 1000 2> /dev/null |hxselect span > autenticacaogovpt.aspx
 if [ ! "$(diff autenticacaogovpt.aspx scripts/12/autenticacaogovpt.aspx|wc -l)" -eq "0" ]; then
 	echo "autenticação: incumprimento pode já não existir";
 else
