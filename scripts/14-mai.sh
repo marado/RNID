@@ -1,6 +1,6 @@
 #!/bin/bash
 
-wget --no-check-certificate https://www.sg.mai.gov.pt/AdministracaoEleitoral/RecenseamentoEleitoral/ResultadosRecenseamento/Paginas/default.aspx -o /dev/null -O -|grep -v __REQUESTDIGEST|grep -v VIEWSTATE|hxnormalize -x -l 1000|hxselect .conteudo > mai
+wget --no-check-certificate https://www.sg.mai.gov.pt/AdministracaoEleitoral/RecenseamentoEleitoral/ResultadosRecenseamento/Paginas/default.aspx -o /dev/null -O -|grep -v __REQUESTDIGEST|grep -v VIEWSTATE|hxnormalize -x -l 1000|hxselect .conteudo |hxselect a > mai
 if [ ! "$(diff mai scripts/14/mai|wc -l)" -eq "0" ]; then
 	echo "mai: incumprimento pode já não existir";
 else
