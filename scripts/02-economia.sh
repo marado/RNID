@@ -1,10 +1,6 @@
 #!/bin/bash
 
-# [página com formulários Microsoft Word]
-wget "http://www.dgae.gov.pt/pagina.aspx?f=1&lws=1&mcna=0&lnc=AAAAAAAAAAAAAAAAAAAAAAAA&parceiroid=0&codigoms=0&codigono=80958335AAAAAAAAAAAAAAAA" -o /dev/null -O - | \
-	grep mlkFrame |hxnormalize -x -l 1000|hxselect blockquote > teste;
-diferencas=$(diff teste scripts/02/pagina.aspx|wc -l)
-if [ ! "$diferencas" -eq "0" ]; then
+if [ ! "$(curl -s -I http://www.dgae.gov.pt/gestao-de-ficheiros-externos-dgae-ano-2015/1_formulario-registo_mf_nao_harmonizadas-doc.aspx|grep filename|cut -d= -f2| tr -d '\r')" == "i010066.doc" ]; then
 	echo "economia: incumprimento pode já não existir";
 else
 	echo "economia: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
@@ -15,4 +11,3 @@ else
 	done < README.md > new
 	mv new README.md
 fi
-rm teste
