@@ -1,8 +1,7 @@
 #!/bin/bash
 
 # http://www.ansr.pt/Contraordenacoes/Formularios/Pages/default.aspx - docx's
-
-wget http://www.ansr.pt/Contraordenacoes/Formularios/Pages/default.aspx -o /dev/null -O -|grep -v __REQUESTDIGEST |grep -v VIEWSTATE|grep -v f5_cspm> default.aspx
+wget http://www.ansr.pt/Contraordenacoes/Formularios/Pages/default.aspx -o /dev/null -O - | hxnormalize -x -l 1000|hxselect div#listas-download-ficheiros > default.aspx
 if [ ! "$(diff default.aspx scripts/11/default.aspx|wc -l)" -eq "0" ]; then
 	echo "ansr: incumprimento pode já não existir";
 else
