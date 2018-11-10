@@ -1,14 +1,9 @@
 #!/bin/bash
 
+# XXX: pode haver outro incumprimento com o certificado HTTPS, verificar
+
 # https://www.iefp.pt/ - não cumpre WCAG 2.0 AA
-
-#TODO: find a good tool to make the validation on request
-# https://achecker.ca/documentation/web_service_api.php - API usage depends on user account creation
-# webaim.org - API's not gratis
-
-# While we don't have a validator on request, let's find out if a known violation still exists
-## 20/05/2018: - several images without an alt attribute:
-if [ "$(wget https://servicos.min-saude.pt/utente/ -o /dev/null -O - | grep "<img" |grep -v alt|wc -l)" -eq "0" ]; then
+if [ "$(wget --no-check-certificate https://servicos.min-saude.pt/utente/ -o /dev/null -O - | grep "<img" |grep -v alt|wc -l)" -eq "0" ]; then
 	echo "servicos min-saude: incumprimento pode já não existir";
 else
 	echo "servicos min-saude: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
