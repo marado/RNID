@@ -2,7 +2,7 @@
 
 maybeOK=0;
 
-if [ ! "$(wget https://www.autarquicas2017.mai.gov.pt/ -o -|grep cert|wc -l)" -eq "1" ]; then
+if [ ! "$(wget https://www.autarquicas2017.mai.gov.pt/ -o -|grep cert|wc -l)" -gt "0" ]; then
 	echo "certificado autarquicas: incumprimento pode já não existir";
 	maybeOK=1;
 fi

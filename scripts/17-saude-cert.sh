@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ ! "$(wget https://www.min-saude.pt/ -o -|grep cert|wc -l)" -eq "1" ]; then
+if [ ! "$(wget https://www.min-saude.pt/ -o -|grep cert|wc -l)" -gt "0" ]; then
 	echo "certificado min-saude: incumprimento pode já não existir";
 else
 	echo "certificado min-saude: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
