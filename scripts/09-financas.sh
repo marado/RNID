@@ -47,4 +47,6 @@ if [ "$((a + b + c))" -eq "0" ]; then
 			|| (h=$(echo "$line"|cut -d\| -f1-4); t=$(echo "$line"|cut -d\| -f6-); echo "$h| $(date +%Y/%m/%d) |$t");
 	done < README.md > new
 	mv new README.md
+else
+	echo "Incumprimentos podem estar resolvidos. NOTA: um dos incumprimentos não está a ser testado.";
 fi
