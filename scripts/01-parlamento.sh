@@ -5,8 +5,7 @@
 ## a) Vídeos disponibilizados em WMV
 
 wget http://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheAudiencia.aspx?BID=99371 -o /dev/null -O - | \
-	grep -v "formDigestElement.value = '"|grep -v clientServerTimeDelta|grep -v __VIEWSTATE| \
-	grep -v __EVENTVALIDATION|grep -v __REQUESTDIGEST|grep -v ^\<\!-- |sed 's/target=\"_new.*//g' > tmp
+	hxnormalize -x -l 10000 | hxselect div#ctl00_ctl52_g_1d0614cc_f7c9_4544_a067_a6d1e32c35ae_ctl00_pnlLinksAssociados > tmp
 a=$(diff tmp scripts/01/DetalheAudiencia.aspx?BID=99371 |wc -l)
 # Se $a for 0, então o incumprimento mantém-se
 rm tmp
