@@ -24,9 +24,9 @@
                   <p></p>
 
                   <ul>
-                    <li>Microsoft Windows XP, Vista, 7, 8, 8.1 e 10.</li>
+                    <li>Microsoft Windows 7, 8, 8.1 e 10.</li>
 
-                    <li>Mac OS X Mountain Lion, Mavericks, Yosemite, El Capitan, macOS Sierra, macOS High Sierra.</li>
+                    <li>Mac OS X Yosemite, El Capitan, macOS Sierra, macOS High Sierra e macOS Mojave.</li>
 
                     <li>Linux (com JVM Oracle/OpenJDK versão 7 ou superior).</li>
                   </ul>
