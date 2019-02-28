@@ -26,15 +26,15 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | https://www.min-saude.pt/ | Certificado https inválido | https://www.min-saude.pt/ | 2019/02/28 | 2016/10/01 |
 | http://www.act.gov.pt/ | Acessibilidade | [site não cumpre WCAG 2.0 A](http://www.act.gov.pt/) | 2019/01/26 ||
 | https://www.igcp.pt/ | XLS | [conteúdo em XLS](https://www.igcp.pt/pt/gca/?id=80) | 2019/02/28 ||
-| https://www.portalviva.pt/ | Java | [necessita plugin JAVA](https://www.portalviva.pt/lx/pt/myvivaclient/client-account-area/loads/new-load.aspx) | 2019/01/26 ||
-| https://prevpap.gov.pt | Acessibilidade | [site não cumpre WCAG 2.0 A](https://prevpap.gov.pt) | 2019/01/26 ||
-| http://www.museudoazulejo.gov.pt/ | Flash | [conteúdo Flash](http://www.museudoazulejo.gov.pt/) | 2019/01/26 ||
-| http://www.matriznet.dgpc.pt/ | Flash | [conteúdo Flash](http://www.matriznet.dgpc.pt/) | 2019/01/26 ||
-| http://www.matrizpix.dgpc.pt/ | Flash | [conteúdo Flash](http://www.matrizpix.dgpc.pt/) | 2019/01/26 ||
-| https://www.autarquicas2017.mai.gov.pt/ | certificado SSL inválido, CSS inválido | [análise do CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwww.autarquicas2017.mai.gov.pt%2F&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en) | 2019/01/26 ||
-| https://snirh.apambiente.pt/ | XHTML inválido, CSS inválido | [análise do XHTML](https://validator.w3.org/check?uri=https%3A%2F%2Fsnirh.apambiente.pt&charset=%28detect+automatically%29&doctype=Inline&group=0), [análise do CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsnirh.apambiente.pt&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en) | 2019/01/26 ||
-| http://www.acessibilidade.gov.pt/ | Acessibilidade | [site não cumpre WCAG 2.0 A](http://www.acessibilidade.gov.pt/) | 2019/01/26 | 2018/11/12 |
-| http://www.aterratreme.pt/inscreva-se/ | Credenciais sem HTTPS | [forumulário de registo em HTTPS](http://www.aterratreme.pt/inscreva-se/) | 2019/01/26 ||
+| https://www.portalviva.pt/ | Java | [necessita plugin JAVA](https://www.portalviva.pt/lx/pt/myvivaclient/client-account-area/loads/new-load.aspx) | 2019/02/28 ||
+| https://prevpap.gov.pt | Acessibilidade | [site não cumpre WCAG 2.0 A](https://prevpap.gov.pt) | 2019/02/28 ||
+| http://www.museudoazulejo.gov.pt/ | Flash | [conteúdo Flash](http://www.museudoazulejo.gov.pt/) | 2019/02/28 ||
+| http://www.matriznet.dgpc.pt/ | Flash | [conteúdo Flash](http://www.matriznet.dgpc.pt/) | 2019/02/28 ||
+| http://www.matrizpix.dgpc.pt/ | Flash | [conteúdo Flash](http://www.matrizpix.dgpc.pt/) | 2019/02/28 ||
+| https://www.autarquicas2017.mai.gov.pt/ | certificado SSL inválido, CSS inválido | [análise do CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwww.autarquicas2017.mai.gov.pt%2F&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en) | 2019/02/28 ||
+| https://snirh.apambiente.pt/ | XHTML inválido, CSS inválido | [análise do XHTML](https://validator.w3.org/check?uri=https%3A%2F%2Fsnirh.apambiente.pt&charset=%28detect+automatically%29&doctype=Inline&group=0), [análise do CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsnirh.apambiente.pt&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en) | 2019/02/28 ||
+| http://www.acessibilidade.gov.pt/ | Acessibilidade | [site não cumpre WCAG 2.0 A](http://www.acessibilidade.gov.pt/) | 2019/02/28 | 2018/11/12 |
+| http://www.aterratreme.pt/inscreva-se/ | Credenciais sem HTTPS | [forumulário de registo em HTTPS](http://www.aterratreme.pt/inscreva-se/) | 2019/02/28 ||
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
 
