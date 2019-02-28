@@ -8,7 +8,13 @@
 
 # While we don't have a validator on request, let's find out if a known violation still exists
 ## 20/05/2018: - several images without an alt attribute:
-if [ "$(wget https://www.iefp.pt/ -o /dev/null -O - | grep "<img" |grep -v alt|wc -l)" -eq "0" ]; then
+## 28/02/2019: the missing alts case is no longer a problem, but to comply with WCAG the XHTML also needs to be valid...
+##             https://validator.w3.org/nu/?doc=https%3A%2F%2Fwww.iefp.pt%2F
+##             tidy is a great validator, but isn't catching the errors on this
+##             page as errors, even if it shows them as warnings... let's be hacky and pay
+##             attention only on the current use case:
+#if [ "$(wget https://www.iefp.pt/ -o /dev/null -O - | grep "<img" |grep -v alt|wc -l)" -eq "0" ]; then
+if [ "$(wget https://www.iefp.pt/ -o /dev/null -O -| tidy -e 2>&1|grep proprietary|wc -l)" -eq "0" ]; then
 	echo "iefp: incumprimento pode já não existir";
 else
 	echo "iefp: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
