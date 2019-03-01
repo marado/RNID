@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # While we don't have a validator on request, let's find out if a known violation still exists
-if [ "$(wget http://www.act.gov.pt/ --user-agent="Mozilla/5.0 Gecko/20100101 Firefox/21.0" -o /dev/null -O - | grep -i "<img" |grep -v -i alt|wc -l)" -eq "0" ]; then
+if [ "$(wget -t 1 http://www.act.gov.pt/ --user-agent="Mozilla/5.0 Gecko/20100101 Firefox/21.0" -o /dev/null -O - | grep -i "<img" |grep -v -i alt|wc -l)" -eq "0" ]; then
 	echo "act: incumprimento pode já não existir";
 else
 	echo "act: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
