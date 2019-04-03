@@ -13,8 +13,8 @@
 ##             tidy is a great validator, but isn't catching the errors on this
 ##             page as errors, even if it shows them as warnings... let's be hacky and pay
 ##             attention only on the current use case:
-#if [ "$(wget https://www.iefp.pt/ -o /dev/null -O - | grep "<img" |grep -v alt|wc -l)" -eq "0" ]; then
-if [ "$(wget https://www.iefp.pt/ -o /dev/null -O -| tidy -e 2>&1|grep proprietary|wc -l)" -eq "0" ]; then
+## 03/04/2019: XHTML is now valid, but there are empty headers now, in violation of levels A and AA
+if [ "$(wget https://www.iefp.pt/ -o /dev/null -O -| hxnormalize -x -l 10000|hxselect h2 -s '\n'|grep -c "h2></h2")" -eq "0" ]; then
 	echo "iefp: incumprimento pode já não existir";
 else
 	echo "iefp: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
