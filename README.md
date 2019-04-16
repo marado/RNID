@@ -37,6 +37,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | http://www.aterratreme.pt/inscreva-se/ | Credenciais sem HTTPS | [forumulário de registo em HTTPS](http://www.aterratreme.pt/inscreva-se/) | 2019/04/16 ||
 | https://inpi.justica.gov.pt | Serviços necessitam JAVA | [documento com instruções](https://servicosonline.inpi.pt/registos/guia_certificado.pdf) | 2019/04/16 ||
 | https://www.portugal2020.pt/ | Flash | [exemplo](https://www.portugal2020.pt/Portal2020/Media/Default/Videos/Login_12_11_2014.htm) | 2019/04/16 ||
+| http://azores.gov.pt | Flash, autenticação em HTTP | [conteúdo Flash e autenticação sem HTTPS](http://azores.gov.pt) | 2019/04/16 ||
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
 
