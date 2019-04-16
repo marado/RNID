@@ -31,6 +31,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | http://www.museudoazulejo.gov.pt/ | Flash | [conteúdo Flash](http://www.museudoazulejo.gov.pt/) | 2019/04/16 ||
 | http://www.matriznet.dgpc.pt/ | Flash | [conteúdo Flash](http://www.matriznet.dgpc.pt/) | 2019/04/16 ||
 | http://www.matrizpix.dgpc.pt/ | Flash | [conteúdo Flash](http://www.matrizpix.dgpc.pt/) | 2019/04/16 ||
+| https://www.cnpd.pt | Microsoft Office | [página com documentos OOXML](https://www.cnpd.pt/bin/rgpd/rgpd.htm) | 2019/04/16 ||
 | https://www.autarquicas2017.mai.gov.pt/ | certificado SSL inválido, CSS inválido | [análise do CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwww.autarquicas2017.mai.gov.pt%2F&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en) | 2019/04/16 ||
 | https://snirh.apambiente.pt/ | XHTML inválido, CSS inválido | [análise do XHTML](https://validator.w3.org/check?uri=https%3A%2F%2Fsnirh.apambiente.pt&charset=%28detect+automatically%29&doctype=Inline&group=0), [análise do CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsnirh.apambiente.pt&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en) | 2019/04/16 ||
 | http://www.aterratreme.pt/inscreva-se/ | Credenciais sem HTTPS | [forumulário de registo em HTTPS](http://www.aterratreme.pt/inscreva-se/) | 2019/04/16 ||
