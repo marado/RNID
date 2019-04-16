@@ -2,7 +2,7 @@
 
 #	https://www.portalviva.pt/31889.aspx
 
-wget "https://www.portalviva.pt/31889.aspx" -O - -o /dev/null |hxnormalize -x -l 1000|hxselect .contentViva > viva
+wget "https://www.portalviva.pt/31889.aspx" -O - -o /dev/null |hxnormalize -x -l 1000|hxselect .contentViva|hxnormalize -x -l 10000 > viva
 if [ ! "$(diff viva scripts/20/viva|wc -l)" -eq "0" ]; then
 	echo "viva: incumprimento pode já não existir";
 else
