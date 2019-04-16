@@ -35,6 +35,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | https://snirh.apambiente.pt/ | XHTML inválido, CSS inválido | [análise do XHTML](https://validator.w3.org/check?uri=https%3A%2F%2Fsnirh.apambiente.pt&charset=%28detect+automatically%29&doctype=Inline&group=0), [análise do CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsnirh.apambiente.pt&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en) | 2019/04/16 ||
 | http://www.aterratreme.pt/inscreva-se/ | Credenciais sem HTTPS | [forumulário de registo em HTTPS](http://www.aterratreme.pt/inscreva-se/) | 2019/04/16 ||
 | https://inpi.justica.gov.pt | Serviços necessitam JAVA | [documento com instruções](https://servicosonline.inpi.pt/registos/guia_certificado.pdf) | 2019/04/16 ||
+| https://www.portugal2020.pt/ | Flash | [exemplo](https://www.portugal2020.pt/Portal2020/Media/Default/Videos/Login_12_11_2014.htm) | 2019/04/16 ||
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
 
