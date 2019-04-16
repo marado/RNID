@@ -9,4 +9,6 @@ if [ "$naopassa" -eq "1" ]; then
 			|| (h=$(echo "$line"|cut -d\| -f1-4); t=$(echo "$line"|cut -d\| -f6-); echo "$h| $(date +%Y/%m/%d) |$t");
 	done < README.md > new
 	mv new README.md
+else
+	echo "acessibilidade: incumprimento já não existe";
 fi
