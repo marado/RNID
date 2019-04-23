@@ -38,7 +38,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | https://inpi.justica.gov.pt | Serviços necessitam JAVA | [documento com instruções](https://servicosonline.inpi.pt/registos/guia_certificado.pdf) | 2019/04/23 ||
 | https://www.portugal2020.pt/ | Flash | [exemplo](https://www.portugal2020.pt/Portal2020/Media/Default/Videos/Login_12_11_2014.htm) | 2019/04/23 ||
 | http://azores.gov.pt | Flash, autenticação em HTTP | [conteúdo Flash e autenticação sem HTTPS](http://azores.gov.pt) | 2019/04/23 ||
-| http://www.dgterritorio.pt | cartografia em ecw | [conteúdo ecw em vez de geotiff](http://www.dgterritorio.pt/cartografia_e_geodesia/cartografia/cartografia_de_base___topografica_e_topografica_de_imagem/serie_cartografica_1500_000/) | 2019/04/23 ||
+| http://www.dgterritorio.pt | cartografia em ecw, CAOP em shapefile | [conteúdo ecw em vez de geotiff](http://www.dgterritorio.pt/cartografia_e_geodesia/cartografia/cartografia_de_base___topografica_e_topografica_de_imagem/serie_cartografica_1500_000/), [CAOP em shapefile](http://www.dgterritorio.pt/cartografia_e_geodesia/cartografia/carta_administrativa_oficial_de_portugal_caop/caop__download_/) | 2019/04/23 ||
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
 
