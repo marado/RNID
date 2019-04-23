@@ -14,7 +14,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | www.rtp.pt | Flash e WMV | Páginas com informação sobre o uso de [Flash](http://media.rtp.pt/empresa/utilizacao/flash-player/) e [WMV](http://media.rtp.pt/empresa/utilizacao/windows-media-player/) | 2019/04/23 | 2015/06/07 |
 | www.portugal.gov.pt | Acessibilidade | [site não cumpre WCAG 2.0 A](http://www.portugal.gov.pt) | 2019/04/23 | 2016/01/22 |
 | lxi.cm-lisboa.pt | Flash | [Site Flash](http://lxi.cm-lisboa.pt/lxi/) | 2019/04/23 | 2015/06/07 |
-| http://www.cm-lisboa.pt/ | PDF com XFA | [PDF com XFA](http://www.cm-lisboa.pt/fileadmin/DOCS/Formularios/transversais/CML_participacao_ocorrencia.pdf) | 2019/04/23 ||
+| http://www.cm-lisboa.pt/ | PDF com XFA | [PDF com XFA](http://www.cm-lisboa.pt/fileadmin/DOCS/Formularios/transversais/CML_participacao_ocorrencia.pdf) | 2019/04/23 | 2019/04/23 |
 | Portais do Ministrio das Finanças | Documentos Microsoft | [XLS, XLSX e DOC](http://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/tabela_ret_doclib/), [endereços e contactos em XLSX](https://www.portaldasfinancas.gov.pt/pt/contactosEbalcao.action), [lista de formulários, quase na totalidade em formatos proprietários](http://info-aduaneiro.portaldasfinancas.gov.pt/pt/publicacoes_formularios/formularios/Pages/formularios.aspx), [declaração obriga ao uso de Java](https://www.portaldasfinancas.gov.pt/pt/main.jsp?body=/de/EntregaDeclRecapitulativa.jsp) | 2019/04/23 | 2017/03/25 |
 | geoportal.lneg.pt | Flash | [Site Flash](http://geoportal.lneg.pt/index.php) | 2019/04/23 | 2016/01/15 |
 | www.ansr.pt | Documentos em DOCX | [Documentos em formato proprietário](http://www.ansr.pt/Contraordenacoes/Formularios/Pages/default.aspx) | 2019/04/23 | 2015/04/14 |
