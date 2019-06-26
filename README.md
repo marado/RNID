@@ -38,6 +38,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | https://www.portugal2020.pt/ | XLS | [exemplo](https://www.portugal2020.pt/content/lista-de-operacoes-aprovadas) | 2019/06/25 ||
 | http://azores.gov.pt | Flash, autenticação em HTTP | [conteúdo Flash e autenticação sem HTTPS](http://azores.gov.pt) | 2019/06/25 ||
 | http://www.dgterritorio.pt | cartografia em ecw, CAOP em shapefile | [conteúdo ecw em vez de geotiff](http://www.dgterritorio.pt/cartografia_e_geodesia/cartografia/cartografia_de_base___topografica_e_topografica_de_imagem/serie_cartografica_1500_000/), [CAOP em shapefile](http://www.dgterritorio.pt/cartografia_e_geodesia/cartografia/carta_administrativa_oficial_de_portugal_caop/caop__download_/) | 2019/06/25 ||
+| https://sig.icnf.pt | Dados SIG disponibilizados por serviços MapServer/FeatureServer proprietários em vez de WMS/WFS | [dados DFCI](https://sigservices.icnf.pt/server/rest/services/DFCI), [dados DFCI_PSF](https://sigservices.icnf.pt/server/rest/services/DFCI_PSF), [dados GSTI](https://sigservices.icnf.pt/server/rest/services/GSTI) | 2019/06/26 ||
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
 
