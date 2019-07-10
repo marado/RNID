@@ -48,5 +48,5 @@ if [ "$((a + b + c))" -eq "0" ]; then
 	done < README.md > new
 	mv new README.md
 else
-	echo "Incumprimentos podem estar resolvidos. NOTA: um dos incumprimentos não está a ser testado.";
+	echo "financas: Incumprimentos podem estar resolvidos.";
 fi
