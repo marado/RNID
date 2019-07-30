@@ -27,7 +27,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | http://www.act.gov.pt/ | Acessibilidade | [site não cumpre WCAG 2.0 A](http://www.act.gov.pt/) | 2019/07/30 ||
 | https://www.igcp.pt/ | XLS | [conteúdo em XLS](https://www.igcp.pt/pt/gca/?id=80) | 2019/07/30 | 2019/05/14 |
 | https://prevpap.gov.pt | Acessibilidade | [site não cumpre WCAG 2.0 A](https://prevpap.gov.pt) | 2019/07/30 ||
-| http://www.museudoazulejo.gov.pt/ | Flash | [conteúdo Flash](http://www.museudoazulejo.gov.pt/) | 2019/07/30 ||
+| http://www.museudoazulejo.gov.pt/ | Flash | [conteúdo Flash](http://www.museudoazulejo.gov.pt/) | 2019/07/30 | 2019/07/30 |
 | http://www.matriznet.dgpc.pt/ | Flash | [conteúdo Flash](http://www.matriznet.dgpc.pt/) | 2019/07/30 ||
 | http://www.matrizpix.dgpc.pt/ | Flash | [conteúdo Flash](http://www.matrizpix.dgpc.pt/) | 2019/07/30 ||
 | https://www.cnpd.pt | Microsoft Office | [página com documentos OOXML](https://www.cnpd.pt/bin/rgpd/rgpd.htm) | 2019/07/30 ||
