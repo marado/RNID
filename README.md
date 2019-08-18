@@ -38,7 +38,6 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | https://www.portugal2020.pt/ | XLSX | [exemplo](https://www.portugal2020.pt/content/lista-de-operacoes-aprovadas) | 2019/08/18 | 2019/08/11 |
 | http://azores.gov.pt | Flash, autenticação em HTTP | [conteúdo Flash e autenticação sem HTTPS](http://azores.gov.pt) | 2019/08/18 ||
 | http://www.dgterritorio.pt | cartografia em ecw, CAOP em shapefile | [conteúdo ecw em vez de geotiff](http://www.dgterritorio.pt/cartografia_e_geodesia/cartografia/cartografia_de_base___topografica_e_topografica_de_imagem/serie_cartografica_1500_000/), [CAOP em shapefile](http://www.dgterritorio.pt/cartografia_e_geodesia/cartografia/carta_administrativa_oficial_de_portugal_caop/caop__download_/) | 2019/08/18 ||
-| https://sig.icnf.pt | Dados SIG disponibilizados por serviços MapServer/FeatureServer proprietários em vez de WMS/WFS | [dados DFCI](https://sigservices.icnf.pt/server/rest/services/DFCI), [dados DFCI_PSF](https://sigservices.icnf.pt/server/rest/services/DFCI_PSF), [dados GSTI](https://sigservices.icnf.pt/server/rest/services/GSTI) | 2019/08/17 ||
 | https://www.inventarios.pt | Obriga à utilização de JAVA ou software que só existe para MAC e Windows | [manual de instalação](https://www.inventarios.pt/documentos/manual_instalacao_gosign_v4.pdf) | 2019/08/18 ||
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
