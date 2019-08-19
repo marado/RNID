@@ -1,8 +1,9 @@
 #!/bin/bash
 
-curl -s --head https://www.inventarios.pt/documentos/manual_instalacao_gosign_v4.pdf | head -n 1 | egrep "HTTP/1.[01] [23]..|HTTP/2 [23].." > /dev/null ; naopassa=$?
+# curl -s --head https://www.inventarios.pt/documentos/manual_instalacao_gosign_v4.pdf | head -n 1 | egrep "HTTP/1.[01] [23]..|HTTP/2 [23].." > /dev/null ; naopassa=$?
+naopassa=$(wget --spider https://www.inventarios.pt/documentos/manual_instalacao_gosign_v4.pdf -o -|grep ^HTTP|head -n1|grep "200 OK"|wc -l)
 
-if [ "$naopassa" -eq "0" ]; then
+if [ "$naopassa" -eq "1" ]; then
 	echo "inventarios: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
 	while IFS='' read -r line || [[ -n "$line" ]]; do
 		test "$(echo "$line"|grep -v -c "inventarios")" -eq "1" \
@@ -11,5 +12,7 @@ if [ "$naopassa" -eq "0" ]; then
 	done < README.md > new
 	mv new README.md
 else
-	echo "inventarios: incumprimento resolvido";
+	#echo "inventarios: incumprimento resolvido";
+	echo "inventarios: um dos incumprimentos resolvido, o outro ainda nao esta' a ser testado";
+	# TODO: testar se o https ja' e' com TLS 1.2
 fi
