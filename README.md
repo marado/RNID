@@ -40,6 +40,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | http://www.dgterritorio.pt | cartografia em ecw, CAOP em shapefile | [conteúdo ecw em vez de geotiff](http://www.dgterritorio.pt/cartografia_e_geodesia/cartografia/cartografia_de_base___topografica_e_topografica_de_imagem/serie_cartografica_1500_000/), [CAOP em shapefile](http://www.dgterritorio.pt/cartografia_e_geodesia/cartografia/carta_administrativa_oficial_de_portugal_caop/caop__download_/) | 2019/10/29 ||
 | https://www.inventarios.pt | Obriga à utilização de JAVA ou software que só existe para MAC e Windows, HTTPS com certificado a usar TLS 1.0 em vez do obrigatório 1.2 | [manual de instalação](https://www.inventarios.pt/documentos/manual_instalacao_gosign_v4.pdf) | 2019/10/29 ||
 | http://business.turismodeportugal.pt/ | Informação apenas em XLSX | [página com vários links para informação apenas em XLSX](http://business.turismodeportugal.pt/pt/Planear_Iniciar/Licenciamento_Registo_da_Atividade/Empreendimentos_Turisticos/Paginas/classificacao-et.aspx) | 2019/10/29 ||
+| https://www.norte2020.pt/ | Informação apenas em XLSX | [página com documento apenas em XLSX](https://www.norte2020.pt/investimento-municipal) | 2019/10/29 | 2019/10/29 |
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
 
