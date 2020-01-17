@@ -23,13 +23,14 @@ if [ ! "$a" -eq "0" ]; then
 	echo "financas: 'documentos XLS, XLSX e DOC' pode já estar resolvido.";
 fi
 
-# (b)
-wget https://www.portaldasfinancas.gov.pt/pt/contactosEbalcao.action -o /dev/null -O -|grep -i "Lista de Contactos" > contactos
-b=$(diff contactos scripts/09/contactos|wc -l)
-rm contactos
-if [ ! "$b" -eq "0" ]; then
-	echo "financas: incumprimento nos contactos pode já estar resolvido.";
-fi
+# FIXME: voltar a validar o cenário (b), agora em http://info.portaldasfinancas.gov.pt/pt/dgci/contactos_servicos/enderecos_contactos/Pages/contactos.aspx
+# # (b)
+# wget https://www.portaldasfinancas.gov.pt/pt/contactosEbalcao.action -o /dev/null -O -|grep -i "Lista de Contactos" > contactos
+# b=$(diff contactos scripts/09/contactos|wc -l)
+# rm contactos
+# if [ ! "$b" -eq "0" ]; then
+# 	echo "financas: incumprimento nos contactos pode já estar resolvido.";
+# fi
 
 # (c)
 wget "http://info-aduaneiro.portaldasfinancas.gov.pt/pt/publicacoes_formularios/formularios/_vti_bin/portalat/docs.svc/listdocs?fields=DocIcon,Modelo,Title&sort=Seq:ASC,Seq_2:ASC,Title:ASC&filter=<IsNotNull><FieldRef Name=\"ID\"></FieldRef></IsNotNull>&id=35" -o /dev/null -O forms
