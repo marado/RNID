@@ -15,13 +15,14 @@
 # dizer que o incumprimento pode já estar resolvido (obrigando a uma revisão
 # manual) caso a página tenha mudado
 
-# (a)
-wget "http://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/tabela_ret_doclib/_vti_bin/portalat/docs.svc/groupeddocs?fields=DocIcon,Title,FileSizeDisplay&groups=Year:DESC&selectedvalues=2018&filter=<IsNotNull><FieldRef Name=\"ID\"></FieldRef></IsNotNull>&sort=Year:DESC,Title:DESC&id=27" -o /dev/null -O docs-2018
-a=$(diff docs-2018 scripts/09/docs-2018|wc -l)
-rm docs-2018
-if [ ! "$a" -eq "0" ]; then
-	echo "financas: 'documentos XLS, XLSX e DOC' pode já estar resolvido.";
-fi
+# FIXME: voltar a validar o cenário (a) (precisa de ser actualizado que agora há a tabela de 2020)
+# # (a)
+# wget "http://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/tabela_ret_doclib/_vti_bin/portalat/docs.svc/groupeddocs?fields=DocIcon,Title,FileSizeDisplay&groups=Year:DESC&selectedvalues=2018&filter=<IsNotNull><FieldRef Name=\"ID\"></FieldRef></IsNotNull>&sort=Year:DESC,Title:DESC&id=27" -o /dev/null -O docs-2018
+# a=$(diff docs-2018 scripts/09/docs-2018|wc -l)
+# rm docs-2018
+# if [ ! "$a" -eq "0" ]; then
+# 	echo "financas: 'documentos XLS, XLSX e DOC' pode já estar resolvido.";
+# fi
 
 # FIXME: voltar a validar o cenário (b), agora em http://info.portaldasfinancas.gov.pt/pt/dgci/contactos_servicos/enderecos_contactos/Pages/contactos.aspx
 # # (b)
