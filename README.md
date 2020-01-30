@@ -42,6 +42,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | http://www.turismodeportugal.pt/ | Informação apenas em XLSX, Dados geográficos sem Geopackages | [página com vários links para informação apenas em XLSX](http://business.turismodeportugal.pt/pt/Planear_Iniciar/Licenciamento_Registo_da_Atividade/Empreendimentos_Turisticos/Paginas/classificacao-et.aspx), [Dados geográficos em Shapefile e KML, falta Geopackages](https://dadosabertos.turismodeportugal.pt/datasets/alojamento-local) | 2020/01/30 ||
 | https://www.norte2020.pt/ | Informação apenas em XLSX | [página com documento apenas em XLSX](https://www.norte2020.pt/investimento-municipal) | 2020/01/30 | 2019/10/29 |
 | http://www.institutogamapinto.com/ | Flash | [página com conteúdo Flash](http://www.institutogamapinto.com/) | 2020/01/30 ||
+| https://siac.vet/ | Acessibilidade | [página não cumpre com WCAG 2.0](https://siac.vet/) | 2020/01/30 ||
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
 
