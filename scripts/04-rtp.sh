@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# https://www.iefp.pt/ - não cumpre WCAG 2.0 AA
 # RTP - flash e WMV
 
 flash=$(wget http://media.rtp.pt/empresa/utilizacao/flash-player/ --user-agent="Mozilla/5.0 Gecko/20100101 Firefox/21.0" -o /dev/null -O -|wc -l)
