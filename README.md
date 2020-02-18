@@ -25,7 +25,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | https://servicos.min-saude.pt/utente/ | Acessibilidade | [site não cumpre WCAG 2.0 AA](https://servicos.min-saude.pt/utente/) | 2020/02/18 | 2016/09/27 |
 | https://www.min-saude.pt/ | Certificado https inválido | https://www.min-saude.pt/ | 2020/02/18 | 2016/10/01 |
 | http://www.act.gov.pt/ | Acessibilidade | [site não cumpre WCAG 2.0 A](http://www.act.gov.pt/) | 2020/02/18 ||
-| https://www.igcp.pt/ | XLS | [conteúdo em XLS](https://www.igcp.pt/pt/gca/?id=80) | 2020/02/10 | 2019/05/14 |
+| https://www.igcp.pt/ | XLS | [conteúdo em XLS](https://www.igcp.pt/pt/gca/?id=80) | 2020/02/18 | 2019/05/14 |
 | https://prevpap.gov.pt | Acessibilidade | [site não cumpre WCAG 2.0 A](https://prevpap.gov.pt) | 2020/02/18 | 2019/08/13 |
 | http://www.museudoazulejo.gov.pt/ | Flash | [conteúdo Flash](http://www.museudoazulejo.gov.pt/) | 2020/02/18 | 2019/07/30 |
 | http://www.matriznet.dgpc.pt/ | Flash | [conteúdo Flash](http://www.matriznet.dgpc.pt/) | 2020/02/18 ||
