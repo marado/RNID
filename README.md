@@ -20,7 +20,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | www.ansr.pt | Documentos em DOCX | [Documentos em formato proprietário](http://www.ansr.pt/Contraordenacoes/Formularios/Pages/default.aspx) | 2020/03/10 | 2015/04/14 |
 | https://www.autenticacao.gov.pt/ | Precisa de [extensão autenticacao.gov.pt](https://autenticacao.gov.pt/fa/ajuda/autenticacaogovpt.aspx#installAgent) para funcionar | [autenticação](https://cmd.autenticacao.gov.pt/Ama.Authentication.Frontend/) | 2020/03/10 | |
 | https://citius.tribunaisnet.mj.pt | Precisa de Plugin Java para funcionar | [documentação](https://citius.tribunaisnet.mj.pt/habilus/Docs/CITIUS_WEB_FIREFOX_MARCO_2017.pdf) | 2020/03/10 | 2017/06/12 |
-| http://www.sg.mai.gov.pt | XLS | [cadernos eleitorais](http://www.sg.mai.gov.pt/AdministracaoEleitoral/RecenseamentoEleitoral/ResultadosRecenseamento/Paginas/default.aspx) | 2020/02/24 | 2016/01/28 |
+| http://www.sg.mai.gov.pt | XLS | [cadernos eleitorais](http://www.sg.mai.gov.pt/AdministracaoEleitoral/RecenseamentoEleitoral/ResultadosRecenseamento/Paginas/default.aspx) | 2020/03/10 | 2016/01/28 |
 | http://www.rcaap.pt/ | obriga depósito de dados em formatos não-livres ([lista de formatos autorizados](https://dre.pt/application/conteudo/72779297)) | MP3 | 2020/03/10 | |
 | https://servicos.min-saude.pt/utente/ | Acessibilidade | [site não cumpre WCAG 2.0 AA](https://servicos.min-saude.pt/utente/) | 2020/03/10 | 2016/09/27 |
 | https://www.min-saude.pt/ | Certificado https inválido | https://www.min-saude.pt/ | 2020/02/24 | 2016/10/01 |
