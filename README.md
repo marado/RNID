@@ -44,7 +44,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | http://www.institutogamapinto.com/ | Flash | [página com conteúdo Flash](http://www.institutogamapinto.com/) | 2020/03/10 ||
 | https://siac.vet/ | Acessibilidade | [página não cumpre com WCAG 2.0](https://siac.vet/) | 2020/03/10 ||
 | http://www.estradas.pt | Flash | [página com conteúdo Flash para alguns browsers](http://www.estradas.pt/index) | 2020/03/10 | 2019/11/06 |
-| https://www.sef.pt/ | Documentos em .doc | [Documentos em .doc no final da página (anunciados como .pdf)](https://www.sef.pt/pt/pages/conteudo-detalhe.aspx?nID=73) | 2020/03/12 | 2019/03/12 |
+| https://www.sef.pt/ | Documentos em .doc | [Documentos em .doc no final da página (anunciados como .pdf)](https://www.sef.pt/pt/pages/conteudo-detalhe.aspx?nID=73) | 2020/03/12 ||
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
 
