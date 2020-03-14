@@ -23,7 +23,6 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | http://www.sg.mai.gov.pt | XLS | [cadernos eleitorais](http://www.sg.mai.gov.pt/AdministracaoEleitoral/RecenseamentoEleitoral/ResultadosRecenseamento/Paginas/default.aspx) | 2020/03/13 | 2016/01/28 |
 | http://www.rcaap.pt/ | obriga depósito de dados em formatos não-livres ([lista de formatos autorizados](https://dre.pt/application/conteudo/72779297)) | MP3 | 2020/03/13 | |
 | https://servicos.min-saude.pt/utente/ | Acessibilidade | [site não cumpre WCAG 2.0 AA](https://servicos.min-saude.pt/utente/) | 2020/03/13 | 2016/09/27 |
-| https://www.min-saude.pt/ | Certificado https inválido | https://www.min-saude.pt/ | 2020/02/24 | 2016/10/01 |
 | http://www.act.gov.pt/ | Acessibilidade | [site não cumpre WCAG 2.0 A](http://www.act.gov.pt/) | 2020/03/13 ||
 | https://www.igcp.pt/ | XLS | [conteúdo em XLS](https://www.igcp.pt/pt/gca/?id=80) | 2020/03/13 | 2019/05/14 |
 | https://prevpap.gov.pt | Acessibilidade | [site não cumpre WCAG 2.0 A](https://prevpap.gov.pt) | 2020/03/13 | 2019/08/13 |
