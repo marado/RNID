@@ -47,6 +47,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | https://online.dgo.pt/ | versão insegura de TLS | [protocolo utilizado para https é TLS 1.0](http://online.dgo.pt/) | 2020/03/29 ||
 | http://www.base.gov.pt | erros de configuração de HTTPS | [página de autenticação insegura](https://www.base.gov.pt/idp/Authn/UserPassword) | 2020/03/29 ||
 | http://www2.sg.pcm.gov.pt/ | autenticação sem HTTPS | [página de autenticação insegura](http://www2.sg.pcm.gov.pt/GEUPF/Login.aspx) | 2020/03/29 | [2] |
+| http://tcp.dgterritorio.gov.pt/ | Informação apenas em XLS | [exportação para XLS no final da página](http://tcp.dgterritorio.gov.pt/procurar) | 2020/03/29 ||
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
 
