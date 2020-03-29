@@ -45,6 +45,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | http://www.estradas.pt | Flash | [página com conteúdo Flash para alguns browsers](http://www.estradas.pt/index) | 2020/03/29 | 2019/11/06 |
 | https://www.sef.pt/ | Documentos em .doc | [Documentos em .doc no final da página (anunciados como .pdf)](https://www.sef.pt/pt/pages/conteudo-detalhe.aspx?nID=73) | 2020/03/29 ||
 | https://online.dgo.pt/ | versão insegura de TLS | [protocolo utilizado para https é TLS 1.0](http://online.dgo.pt/) | 2020/03/29 ||
+| http://www.base.gov.pt | erros de configuração de HTTPS | [página de autenticação insegura](https://www.base.gov.pt/idp/Authn/UserPassword) | 2020/03/29 ||
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
 
