@@ -46,6 +46,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | https://www.sef.pt/ | Documentos em .doc | [Documentos em .doc no final da página (anunciados como .pdf)](https://www.sef.pt/pt/pages/conteudo-detalhe.aspx?nID=73) | 2020/03/29 ||
 | https://online.dgo.pt/ | versão insegura de TLS | [protocolo utilizado para https é TLS 1.0](http://online.dgo.pt/) | 2020/03/29 ||
 | http://www.base.gov.pt | erros de configuração de HTTPS | [página de autenticação insegura](https://www.base.gov.pt/idp/Authn/UserPassword) | 2020/03/29 ||
+| http://www2.sg.pcm.gov.pt/ | autenticação sem HTTPS | [página de autenticação insegura](http://www2.sg.pcm.gov.pt/GEUPF/Login.aspx) | 2020/03/29 | [2] |
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
 
@@ -58,3 +59,4 @@ Esta lista mostra sítios web que, não usando Normas Abertas, não incorrem de 
 | www.igeoe.pt | [Site Flash](http://www.igeoe.pt/igeoesig/) | Da alteração da tecnologia utilizada no serviço para HTML 4.01 ou superior/Javascript 1.5 ou superior resultará um aumento de encargos, pelo que esta ocorrência se insere na exceção prevista no nº 4 da Resolução do Conselho de Ministros nº91/2012 |
 
 [¹] 2020/02/05 - Resposta do Parlamento por email, em relação ao Flash: "Estamos a tratar da migração do streaming de vídeo para HTML5. Por enquanto, precisamos do plugin de flash."
+[2] 2020/03/29 - Pedido de resolução não enviado, porque na página frontal, há a indicação que o site está "Em reestruturação. Acesso de cidadãos com necessidades especiais em revisão. Contamos terminar até 31 de Maio do ano corrente."
