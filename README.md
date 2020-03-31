@@ -12,7 +12,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | www.dgae.min-economia.pt | Microsoft Office | [página com formulários OOXML](http://www.dgae.gov.pt/documentacao-/formularios.aspx) | 2020/03/31 | 2015/03/25 |
 | http://www.iefp.pt | Acessibilidade | [site não cumpre WCAG 2.0 AA](http://www.iefp.pt) | 2020/03/31 | 2016/01/05 |
 | www.rtp.pt | Flash e WMV | Páginas com informação sobre o uso de [Flash](http://media.rtp.pt/empresa/utilizacao/flash-player/) e [WMV](http://media.rtp.pt/empresa/utilizacao/windows-media-player/) | 2020/03/31 | 2015/06/07 |
-| www.portugal.gov.pt | Acessibilidade | [site não cumpre WCAG 2.0 A](http://www.portugal.gov.pt) | 2020/03/30 | 2019/08/13 |
+| www.portugal.gov.pt | Acessibilidade | [site não cumpre WCAG 2.0 A](http://www.portugal.gov.pt) | 2020/03/31 | 2019/08/13 |
 | lxi.cm-lisboa.pt | Flash | [Site Flash](http://lxi.cm-lisboa.pt/lxi/) | 2020/03/31 | 2015/06/07 |
 | http://www.cm-lisboa.pt/ | PDF com XFA | [PDF com XFA](http://www.cm-lisboa.pt/fileadmin/DOCS/Formularios/transversais/CML_participacao_ocorrencia.pdf) | 2020/03/31 | 2019/04/23 |
 | Portais do Ministrio das Finanças | Documentos Microsoft | [XLS, XLSX e DOC](http://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/tabela_ret_doclib/), [endereços e contactos em XLSX](https://www.portaldasfinancas.gov.pt/pt/contactosEbalcao.action), [lista de formulários, quase na totalidade em formatos proprietários](http://info-aduaneiro.portaldasfinancas.gov.pt/pt/publicacoes_formularios/formularios/Pages/formularios.aspx) | 2020/03/31 | 2017/03/25 |
