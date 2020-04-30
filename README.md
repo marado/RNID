@@ -8,25 +8,25 @@ Esta tabela mostra casos de incumprimento do regulamento:
 
 | Sítio Web | Incumprimento | Exemplo | Última avaliação | Pedido de Resolução |
 |---|---|---|---|---|
-| www.parlamento.pt | Vídeos disponibilizados em WMV, Canal Parlamento em Flash | [vídeo de audição](http://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheAudiencia.aspx?BID=99371), [canal parlamento](http://www.canal.parlamento.pt) | 2020/04/29 | 2015/03/25 [¹] |
-| www.dgae.min-economia.pt | Microsoft Office | [página com formulários OOXML](http://www.dgae.gov.pt/documentacao-/formularios.aspx) | 2020/04/29 | 2015/03/25 |
-| http://www.iefp.pt | Acessibilidade | [site não cumpre WCAG 2.0 AA](http://www.iefp.pt) | 2020/04/29 | 2016/01/05 |
-| www.rtp.pt | Flash e WMV | Páginas com informação sobre o uso de [Flash](http://media.rtp.pt/empresa/utilizacao/flash-player/) e [WMV](http://media.rtp.pt/empresa/utilizacao/windows-media-player/) | 2020/04/29 | 2015/06/07 |
-| www.portugal.gov.pt | Acessibilidade | [site não cumpre WCAG 2.0 A](http://www.portugal.gov.pt) | 2020/04/29 | 2019/08/13 |
-| lxi.cm-lisboa.pt | Flash | [Site Flash](http://lxi.cm-lisboa.pt/lxi/) | 2020/04/29 | 2015/06/07 |
-| http://www.cm-lisboa.pt/ | PDF com XFA | [PDF com XFA](http://www.cm-lisboa.pt/fileadmin/DOCS/Formularios/transversais/CML_participacao_ocorrencia.pdf) | 2020/04/29 | 2019/04/23 |
-| Portais do Ministrio das Finanças | Documentos Microsoft | [XLS, XLSX e DOC](http://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/tabela_ret_doclib/), [endereços e contactos em XLSX](https://www.portaldasfinancas.gov.pt/pt/contactosEbalcao.action), [lista de formulários, quase na totalidade em formatos proprietários](http://info-aduaneiro.portaldasfinancas.gov.pt/pt/publicacoes_formularios/formularios/Pages/formularios.aspx), [exportação de facturas precisa de flash](https://faturas.portaldasfinancas.gov.pt/factemipf_static/swf/copy_csv_xls_pdf.swf) | 2020/04/29 | 2017/03/25 |
-| geoportal.lneg.pt | Flash | [Site Flash](http://geoportal.lneg.pt/index.php) | 2020/04/29 | 2016/01/15 |
-| www.ansr.pt | Documentos em DOCX | [Documentos em formato proprietário](http://www.ansr.pt/Contraordenacoes/Formularios/Pages/default.aspx) | 2020/04/29 | 2015/04/14 |
-| https://www.autenticacao.gov.pt/ | Precisa de [extensão autenticacao.gov.pt](https://autenticacao.gov.pt/fa/ajuda/autenticacaogovpt.aspx#installAgent) para funcionar | [autenticação](https://cmd.autenticacao.gov.pt/Ama.Authentication.Frontend/) | 2020/04/29 | |
-| https://citius.tribunaisnet.mj.pt | Precisa de Plugin Java para funcionar | [documentação](https://citius.tribunaisnet.mj.pt/habilus/Docs/CITIUS_WEB_FIREFOX_MARCO_2017.pdf) | 2020/04/29 | 2017/06/12 |
-| http://www.sg.mai.gov.pt | XLS | [cadernos eleitorais](http://www.sg.mai.gov.pt/AdministracaoEleitoral/RecenseamentoEleitoral/ResultadosRecenseamento/Paginas/default.aspx) | 2020/04/29 | 2016/01/28 |
-| http://www.rcaap.pt/ | obriga depósito de dados em formatos não-livres ([lista de formatos autorizados](https://dre.pt/application/conteudo/72779297)) | MP3 | 2020/04/29 | |
-| https://servicos.min-saude.pt/utente/ | Acessibilidade | [site não cumpre WCAG 2.0 AA](https://servicos.min-saude.pt/utente/) | 2020/04/29 | 2016/09/27 |
-| http://www.act.gov.pt/ | Acessibilidade | [site não cumpre WCAG 2.0 A](http://www.act.gov.pt/) | 2020/04/29 ||
-| https://www.igcp.pt/ | XLS | [conteúdo em XLS](https://www.igcp.pt/pt/gca/?id=80) | 2020/04/29 | 2019/05/14 |
-| https://prevpap.gov.pt | Acessibilidade | [site não cumpre WCAG 2.0 A](https://prevpap.gov.pt) | 2020/04/29 | 2019/08/13 |
-| http://www.museudoazulejo.gov.pt/ | Flash | [conteúdo Flash](http://www.museudoazulejo.gov.pt/) | 2020/04/29 | 2019/07/30 |
+| www.parlamento.pt | Vídeos disponibilizados em WMV, Canal Parlamento em Flash | [vídeo de audição](http://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheAudiencia.aspx?BID=99371), [canal parlamento](http://www.canal.parlamento.pt) | 2020/05/01 | 2015/03/25 [¹] |
+| www.dgae.min-economia.pt | Microsoft Office | [página com formulários OOXML](http://www.dgae.gov.pt/documentacao-/formularios.aspx) | 2020/05/01 | 2015/03/25 |
+| http://www.iefp.pt | Acessibilidade | [site não cumpre WCAG 2.0 AA](http://www.iefp.pt) | 2020/05/01 | 2016/01/05 |
+| www.rtp.pt | Flash e WMV | Páginas com informação sobre o uso de [Flash](http://media.rtp.pt/empresa/utilizacao/flash-player/) e [WMV](http://media.rtp.pt/empresa/utilizacao/windows-media-player/) | 2020/05/01 | 2015/06/07 |
+| www.portugal.gov.pt | Acessibilidade | [site não cumpre WCAG 2.0 A](http://www.portugal.gov.pt) | 2020/05/01 | 2019/08/13 |
+| lxi.cm-lisboa.pt | Flash | [Site Flash](http://lxi.cm-lisboa.pt/lxi/) | 2020/05/01 | 2015/06/07 |
+| http://www.cm-lisboa.pt/ | PDF com XFA | [PDF com XFA](http://www.cm-lisboa.pt/fileadmin/DOCS/Formularios/transversais/CML_participacao_ocorrencia.pdf) | 2020/05/01 | 2019/04/23 |
+| Portais do Ministrio das Finanças | Documentos Microsoft | [XLS, XLSX e DOC](http://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/tabela_ret_doclib/), [endereços e contactos em XLSX](https://www.portaldasfinancas.gov.pt/pt/contactosEbalcao.action), [lista de formulários, quase na totalidade em formatos proprietários](http://info-aduaneiro.portaldasfinancas.gov.pt/pt/publicacoes_formularios/formularios/Pages/formularios.aspx), [exportação de facturas precisa de flash](https://faturas.portaldasfinancas.gov.pt/factemipf_static/swf/copy_csv_xls_pdf.swf) | 2020/05/01 | 2017/03/25 |
+| geoportal.lneg.pt | Flash | [Site Flash](http://geoportal.lneg.pt/index.php) | 2020/05/01 | 2016/01/15 |
+| www.ansr.pt | Documentos em DOCX | [Documentos em formato proprietário](http://www.ansr.pt/Contraordenacoes/Formularios/Pages/default.aspx) | 2020/05/01 | 2015/04/14 |
+| https://www.autenticacao.gov.pt/ | Precisa de [extensão autenticacao.gov.pt](https://autenticacao.gov.pt/fa/ajuda/autenticacaogovpt.aspx#installAgent) para funcionar | [autenticação](https://cmd.autenticacao.gov.pt/Ama.Authentication.Frontend/) | 2020/05/01 | |
+| https://citius.tribunaisnet.mj.pt | Precisa de Plugin Java para funcionar | [documentação](https://citius.tribunaisnet.mj.pt/habilus/Docs/CITIUS_WEB_FIREFOX_MARCO_2017.pdf) | 2020/05/01 | 2017/06/12 |
+| http://www.sg.mai.gov.pt | XLS | [cadernos eleitorais](http://www.sg.mai.gov.pt/AdministracaoEleitoral/RecenseamentoEleitoral/ResultadosRecenseamento/Paginas/default.aspx) | 2020/05/01 | 2016/01/28 |
+| http://www.rcaap.pt/ | obriga depósito de dados em formatos não-livres ([lista de formatos autorizados](https://dre.pt/application/conteudo/72779297)) | MP3 | 2020/05/01 | |
+| https://servicos.min-saude.pt/utente/ | Acessibilidade | [site não cumpre WCAG 2.0 AA](https://servicos.min-saude.pt/utente/) | 2020/05/01 | 2016/09/27 |
+| http://www.act.gov.pt/ | Acessibilidade | [site não cumpre WCAG 2.0 A](http://www.act.gov.pt/) | 2020/05/01 ||
+| https://www.igcp.pt/ | XLS | [conteúdo em XLS](https://www.igcp.pt/pt/gca/?id=80) | 2020/05/01 | 2019/05/14 |
+| https://prevpap.gov.pt | Acessibilidade | [site não cumpre WCAG 2.0 A](https://prevpap.gov.pt) | 2020/05/01 | 2019/08/13 |
+| http://www.museudoazulejo.gov.pt/ | Flash | [conteúdo Flash](http://www.museudoazulejo.gov.pt/) | 2020/05/01 | 2019/07/30 |
 | http://www.matriznet.dgpc.pt/ | Flash | [conteúdo Flash](http://www.matriznet.dgpc.pt/) | 2020/04/28 ||
 | http://www.matrizpix.dgpc.pt/ | Flash | [conteúdo Flash](http://www.matrizpix.dgpc.pt/) | 2020/04/28 ||
 | https://www.cnpd.pt | Microsoft Office | [página com documentos OOXML](https://www.cnpd.pt/bin/rgpd/rgpd.htm) | 2020/04/29 ||
