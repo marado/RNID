@@ -52,4 +52,5 @@ Esta tabela mostra casos de incumprimento do regulamento:
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
 
 [¹] 2020/02/05 - Resposta do Parlamento por email, em relação ao Flash: "Estamos a tratar da migração do streaming de vídeo para HTML5. Por enquanto, precisamos do plugin de flash."
+
 [2] 2020/03/29 - Pedido de resolução não enviado, porque na página frontal, há a indicação que o site está "Em reestruturação. Acesso de cidadãos com necessidades especiais em revisão. Contamos terminar até 31 de Maio do ano corrente."
