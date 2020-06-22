@@ -2,17 +2,14 @@
 
 maybeOK=0;
 
-if [ ! "$(wget https://www.autarquicas2017.mai.gov.pt/ -o -|grep cert|wc -l)" -gt "0" ]; then
-	echo "eleicoes: incumprimento de certificados pode já não existir (mas ha outros erros que ainda nao estao a ser validados)";
+wget "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwww.autarquicas2017.mai.gov.pt%2F&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en" -o /dev/null -O - |grep \#errors|cut -d\> -f3|cut -d\< -f1 > aut
+if [ ! "$(diff aut scripts/25/aut|wc -l)" -eq "0" ]; then
+	echo "css autarquicas: incumprimento pode já não existir";
 	maybeOK=1;
 fi
+rm aut
 
-# wget "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwww.autarquicas2017.mai.gov.pt%2F&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en" -o /dev/null -O - |grep \#errors|cut -d\> -f3|cut -d\< -f1 > aut
-# if [ ! "$(diff aut scripts/25/aut|wc -l)" -eq "0" ]; then
-# 	echo "css autarquicas: incumprimento pode já não existir";
-# 	maybeOK=1;
-# fi
-# rm aut
+# TODO: check http://accessmonitor.acessibilidade.gov.pt/amp/results/eleicoes.mai.gov.pt%2Feuropeias2019%2Festrangeiro.html
 
 if [ "$maybeOK" -eq "0" ]; then
 	echo "eleicoes: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
