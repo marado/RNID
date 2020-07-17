@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ ! "$(curl -s -I http://www.dgae.gov.pt/gestao-de-ficheiros-externos-dgae-ano-2015/1_formulario-registo_mf_nao_harmonizadas-doc.aspx|grep filename|cut -d= -f2| tr -d '\r')" == "i010066.doc" ]; then
+if [ ! "$(curl -s -I https://www.dgae.gov.pt/gestao-de-ficheiros-externos-dgae-ano-2015/1_formulario-registo_mf_nao_harmonizadas-doc.aspx|grep filename|cut -d= -f2| tr -d '\r')" == "i010066.doc" ]; then
 	echo "economia: incumprimento pode já não existir";
 else
 	echo "economia: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
