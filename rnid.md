@@ -526,3 +526,11 @@
 - Prazo para aplicação: Entrada em vigor do presente Regulamento
 - Referências:
   - [RFC 6116 - ENUM Protocol Specification](https://tools.ietf.org/html/rfc6116), IETF
+## Especificações técnicas e protocolos de integração, troca de dados e orquestração de processos de negócio na integração interorganismos
+### Segurança da Camada de Transporte
+
+- Especificação técnica: TLS 1.2 / Transport Layer Security 1.2
+- Classificação: Obrigatório
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [RFC 5246 - The Transport Layer Security (TLS) Protocol Version 1.2](https://tools.ietf.org/html/rfc5246), IETF

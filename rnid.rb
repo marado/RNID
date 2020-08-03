@@ -59,3 +59,6 @@ yml2md("rnid/tabela6.yml")
 
 puts "## Especificações técnicas e protocolos de comunicação em redes informáticas"
 yml2md("rnid/tabela7.yml")
+
+puts "## Especificações técnicas e protocolos de integração, troca de dados e orquestração de processos de negócio na integração interorganismos"
+yml2md("rnid/tabela8.yml")
