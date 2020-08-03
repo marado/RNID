@@ -1,0 +1,146 @@
+- dominio: Interação com SGBD
+  especificacao:
+    acronimo_com_versao: SQL:2011
+    designacao: Structured Query Language 2011
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: ISO/IEC
+    nome: "ISO/IEC 9075-1:2011 - Information technology - Database languages - SQL - Part 1: Framework (SQL/Framework)"
+    fonte: http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=53681
+  - entidade: W3Schools
+    nome: SQL Tutorial
+    fonte: http://www.w3schools.com/sql/default.asp
+
+- dominio: Imagem Raster
+  especificacao:
+    acronimo_com_versao: PNG
+    designacao: Portable Network Graphics (Second Edition)
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: ISO/IEC
+    nome: "ISO/IEC 15948:2004 - Information technology - Computer graphics and image processing - Portable Network Graphics (PNG): Functional specification"
+    fonte: http://www.iso.org/iso/catalogue_detail?csnumber=29581
+  - entidade: W3C
+    nome: Portable Network Graphics (PNG) Specification (Second Edition)
+    fonte: https://www.w3.org/TR/PNG/
+
+- dominio: Imagem Vetorial
+  especificacao:
+    acronimo_com_versao: SVG 1.1
+    designacao: Scalable Vector Graphics 1.1 (Second Edition)
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: W3C
+    nome: Scalable Vector Graphics (SVG) 1.1 (Second Edition)
+    fonte: https://www.w3.org/TR/SVG/
+
+- dominio: Ficheiros de áudio
+  especificacao:
+    acronimo_com_versao: Vorbis I
+    designacao: Vorbis I (codec)
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: XIPH
+    nome: Vorbis I specification
+    fonte: http://xiph.org/vorbis/doc/Vorbis_I_spec.html
+
+- dominio: Linguagem para descrição de documentos e formatação de dados, para interpretação não-humana
+  especificacao:
+    acronimo_com_versao: XML 1.1
+    designacao: Extensible Markup Language 1.1 (Second Edition)
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: W3C
+    nome: Extensible Markup Language (XML) 1.1 (Second Edition)
+    fonte: https://www.w3.org/TR/xml11/
+  - entidade: IETF
+    nome: RFC 7303 - XML Media Types
+    fonte: https://tools.ietf.org/html/rfc7303
+
+- dominio: Transformação de dados para conversão de dados em XML para outro formato
+  especificacao:
+    acronimo_com_versao: XSLT 2.0
+    designacao: Extensible Stylesheet Language Transformations 2.0
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Em vigor
+  referencias:
+  - entidade: W3C
+    nome: XSL Transformations (XSLT) Version 2.0
+    fonte: https://www.w3.org/TR/xslt20/
+
+- dominio: Definição de estrutura de informação
+  especificacao:
+    acronimo_com_versao: XSD 1.1
+    designacao: XML Schema Definition 1.1
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: W3C
+    nome: "XML Schema Definition Language (XSD) 1.1 Part 1: Structures"
+    fonte: https://www.w3.org/TR/2012/REC-xmlschema11-1-20120405/
+  - entidade: W3C
+    nome: "XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes"
+    fonte: https://www.w3.org/TR/xmlschema11-2/
+
+- dominio: Transformação de dados para apresentação
+  especificacao:
+    acronimo_com_versao: XSL 1.1
+    designacao: Extensible Stylesheet Language 1.1
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+    - entidade: W3C
+      nome: The Extensible Stylesheet Language Family (XSL)
+      fonte: http://www.w3.org/Style/XSL/
+
+- dominio: Protocolo baseado em XML para sistemas de mensagens instantâneas
+  especificacao:
+    acronimo_com_versao: XMPP
+    designacao: Extensible Messaging and Presence Protocol
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: IETF
+    nome: "RFC 6120 - Extensible Messaging and Presence Protocol (XMPP): Core"
+    fonte: https://xmpp.org/rfcs/rfc6120.html
+  - entidade: IETF
+    nome: "RFC 6121 - Extensible Messaging and Presence Protocol (XMPP): Instant Messaging and Presence"
+    fonte: https://xmpp.org/rfcs/rfc6121.html
+
+- dominio: Lista de carateres válidos
+  especificacao:
+    acronimo_com_versao: UTF-8
+    designacao: 8-bit Unicode Transformation Format
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: IETF
+    nome: RFC 3629 - UTF-8, a transformation format of ISO 10646
+    fonte: http://tools.ietf.org/html/rfc3629
+
+- dominio: Encapsulador de ficheiros multimédia
+  especificacao:
+    acronimo_com_versao: Ogg 0
+    designacao: Ogg Encapsulation Format Version 0
+  classificacao: Recomendado
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: XPHI
+    nome: Ogg Specification
+    fonte: http://www.xiph.org/ogg/doc/
+
+- dominio: Ficheiros de vídeo
+  especificacao:
+    acronimo_com_versao: Theora 1.1
+    designacao: Theora 1.1 (codec)
+  classificacao: Recomendado
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: XPHI
+    nome: Theora Specification
+    fonte: http://theora.org/doc/Theora.pdf
