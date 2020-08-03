@@ -1,0 +1,32 @@
+- dominio: Envio de pacotes de dados numa rede informática
+  especificacao:
+    acronimo_com_versao: IPv6
+    designacao: Internet Protocol Version 6
+  classificacao: Recomendado
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: IETF
+    nome: RFC 2460 - Internet Protocol, Version 6 (IPv6) Specification
+    fonte: http://tools.ietf.org/html/rfc2460
+
+- dominio: Sinalização e controlo de sessões multimédia
+  especificacao:
+    acronimo_com_versao: SIP 2.0
+    designacao: "SIP: Session Initiation Protocol"
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: IETF
+    nome: "RFC 3261 - SIP: Session Initiation Protocol"
+    fonte: https://tools.ietf.org/html/rfc3261
+
+- dominio: Conversão de numeração telefónica
+  especificacao:
+    acronimo_com_versao: ENUM
+    designacao: E.164 Number to URI Mapping
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: IETF
+    nome: RFC 6116 - ENUM Protocol Specification
+    fonte: https://tools.ietf.org/html/rfc6116

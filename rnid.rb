@@ -56,3 +56,6 @@ yml2md("rnid/tabela5.yml")
 
 puts "## Sistemas de informação geográfica, incluindo cartografia, cadastro digital, topografia e modelação"
 yml2md("rnid/tabela6.yml")
+
+puts "## Especificações técnicas e protocolos de comunicação em redes informáticas"
+yml2md("rnid/tabela7.yml")

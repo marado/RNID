@@ -500,3 +500,29 @@
 - Prazo para aplicação: Entrada em vigor do presente Regulamento
 - Referências:
   - [ISO 19156:2011 - Geographic information - Observations and measurements](http://www.iso.org/iso/catalogue_detail.htm?csnumber=32574), ISO
+## Especificações técnicas e protocolos de comunicação em redes informáticas
+### Envio de pacotes de dados numa rede informática
+
+- Especificação técnica: IPv6 / Internet Protocol Version 6
+- Classificação: Recomendado
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [RFC 2460 - Internet Protocol, Version 6 (IPv6) Specification](http://tools.ietf.org/html/rfc2460), IETF
+
+
+### Sinalização e controlo de sessões multimédia
+
+- Especificação técnica: SIP 2.0 / SIP: Session Initiation Protocol
+- Classificação: Obrigatório
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [RFC 3261 - SIP: Session Initiation Protocol](https://tools.ietf.org/html/rfc3261), IETF
+
+
+### Conversão de numeração telefónica
+
+- Especificação técnica: ENUM / E.164 Number to URI Mapping
+- Classificação: Obrigatório
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [RFC 6116 - ENUM Protocol Specification](https://tools.ietf.org/html/rfc6116), IETF
