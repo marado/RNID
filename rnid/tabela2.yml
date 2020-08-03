@@ -1,0 +1,91 @@
+- dominio: Documentos editáveis para apresentação, gráficos, folhas de cálculo e processamento de texto
+  especificacao:
+    acronimo_com_versao: ODF 1.2
+    designacao: Open Document Format for Office Applications (OpenDocument) Version 1.2 (Second Edition)
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: ISO/IEC
+    nome: "ISO/IEC 26300-1 - Information technology - Open Document Format for Office Applications (OpenDocument) v1.2 - Part 1: OpenDocument Schema"
+    fonte: http://www.iso.org/iso/home/store/catalogue_ics/catalogue_detail_ics.htm?csnumber=66363
+  - entidade: ISO/IEC
+    nome: "ISO/IEC 26300-2 - Information technology - Open Document Format for Office Applications (OpenDocument) v1.2 - Part 2: Recalculated Formula (OpenFormula) Format"
+    fonte: http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=66375
+  - entidade: ISO/IEC
+    nome: "ISO/IEC 26300-3 - Information technology - Open Document Format for Office Applications (OpenDocument) v1.2 - Part 1: OpenDocument Schema Information technology - Open Document Format for Office Applications (OpenDocument) v1.2 - Part 3: Packages"
+  - entidade: OASIS
+    nome: Open Document Format for Office Applications (OpenDocument) Version 1.2
+    fonte: http://docs.oasisopen.org/office/v1.2/OpenDocumentv1.2.pdf
+
+- dominio: Formato para documentos que precisam de ser partilhados, geridos e preservados de forma segura e fiável
+  especificacao:
+  - acronimo_com_versao: PDF 1.7
+    designacao: Portable Document Format 1.7
+  - acronimo_com_versao: PDF/A-3
+    designacao: Portable Document Format/A-3
+  - acronimo_com_versao: PDF/A-2
+    designacao: Portable Document Format/A-2
+  - acronimo_com_versao: PDF/A-1
+    designacao: Portable Document Format/A-1
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: ISO/IEC
+    nome: "ISO 32000-1:2008 - Document management - Portable document format - Part 1: PDF 1.7"
+    fonte: http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=51502
+  - entidade: ISO/IEC
+    nome: ISO 19005-3:2012 - Document management -Electronic document file format for long-term preservation - Part 3
+    fonte: http://www.iso.org/iso/catalogue_detail.htm?csnumber=57229
+  - entidade: ISO/IEC
+    nome: ISO 19005-2:2011 - Document management -Electronic document file format for long-term preservation - Part 2
+    fonte: http://www.iso.org/iso/catalogue_detail.htm?csnumber=50655
+  - entidade: ISO/IEC
+    nome: ISO 19005-1:2005 - Document management -Electronic document file format for long-term preservation - Part 1
+    fonte: http://www.iso.org/iso/catalogue_detail?csnumber=38920
+
+- dominio: Formato para documentos que precisam de ser partilhados, geridos e preservados de forma segura e fiável e que cumpram requisitos de acessibilidade
+  especificacao:
+    acronimo_com_versao: PDF/UA-1
+    designacao: Portable Document Format/ Universal Accessibility-1
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: ISO/IEC
+    nome: "ISO 14289-1:2014 - Document management applications - Electronic document file format enhancement for accessibility - Part 1: Use of ISO 32000-1"
+    fonte: http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=64599
+
+- dominio: Linguagem para descrição de documentos e formatação de dados, para interpretação não-humana
+  especificacao:
+    acronimo_com_versao: XML 1.1
+    designacao: Extensible Markup Language 1.1 (Second Edition)
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: W3C
+    nome: Extensible Markup Language 1.1 (Second Edition)
+    fonte: http://www.w3.org/TR/xml11/
+  - entidade: IETF
+    nome: RFC 7303 - XML Media Types
+    fonte: https://tools.ietf.org/html/rfc7303
+
+- dominio: Linguagem para descrição de documentos e formatação de dados, para interpretação não-humana, no âmbito de aplicações e sistemas acedidos por dispositivos móveis
+  especificacao:
+    acronimo_com_versao: JSOn
+    designacao: JavaScript Object Notation
+  classificacao: Recomendado
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: IETF
+    nome: The JavaScript Object Notation (JSON) Data Interchange Format
+    fonte: https://tools.ietf.org/html/rfc/7159
+
+- dominio: Linguagem para descrição de documentos para apresentação nativa em browsers
+  especificacao:
+    acronimo_com_versao: HTML 5
+    designacao: Hypertext Markup Language 5
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: W3C
+    nome: HTML 5 - A vocabulary and associated APIs for HTML and XHTML
+    fonte: http://www.w3.org/TR/html5/

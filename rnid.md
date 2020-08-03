@@ -110,6 +110,70 @@
 - Prazo para aplicação: Entrada em vigor do presente Regulamento
 - Referências:
   - [Theora Specification](http://theora.org/doc/Theora.pdf), XPHI
+## Formato de documentos (estruturados e não estruturados) e gestão de conteúdos, incluindo gestão documental
+### Documentos editáveis para apresentação, gráficos, folhas de cálculo e processamento de texto
+
+- Especificação técnica: ODF 1.2 / Open Document Format for Office Applications (OpenDocument) Version 1.2 (Second Edition)
+- Classificação: Obrigatório
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [ISO/IEC 26300-1 - Information technology - Open Document Format for Office Applications (OpenDocument) v1.2 - Part 1: OpenDocument Schema](http://www.iso.org/iso/home/store/catalogue_ics/catalogue_detail_ics.htm?csnumber=66363), ISO/IEC
+  - [ISO/IEC 26300-2 - Information technology - Open Document Format for Office Applications (OpenDocument) v1.2 - Part 2: Recalculated Formula (OpenFormula) Format](http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=66375), ISO/IEC
+  - [ISO/IEC 26300-3 - Information technology - Open Document Format for Office Applications (OpenDocument) v1.2 - Part 1: OpenDocument Schema Information technology - Open Document Format for Office Applications (OpenDocument) v1.2 - Part 3: Packages](), ISO/IEC
+  - [Open Document Format for Office Applications (OpenDocument) Version 1.2](http://docs.oasisopen.org/office/v1.2/OpenDocumentv1.2.pdf), OASIS
+
+
+### Formato para documentos que precisam de ser partilhados, geridos e preservados de forma segura e fiável
+
+- Especificação técnica:
+  - PDF 1.7 / Portable Document Format 1.7
+  - PDF/A-3 / Portable Document Format/A-3
+  - PDF/A-2 / Portable Document Format/A-2
+  - PDF/A-1 / Portable Document Format/A-1
+- Classificação: Obrigatório
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [ISO 32000-1:2008 - Document management - Portable document format - Part 1: PDF 1.7](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=51502), ISO/IEC
+  - [ISO 19005-3:2012 - Document management -Electronic document file format for long-term preservation - Part 3](http://www.iso.org/iso/catalogue_detail.htm?csnumber=57229), ISO/IEC
+  - [ISO 19005-2:2011 - Document management -Electronic document file format for long-term preservation - Part 2](http://www.iso.org/iso/catalogue_detail.htm?csnumber=50655), ISO/IEC
+  - [ISO 19005-1:2005 - Document management -Electronic document file format for long-term preservation - Part 1](http://www.iso.org/iso/catalogue_detail?csnumber=38920), ISO/IEC
+
+
+### Formato para documentos que precisam de ser partilhados, geridos e preservados de forma segura e fiável e que cumpram requisitos de acessibilidade
+
+- Especificação técnica: PDF/UA-1 / Portable Document Format/ Universal Accessibility-1
+- Classificação: Obrigatório
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [ISO 14289-1:2014 - Document management applications - Electronic document file format enhancement for accessibility - Part 1: Use of ISO 32000-1](http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=64599), ISO/IEC
+
+
+### Linguagem para descrição de documentos e formatação de dados, para interpretação não-humana
+
+- Especificação técnica: XML 1.1 / Extensible Markup Language 1.1 (Second Edition)
+- Classificação: Obrigatório
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [Extensible Markup Language 1.1 (Second Edition)](http://www.w3.org/TR/xml11/), W3C
+  - [RFC 7303 - XML Media Types](https://tools.ietf.org/html/rfc7303), IETF
+
+
+### Linguagem para descrição de documentos e formatação de dados, para interpretação não-humana, no âmbito de aplicações e sistemas acedidos por dispositivos móveis
+
+- Especificação técnica: JSOn / JavaScript Object Notation
+- Classificação: Recomendado
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [The JavaScript Object Notation (JSON) Data Interchange Format](https://tools.ietf.org/html/rfc/7159), IETF
+
+
+### Linguagem para descrição de documentos para apresentação nativa em browsers
+
+- Especificação técnica: HTML 5 / Hypertext Markup Language 5
+- Classificação: Obrigatório
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [HTML 5 - A vocabulary and associated APIs for HTML and XHTML](http://www.w3.org/TR/html5/), W3C
 ## Tecnologias de interface web, incluindo acessibilidade, ergonomia, compatibilidade e integração de serviços
 ### Sindicação de conteúdos web
 
@@ -237,3 +301,11 @@
 - Referências:
   - [RFC 7303 - XML Media Types](https://tools.ietf.org/html/rfc7303), IETF
   - [The Extensible Stylesheet Language Family (XSL)](http://www.w3.org/Style/XSL/), W3C
+## Protocolos de streaming ou transmissão de som e imagens animadas em tempo real, incluindo o transporte e distribuição de conteúdos e os serviços ponto a ponto
+### Streaming de áudio e vídeo
+
+- Especificação técnica: RTSP 1.0 / Real Time Streaming Protocol 1.0
+- Classificação: Obrigatório
+- Prazo para aplicação: Em vigor
+- Referências:
+  - [RFC 2326 - Real Time Streaming Protocol (RTSP)](http://www.ietf.org/rfc/rfc2326.txt), IETF
