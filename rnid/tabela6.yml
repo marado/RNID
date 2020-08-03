@@ -1,0 +1,154 @@
+- dominio: Serviço web para transmissão de coberturas de dados geográficos, complementado pelas especificações GML e GeoTIFF
+  especificacao:
+    acronimo_com_versao: WCS 2.01
+    designacao: Web Coverage Service 2.01
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: OGC
+    nome: OGC Web Coverage Service Interface Standard (v2.01)
+    fonte: http://www.opengeospatial.org/standards/wcs
+
+- dominio: Serviço web para a transmissão de dados geográficos por entidades individuais entre cliente e servidor, sendo que no processo de transmissão é usado o formato GML
+  especificacao:
+    acronimo_com_versao: WFS 2.0
+    designacao: Web Feature Service 2.0
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Em vigor
+  referencias:
+  - entidade: OGC
+    nome: OpenGIS Web Feature Service Interface Standard (v2.0)
+    fonte: http://www.opengeospatial.org/standards/wfs
+
+- dominio: Serviço web para a entrega de mapas ou parte de mapas em formato matricial produzidos por servidores de mapas, complementado pela dimensão temporal dos dados WMS-T
+  especificacao:
+    acronimo_com_versao: WMS 1.3
+    designacao: Web Map Service 1.3
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Em vigor
+  referencias:
+  - entidade: OGC
+    nome: OpenGIS Web Map Service Interface Standard (v1.3)
+    fonte: http://www.opengeospatial.org/standards/wms
+
+- dominio: Serviço web para a transmissão de pedidos de processamento de informação geográfica
+  especificacao:
+    acronimo_com_versao: WPS 1.0
+    designacao: Web Processing Service 1.0
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Em vigor
+  referencias:
+  - entidade: OGC
+    nome: OpenGIS Web Processing Service Interface Standard (v1.0)
+    fonte: http://www.opengeospatial.org/standards/wps
+
+- dominio: Serviço web para pesquisa de informação e descrições (metadados) em catálogos de informação geográfica
+  especificacao:
+    acronimo_com_versao: OGC CSW
+    designacao: OGC Catalog Service for Web
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: OGC
+    nome: Catalogue Service (OGC webpage)
+    fonte: http://www.opengeospatial.org/standards/cat
+
+- dominio: Formato baseado em XML para armazenamento de informação geográfica, usado também para transações de dados geográficos entre aplicações na Internet, nomeadamente WFS e WCS
+  especificacao:
+    acronimo_com_versao: OpenGIS GML
+    designacao: OpenGIS Geography Markup Language Encoding Standard
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: OGC
+    nome: Geography Markup Language (OGC webpage)
+    fonte: http://www.opengeospatial.org/standards/gml
+
+- dominio: Codificação da simbologia de entidades geográficas, permitindo a transmissão de simbologia entre cliente e servidor ou o seu armazenamento em ficheiro, complementando a especificação WMS na produção de mapas com simbologia
+  especificacao:
+    acronimo_com_versao: OGC SLD
+    designacao: OGC Styled Layer Descriptor
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: OGC
+    nome: Styled Layer Descriptor (OGC webpage)
+    fonte: http://www.opengeospatial.org/standards/sld
+
+- dominio: Dados matriciais (raster) em ficheiro, aplicáveis a imagens de satélite, fotografias aéreas, modelos digitais de terreno, etc.
+  especificacao:
+    acronimo_com_versao: GeoTIFF 1.0
+    designacao: Geographic Tagged Image File Format 1.0
+  classificacao: Recomendado
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: OGC
+    nome: GeoTIFF Format Specification (GeoTIFF Revision 1.0)
+    fonte: http://www.remotesensing.org/geotiff/spec/geotiffhome.html
+
+- dominio: Dados vetoriais em ficheiro para transferência de informação entre SIG e aplicações de Desenho Assistido por Computador (CAD), nomeadamente, Topografia e Cartografia
+  especificacao:
+    acronimo_com_versao: AutoCAD 2000 DXF
+    designacao: utoCAD 2000 Drawing Exchange Format
+  classificacao: Recomendado
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: Autodesk
+    nome: AutoCAD 2000 DXF Reference (webpage)
+    fonte: http://www.autodesk.com/techpubs/autocad/acad2000/dxf/
+
+- dominio: Formato para armazenamento de dados geográficos, vetoriais e matriciais em ficheiro, baseado no formato SQLite
+  especificacao:
+    acronimo_com_versao: OGC GeoPackage
+    designacao: OGC GeoPackage Encoding Standard
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: OGC
+    nome: GeoPackage Encoding Standard (OGC webpage)
+    fonte: http://www.opengeospatial.org/standards/geopackage
+
+- dominio: Visualização geográfica
+  especificacao:
+    acronimo_com_versao: OGC KML
+    designacao: OGC Keyhole Markup Language
+  classificacao: Recomendado
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: OGC
+    nome: OGC Keyhole Markup Language
+    fonte: http://www.opengeospatial.org/standards/kml
+
+- dominio: Codificação de informação geoespacial digital relacionada com o fenómeno espaço/tempo
+  especificacao:
+    acronimo_com_versao: OGC netCDF
+    designacao: OGC network Common Data Form standards suite
+  classificacao: Recomendado
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: OGC
+    nome: OGC network Common Data Form standards suite
+    fonte: http://www.opengeospatial.org/standards/netcdf
+
+- dominio: Fornecimento de acesso e especificações para serviços de transformação de coordenadas em dados geoespaciais
+  especificacao:
+    acronimo_com_versao: OpenGIS CT
+    designacao: OpenGIS Coordinate Transformation Service standard
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: OGC
+    nome: OpenGIS Coordinate Transformation Service standard
+    fonte: http://www.opengeospatial.org/standards/ct
+
+- dominio: Gestão de dados proveniente de sensores, de forma a garantir a interoperabilidade dos mesmos
+  especificacao:
+    acronimo_com_versao: OpenGIS SOS
+    designacao: OpenGIS Sensor Obervation Service standard
+  classificacao: Recomendado
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: ISO
+    nome: ISO 19156:2011 - Geographic information - Observations and measurements
+    fonte: http://www.iso.org/iso/catalogue_detail.htm?csnumber=32574
+

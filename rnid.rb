@@ -53,3 +53,6 @@ yml2md("rnid/tabela4.yml")
 
 puts "## Protocolos de correio eletrónico, incluindo acesso a conteúdos e extensões e serviços de mensagem instantânea"
 yml2md("rnid/tabela5.yml")
+
+puts "## Sistemas de informação geográfica, incluindo cartografia, cadastro digital, topografia e modelação"
+yml2md("rnid/tabela6.yml")

@@ -375,3 +375,128 @@
 - Prazo para aplicação: Entrada em vigor do presente Regulamento
 - Referências:
   - [RFC 3207 - SMTP Service Extension for Secure SMTP over Transport Layer Security](https://tools.ietf.org/html/rfc3207), IETF
+## Sistemas de informação geográfica, incluindo cartografia, cadastro digital, topografia e modelação
+### Serviço web para transmissão de coberturas de dados geográficos, complementado pelas especificações GML e GeoTIFF
+
+- Especificação técnica: WCS 2.01 / Web Coverage Service 2.01
+- Classificação: Obrigatório
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [OGC Web Coverage Service Interface Standard (v2.01)](http://www.opengeospatial.org/standards/wcs), OGC
+
+
+### Serviço web para a transmissão de dados geográficos por entidades individuais entre cliente e servidor, sendo que no processo de transmissão é usado o formato GML
+
+- Especificação técnica: WFS 2.0 / Web Feature Service 2.0
+- Classificação: Obrigatório
+- Prazo para aplicação: Em vigor
+- Referências:
+  - [OpenGIS Web Feature Service Interface Standard (v2.0)](http://www.opengeospatial.org/standards/wfs), OGC
+
+
+### Serviço web para a entrega de mapas ou parte de mapas em formato matricial produzidos por servidores de mapas, complementado pela dimensão temporal dos dados WMS-T
+
+- Especificação técnica: WMS 1.3 / Web Map Service 1.3
+- Classificação: Obrigatório
+- Prazo para aplicação: Em vigor
+- Referências:
+  - [OpenGIS Web Map Service Interface Standard (v1.3)](http://www.opengeospatial.org/standards/wms), OGC
+
+
+### Serviço web para a transmissão de pedidos de processamento de informação geográfica
+
+- Especificação técnica: WPS 1.0 / Web Processing Service 1.0
+- Classificação: Obrigatório
+- Prazo para aplicação: Em vigor
+- Referências:
+  - [OpenGIS Web Processing Service Interface Standard (v1.0)](http://www.opengeospatial.org/standards/wps), OGC
+
+
+### Serviço web para pesquisa de informação e descrições (metadados) em catálogos de informação geográfica
+
+- Especificação técnica: OGC CSW / OGC Catalog Service for Web
+- Classificação: Obrigatório
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [Catalogue Service (OGC webpage)](http://www.opengeospatial.org/standards/cat), OGC
+
+
+### Formato baseado em XML para armazenamento de informação geográfica, usado também para transações de dados geográficos entre aplicações na Internet, nomeadamente WFS e WCS
+
+- Especificação técnica: OpenGIS GML / OpenGIS Geography Markup Language Encoding Standard
+- Classificação: Obrigatório
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [Geography Markup Language (OGC webpage)](http://www.opengeospatial.org/standards/gml), OGC
+
+
+### Codificação da simbologia de entidades geográficas, permitindo a transmissão de simbologia entre cliente e servidor ou o seu armazenamento em ficheiro, complementando a especificação WMS na produção de mapas com simbologia
+
+- Especificação técnica: OGC SLD / OGC Styled Layer Descriptor
+- Classificação: Obrigatório
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [Styled Layer Descriptor (OGC webpage)](http://www.opengeospatial.org/standards/sld), OGC
+
+
+### Dados matriciais (raster) em ficheiro, aplicáveis a imagens de satélite, fotografias aéreas, modelos digitais de terreno, etc.
+
+- Especificação técnica: GeoTIFF 1.0 / Geographic Tagged Image File Format 1.0
+- Classificação: Recomendado
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [GeoTIFF Format Specification (GeoTIFF Revision 1.0)](http://www.remotesensing.org/geotiff/spec/geotiffhome.html), OGC
+
+
+### Dados vetoriais em ficheiro para transferência de informação entre SIG e aplicações de Desenho Assistido por Computador (CAD), nomeadamente, Topografia e Cartografia
+
+- Especificação técnica: AutoCAD 2000 DXF / utoCAD 2000 Drawing Exchange Format
+- Classificação: Recomendado
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [AutoCAD 2000 DXF Reference (webpage)](http://www.autodesk.com/techpubs/autocad/acad2000/dxf/), Autodesk
+
+
+### Formato para armazenamento de dados geográficos, vetoriais e matriciais em ficheiro, baseado no formato SQLite
+
+- Especificação técnica: OGC GeoPackage / OGC GeoPackage Encoding Standard
+- Classificação: Obrigatório
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [GeoPackage Encoding Standard (OGC webpage)](http://www.opengeospatial.org/standards/geopackage), OGC
+
+
+### Visualização geográfica
+
+- Especificação técnica: OGC KML / OGC Keyhole Markup Language
+- Classificação: Recomendado
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [OGC Keyhole Markup Language](http://www.opengeospatial.org/standards/kml), OGC
+
+
+### Codificação de informação geoespacial digital relacionada com o fenómeno espaço/tempo
+
+- Especificação técnica: OGC netCDF / OGC network Common Data Form standards suite
+- Classificação: Recomendado
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [OGC network Common Data Form standards suite](http://www.opengeospatial.org/standards/netcdf), OGC
+
+
+### Fornecimento de acesso e especificações para serviços de transformação de coordenadas em dados geoespaciais
+
+- Especificação técnica: OpenGIS CT / OpenGIS Coordinate Transformation Service standard
+- Classificação: Obrigatório
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [OpenGIS Coordinate Transformation Service standard](http://www.opengeospatial.org/standards/ct), OGC
+
+
+### Gestão de dados proveniente de sensores, de forma a garantir a interoperabilidade dos mesmos
+
+- Especificação técnica: OpenGIS SOS / OpenGIS Sensor Obervation Service standard
+- Classificação: Recomendado
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [ISO 19156:2011 - Geographic information - Observations and measurements](http://www.iso.org/iso/catalogue_detail.htm?csnumber=32574), ISO
