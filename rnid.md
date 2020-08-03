@@ -309,3 +309,69 @@
 - Prazo para aplicação: Em vigor
 - Referências:
   - [RFC 2326 - Real Time Streaming Protocol (RTSP)](http://www.ietf.org/rfc/rfc2326.txt), IETF
+## Protocolos de correio eletrónico, incluindo acesso a conteúdos e extensões e serviços de mensagem instantânea
+### Consulta de email
+
+- Especificação técnica: IMAP4 / MIME
+- Classificação: Obrigatório
+- Prazo para aplicação: Em vigor
+- Referências:
+  - [RFC 3501 - Internet Message Access Protocol - Version 4rev1](http://tools.ietf.org/html/rfc3501), IETF
+
+
+### Formato de mensagens de correio eletrónico
+
+- Especificação técnica: MIME / Multipurpose Internet Mail Extensions
+- Classificação: Obrigatório
+- Prazo para aplicação: Em vigor
+- Referências:
+  - [RFC 2045 - Multipurpose Internet Mail Extensions (MIME) Part One: Format of Internet Message Bodies](https://www.ietf.org/rfc/rfc2045.txt), IETF
+  - [RFC 2046 - Multipurpose Internet Mail Extensions (MIME) Part Two: Media Types](https://www.ietf.org/rfc/rfc2046.txt), IETF
+  - [RFC 2047 - Multipurpose Internet Mail Extensions (MIME) Part Three: Message Header Extensions for Non-ASCII Text](https://www.ietf.org/rfc/rfc2047.txt), IETF
+
+
+### Formato seguro de mensagens de correio eletrónico
+
+- Especificação técnica: S/MIME 3.2 / Secure/Multipurpose Internet Mail Extensions Version 3.2
+- Classificação: Recomendado
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [RFC 5751 - Secure/Multipurpose Internet Mail Extensions (S/MIME) Version 3.2 Message Specification](https://tools.ietf.org/html/rfc5751), IETF
+
+
+### Acesso remoto a uma caixa de correio eletrónico
+
+- Especificação técnica: POP3 / Post Office Protocol 3
+- Classificação: Obrigatório
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [RFC 1939 - Post Office Protocol - Version 3](https://www.ietf.org/rfc/rfc1939.txt), IETF
+
+
+### Acesso seguro remoto a uma caixa de correio eletrónico
+
+- Especificação técnica:
+  - IMAPS / IMAP over TLS 1.2
+  - POP3S / POP3 over TLS 1.2
+- Classificação: Obrigatório
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [RFC 2595 - Using TLS with IMAP, POP3 and ACAP](https://tools.ietf.org/html/rfc2595), IETF
+
+
+### Envio de correio eletrónico
+
+- Especificação técnica: SMTP / Simple Mail Transfer Protocol
+- Classificação: Obrigatório
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [RFC 2821 - Simple Mail Transfer Protocol](https://www.ietf.org/rfc/rfc2821.txt), IETF
+
+
+### Envio seguro de correio eletrónico
+
+- Especificação técnica: SMTPS / SMTP over TLS 1.2
+- Classificação: Obrigatório
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [RFC 3207 - SMTP Service Extension for Secure SMTP over Transport Layer Security](https://tools.ietf.org/html/rfc3207), IETF

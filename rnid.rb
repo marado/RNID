@@ -50,3 +50,6 @@ yml2md("rnid/tabela3.yml")
 
 puts "## Protocolos de streaming ou transmissão de som e imagens animadas em tempo real, incluindo o transporte e distribuição de conteúdos e os serviços ponto a ponto"
 yml2md("rnid/tabela4.yml")
+
+puts "## Protocolos de correio eletrónico, incluindo acesso a conteúdos e extensões e serviços de mensagem instantânea"
+yml2md("rnid/tabela5.yml")

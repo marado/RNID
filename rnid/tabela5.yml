@@ -1,0 +1,84 @@
+- dominio: Consulta de email
+  especificacao:
+    acronimo_com_versao: IMAP4
+    designacao: MIME
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Em vigor
+  referencias:
+  - entidade: IETF
+    nome: RFC 3501 - Internet Message Access Protocol - Version 4rev1
+    fonte: http://tools.ietf.org/html/rfc3501
+
+- dominio: Formato de mensagens de correio eletrónico
+  especificacao:
+    acronimo_com_versao: MIME
+    designacao: Multipurpose Internet Mail Extensions
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Em vigor
+  referencias:
+  - entidade: IETF
+    nome: "RFC 2045 - Multipurpose Internet Mail Extensions (MIME) Part One: Format of Internet Message Bodies"
+    fonte: https://www.ietf.org/rfc/rfc2045.txt
+  - entidade: IETF
+    nome: "RFC 2046 - Multipurpose Internet Mail Extensions (MIME) Part Two: Media Types"
+    fonte: https://www.ietf.org/rfc/rfc2046.txt
+  - entidade: IETF
+    nome: "RFC 2047 - Multipurpose Internet Mail Extensions (MIME) Part Three: Message Header Extensions for Non-ASCII Text"
+    fonte: https://www.ietf.org/rfc/rfc2047.txt
+
+- dominio: Formato seguro de mensagens de correio eletrónico
+  especificacao:
+    acronimo_com_versao: S/MIME 3.2
+    designacao: Secure/Multipurpose Internet Mail Extensions Version 3.2
+  classificacao: Recomendado
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: IETF
+    nome: RFC 5751 - Secure/Multipurpose Internet Mail Extensions (S/MIME) Version 3.2 Message Specification
+    fonte: https://tools.ietf.org/html/rfc5751
+
+- dominio: Acesso remoto a uma caixa de correio eletrónico
+  especificacao:
+    acronimo_com_versao: POP3
+    designacao: Post Office Protocol 3
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: IETF
+    nome: RFC 1939 - Post Office Protocol - Version 3
+    fonte: https://www.ietf.org/rfc/rfc1939.txt
+
+- dominio: Acesso seguro remoto a uma caixa de correio eletrónico
+  especificacao:
+  - acronimo_com_versao: IMAPS
+    designacao: IMAP over TLS 1.2
+  - acronimo_com_versao: POP3S
+    designacao: POP3 over TLS 1.2
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: IETF
+    nome: RFC 2595 - Using TLS with IMAP, POP3 and ACAP
+    fonte: https://tools.ietf.org/html/rfc2595
+
+- dominio: Envio de correio eletrónico
+  especificacao:
+    acronimo_com_versao: SMTP
+    designacao: Simple Mail Transfer Protocol
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: IETF
+    nome: RFC 2821 - Simple Mail Transfer Protocol
+    fonte: https://www.ietf.org/rfc/rfc2821.txt
+
+- dominio: Envio seguro de correio eletrónico
+  especificacao:
+    acronimo_com_versao: SMTPS
+    designacao: SMTP over TLS 1.2
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: IETF
+    nome: RFC 3207 - SMTP Service Extension for Secure SMTP over Transport Layer Security
+    fonte: https://tools.ietf.org/html/rfc3207
