@@ -534,3 +534,101 @@
 - Prazo para aplicação: Entrada em vigor do presente Regulamento
 - Referências:
   - [RFC 5246 - The Transport Layer Security (TLS) Protocol Version 1.2](https://tools.ietf.org/html/rfc5246), IETF
+## Especificações técnicas e protocolos de integração, troca de dados e orquestração de processos de negócio na integração interorganismos 
+### Representação gráfica para a especificação de processos de negócio
+
+- Especificação técnica: BPMN 2.0 / Business Process Model and Notation
+- Classificação: Obrigatório
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [Documents Associated With Business Process Model And Notation (BPMN) Version 2.0](http://www.omg.org/spec/BPMN/2.0), OMG
+
+
+### Canal de transporte para integração entre 2 ou mais sistemas de informação não requerendo segurança do canal
+
+- Especificação técnica: HTTP/2 / Hypertext Transfer Protocol Version 2
+- Classificação: Obrigatório
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [RFC 7540 - Hypertext Transfer Protocol Version 2 (HTTP/2)](https://tools.ietf.org/html/rfc7540), IETF
+
+
+### Canal de transporte para integração entre 2 ou mais sistemas de informação requerendo segurança do canal
+
+- Especificação técnica: HTTPS / Hypertext Transfer Protocol Secure
+- Classificação: Obrigatório
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [RFC 2818 - HTTP Over TLS](http://tools.ietf.org/html/rfc2818), IETF
+
+
+### Acesso a diretórios de informação
+
+- Especificação técnica: LDAPv3 / Lightweight Directory Access Protocol Version 3
+- Classificação: Obrigatório
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [RFC 4511 - Lightweight Directory Access Protocol (LDAP): The Protocol](http://www.ietf.org/rfc/rfc4511.txt), IETF
+
+
+### Autenticações, autorizações e troca de atributos entre 2 ou mais SI de interorganismos da AP
+
+- Especificação técnica: SAML 2.0 / Security Assertion Markup Language 2.0
+- Classificação: Obrigatório
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [Security Assertion Markup Language (SAML) V2.0](http://docs.oasisopen.org/security/saml/v2.0/), OASIS
+
+
+### Estrutura das mensagens trocadas para Integração entre 2 ou mais sistemas de informação
+
+- Especificação técnica: SOAP 1.2 / Simple Object Access Protocol 1.2
+- Classificação: Obrigatório
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [SOAP Version 1.2 Part 1: Messaging Format (Second Edition)](http://www.w3.org/TR/soap12/), W3C
+
+
+### Comunicação da informação de endereços entre web services entre 2 ou mais SI
+
+- Especificação técnica: WS-Addressing 1.0 / Web Services Addressing 1.0 - Core
+- Classificação: Obrigatório
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [Web Services Addressing 1.0](http://www.w3.org/TR/ws-addr-core/), W3C
+
+
+### Protocolo para a garantia de entrega de mensagens na integração entre 2 ou mais SI de interorganismos da AP
+
+- Especificação técnica: WS-RM 1.2 / Web Services Reliable Messaging 1.2
+- Classificação: Recomendado
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [Web Services Reliable Messaging (WS-ReliableMessaging)](http://docs.oasis-open.org/wsrx/wsrm/200702), OASIS
+
+
+### Segurança de integridade e confidencialidade da comunicação na Integração entre 2 ou mais SI de interorganismos da AP
+
+- Especificação técnica: WS-Security 1.2 / Web Services Security 1.2
+- Classificação: Recomendado
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [WS-SecurityPolicy 1.2](http://docs.oasis-open.org/ws-sx/wssecuritypolicy/200702/wssecuritypolicy-1.2-spec-os.html), OASIS
+
+
+### Segurança de autenticação da comunicação na integração entre 2 ou mais SI de interorganismos da AP
+
+- Especificação técnica: WS-Security Username Token Profile 1.1.1 / WS-Security Username Token Profile 1.1.1
+- Classificação: Recomendado
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [Web Services Security Username Token Profile Version 1.1.1](http://docs.oasis-open.org/wssm/wss/v1.1.1/os/wssUsernameTokenProfile-v1.1.1-os.html), OASIS
+
+
+### Linguagem de modelação de arquitetura empresarial
+
+- Especificação técnica: ArchiMate 2.1 / Archimate
+- Classificação: Recomendado
+- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Referências:
+  - [ArchiMate® 2.1 Specification](http://pubs.opengroup.org/architecture/archimate2-doc/toc.html), Open Group
