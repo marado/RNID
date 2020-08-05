@@ -3,7 +3,7 @@
     acronimo_com_versao: WCS 2.01
     designacao: Web Coverage Service 2.01
   classificacao: Obrigatório
-  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  prazo_para_aplicacao: Em vigor
   referencias:
   - entidade: OGC
     nome: OGC Web Coverage Service Interface Standard (v2.01)
@@ -134,7 +134,7 @@
   especificacao:
     acronimo_com_versao: OpenGIS CT
     designacao: OpenGIS Coordinate Transformation Service standard
-  classificacao: Obrigatório
+  classificacao: Recomendado
   prazo_para_aplicacao: Entrada em vigor do presente Regulamento
   referencias:
   - entidade: OGC

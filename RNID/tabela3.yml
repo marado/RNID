@@ -101,20 +101,6 @@
     nome: Recomendação W3C de 5 de junho 2018
     fonte: http://www.w3.org/TR/WCAG21
 
-- dominio: Cumprimento de requisitos de acessibilidade mínimos do conteúdo dos sítios web e das aplicações móveis previstos no DL n.º 83/2018, de acordo com as normas harmonizadas publicadas pela Comissão Europeia no Jornal Oficial da União Europeia, nos termos do Regulamento (UE) n.º 1025/2012.
-  especificacao:
-    acronimo_com_versao: Nível de conformidade 'AA' das WCAG 2.1/EN 301 549.
-    designacao: Nível de conformidade 'AA' das Web Content Accessibility Guidelines (Diretrizes de Acessibilidade para Conteúdo Web) 2.1/Norma Europeia Harmonizada 301 549.
-  classificacao: Obrigatório
-  prazo_para_aplicacao:
-    - 23 de setembro de 2019, para sítios web publicados a partir de 23 de setembro de 2018, inclusive
-    - 23 de setembro de 2020, para sítios web publicados antes de 23 de setembro de 2018
-    - 23 de junho de 2021, para aplicações móveis
-  referencias:
-  - entidade: W3C, ETSI, CEN, CENELEC
-    nome: Recomendação W3C de 5 de junho 2018
-    fonte: http://www.w3.org/TR/WCAG21
-
 - dominio: Linguagem para descrição de documentos e formatação de dados, para interpretação não-humana, no âmbito de aplicações e sistemas acedidos por dispositivos móveis
   especificacao:
     acronimo_com_versao: JSOn

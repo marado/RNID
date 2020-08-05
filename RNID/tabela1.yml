@@ -92,7 +92,7 @@
     acronimo_com_versao: XSL 1.1
     designacao: Extensible Stylesheet Language 1.1
   classificacao: Obrigatório
-  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  prazo_para_aplicacao: Em vigor
   referencias:
     - entidade: W3C
       nome: The Extensible Stylesheet Language Family (XSL)
@@ -103,7 +103,7 @@
     acronimo_com_versao: XMPP
     designacao: Extensible Messaging and Presence Protocol
   classificacao: Obrigatório
-  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  prazo_para_aplicacao: Em vigor
   referencias:
   - entidade: IETF
     nome: "RFC 6120 - Extensible Messaging and Presence Protocol (XMPP): Core"
@@ -117,7 +117,7 @@
     acronimo_com_versao: UTF-8
     designacao: 8-bit Unicode Transformation Format
   classificacao: Obrigatório
-  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  prazo_para_aplicacao: Em vigor
   referencias:
   - entidade: IETF
     nome: RFC 3629 - UTF-8, a transformation format of ISO 10646
@@ -130,7 +130,7 @@
   classificacao: Recomendado
   prazo_para_aplicacao: Entrada em vigor do presente Regulamento
   referencias:
-  - entidade: XPHI
+  - entidade: "XPHI [deveria ler-se XIPH]"
     nome: Ogg Specification
     fonte: http://www.xiph.org/ogg/doc/
 
@@ -141,6 +141,6 @@
   classificacao: Recomendado
   prazo_para_aplicacao: Entrada em vigor do presente Regulamento
   referencias:
-  - entidade: XPHI
+  - entidade: "XPHI [deveria ler-se XIPH]"
     nome: Theora Specification
     fonte: http://theora.org/doc/Theora.pdf

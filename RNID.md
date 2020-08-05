@@ -70,7 +70,7 @@
 
 - Especificação técnica: XSL 1.1 / Extensible Stylesheet Language 1.1
 - Classificação: Obrigatório
-- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Prazo para aplicação: Em vigor
 - Referências:
   - [The Extensible Stylesheet Language Family (XSL)](http://www.w3.org/Style/XSL/), W3C
 
@@ -79,7 +79,7 @@
 
 - Especificação técnica: XMPP / Extensible Messaging and Presence Protocol
 - Classificação: Obrigatório
-- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Prazo para aplicação: Em vigor
 - Referências:
   - [RFC 6120 - Extensible Messaging and Presence Protocol (XMPP): Core](https://xmpp.org/rfcs/rfc6120.html), IETF
   - [RFC 6121 - Extensible Messaging and Presence Protocol (XMPP): Instant Messaging and Presence](https://xmpp.org/rfcs/rfc6121.html), IETF
@@ -89,7 +89,7 @@
 
 - Especificação técnica: UTF-8 / 8-bit Unicode Transformation Format
 - Classificação: Obrigatório
-- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Prazo para aplicação: Em vigor
 - Referências:
   - [RFC 3629 - UTF-8, a transformation format of ISO 10646](http://tools.ietf.org/html/rfc3629), IETF
 
@@ -100,7 +100,7 @@
 - Classificação: Recomendado
 - Prazo para aplicação: Entrada em vigor do presente Regulamento
 - Referências:
-  - [Ogg Specification](http://www.xiph.org/ogg/doc/), XPHI
+  - [Ogg Specification](http://www.xiph.org/ogg/doc/), XPHI [deveria ler-se XIPH]
 
 
 ### Ficheiros de vídeo
@@ -109,7 +109,7 @@
 - Classificação: Recomendado
 - Prazo para aplicação: Entrada em vigor do presente Regulamento
 - Referências:
-  - [Theora Specification](http://theora.org/doc/Theora.pdf), XPHI
+  - [Theora Specification](http://theora.org/doc/Theora.pdf), XPHI [deveria ler-se XIPH]
 ## Formato de documentos (estruturados e não estruturados) e gestão de conteúdos, incluindo gestão documental
 ### Documentos editáveis para apresentação, gráficos, folhas de cálculo e processamento de texto
 
@@ -254,18 +254,6 @@
   - [Recomendação W3C de 5 de junho 2018](http://www.w3.org/TR/WCAG21), W3C, ETSI, CEN, CENELEC
 
 
-### Cumprimento de requisitos de acessibilidade mínimos do conteúdo dos sítios web e das aplicações móveis previstos no DL n.º 83/2018, de acordo com as normas harmonizadas publicadas pela Comissão Europeia no Jornal Oficial da União Europeia, nos termos do Regulamento (UE) n.º 1025/2012.
-
-- Especificação técnica: Nível de conformidade 'AA' das WCAG 2.1/EN 301 549. / Nível de conformidade 'AA' das Web Content Accessibility Guidelines (Diretrizes de Acessibilidade para Conteúdo Web) 2.1/Norma Europeia Harmonizada 301 549.
-- Classificação: Obrigatório
-- Prazo para aplicação:
-  - 23 de setembro de 2019, para sítios web publicados a partir de 23 de setembro de 2018, inclusive
-  - 23 de setembro de 2020, para sítios web publicados antes de 23 de setembro de 2018
-  - 23 de junho de 2021, para aplicações móveis
-- Referências:
-  - [Recomendação W3C de 5 de junho 2018](http://www.w3.org/TR/WCAG21), W3C, ETSI, CEN, CENELEC
-
-
 ### Linguagem para descrição de documentos e formatação de dados, para interpretação não-humana, no âmbito de aplicações e sistemas acedidos por dispositivos móveis
 
 - Especificação técnica: JSOn / JavaScript Object Notation
@@ -343,7 +331,7 @@
 
 - Especificação técnica: POP3 / Post Office Protocol 3
 - Classificação: Obrigatório
-- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Prazo para aplicação: Em vigor
 - Referências:
   - [RFC 1939 - Post Office Protocol - Version 3](https://www.ietf.org/rfc/rfc1939.txt), IETF
 
@@ -363,7 +351,7 @@
 
 - Especificação técnica: SMTP / Simple Mail Transfer Protocol
 - Classificação: Obrigatório
-- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Prazo para aplicação: Em vigor
 - Referências:
   - [RFC 2821 - Simple Mail Transfer Protocol](https://www.ietf.org/rfc/rfc2821.txt), IETF
 
@@ -380,7 +368,7 @@
 
 - Especificação técnica: WCS 2.01 / Web Coverage Service 2.01
 - Classificação: Obrigatório
-- Prazo para aplicação: Entrada em vigor do presente Regulamento
+- Prazo para aplicação: Em vigor
 - Referências:
   - [OGC Web Coverage Service Interface Standard (v2.01)](http://www.opengeospatial.org/standards/wcs), OGC
 
@@ -487,7 +475,7 @@
 ### Fornecimento de acesso e especificações para serviços de transformação de coordenadas em dados geoespaciais
 
 - Especificação técnica: OpenGIS CT / OpenGIS Coordinate Transformation Service standard
-- Classificação: Obrigatório
+- Classificação: Recomendado
 - Prazo para aplicação: Entrada em vigor do presente Regulamento
 - Referências:
   - [OpenGIS Coordinate Transformation Service standard](http://www.opengeospatial.org/standards/ct), OGC
