@@ -12,7 +12,5 @@ if [ "$naopassa" -eq "1" ]; then
 	done < README.md > new
 	mv new README.md
 else
-	#echo "inventarios: incumprimento resolvido";
-	echo "inventarios: um dos incumprimentos resolvido, o outro ainda nao esta' a ser testado";
-	# TODO: testar se o https ja' e' com TLS 1.2
+	echo "inventarios: incumprimento resolvido";
 fi
