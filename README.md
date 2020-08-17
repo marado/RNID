@@ -44,6 +44,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | http://www.base.gov.pt | erros de configuração de HTTPS | [página de autenticação insegura](https://www.base.gov.pt/idp/Authn/UserPassword) | 2020/08/08 ||
 | http://www2.sg.pcm.gov.pt/ | autenticação sem HTTPS | [página de autenticação insegura](http://www2.sg.pcm.gov.pt/GEUPF/Login.aspx) | 2020/08/05 | [2] |
 | https://www.presidencia.pt/ | erro de configuração de HTTPS | [certificado https para o domínio errado](https://www.presidencia.pt/) | 2020/08/08 ||
+| https://accessmonitor.acessibilidade.gov.pt/ | Credenciais sem HTTPS | [Formulário de autenticação sem HTTPS](http://accessmonitor.acessibilidade.gov.pt/mm/) | 2020/08/18 ||
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
 
