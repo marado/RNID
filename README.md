@@ -37,7 +37,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | https://www.inventarios.pt | Obriga à utilização de JAVA ou software que só existe para MAC e Windows | [manual de instalação](https://www.inventarios.pt/documentos/manual_instalacao_gosign_v4.pdf) | 2020/08/08 ||
 | http://www.turismodeportugal.pt/ | Informação apenas em XLSX | [página com vários links para informação apenas em XLSX](http://business.turismodeportugal.pt/pt/Planear_Iniciar/Licenciamento_Registo_da_Atividade/Empreendimentos_Turisticos/Paginas/classificacao-et.aspx) | 2020/08/08 ||
 | https://www.norte2020.pt/ | Informação apenas em XLSX | [página com documento apenas em XLSX](https://www.norte2020.pt/investimento-municipal) | 2020/08/08 | 2019/10/29 |
-| https://siac.vet/ | Acessibilidade | [página não cumpre com WCAG 2.0](https://siac.vet/) | 2020/08/08 ||
+| https://siac.vet/ | Acessibilidade | [página não cumpre com WCAG 2.0](https://siac.vet/) | 2020/08/18 ||
 | http://www.estradas.pt | Flash | [página com conteúdo Flash para alguns browsers](http://www.estradas.pt/index) | 2020/08/08 | 2019/11/06 |
 | https://www.sef.pt/ | Documentos em .doc | [Documentos em .doc no final da página (anunciados como .pdf)](https://www.sef.pt/pt/pages/conteudo-detalhe.aspx?nID=73) | 2020/08/08 ||
 | https://online.dgo.pt/ | versão insegura de TLS | [protocolo utilizado para https é TLS 1.0](http://online.dgo.pt/) | 2020/08/08 ||
