@@ -12,7 +12,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | www.dgae.min-economia.pt | Microsoft Office | [página com formulários OOXML](http://www.dgae.gov.pt/documentacao-/formularios.aspx) | 2020/08/08 | 2015/03/25 |
 | http://www.iefp.pt | Acessibilidade | [site não cumpre WCAG 2.0 AA](http://www.iefp.pt) | 2020/08/08 | 2016/01/05 |
 | www.rtp.pt | Flash e WMV | Páginas com informação sobre o uso de [Flash](http://media.rtp.pt/empresa/utilizacao/flash-player/) e [WMV](http://media.rtp.pt/empresa/utilizacao/windows-media-player/) | 2020/08/08 | 2015/06/07 |
-| www.portugal.gov.pt | Acessibilidade | [site não cumpre WCAG 2.0 A](http://www.portugal.gov.pt) | 2020/08/08 | 2019/08/13 |
+| www.portugal.gov.pt | Acessibilidade | [site não cumpre WCAG 2.0 A](http://www.portugal.gov.pt) | 2020/08/18 | 2019/08/13 |
 | lxi.cm-lisboa.pt | Flash | [Site Flash](http://lxi.cm-lisboa.pt/lxi/) | 2020/08/08 | 2015/06/07 |
 | http://www.cm-lisboa.pt/ | PDF com XFA | [PDF com XFA](http://www.cm-lisboa.pt/fileadmin/DOCS/Formularios/transversais/CML_participacao_ocorrencia.pdf) | 2020/08/08 | 2019/04/23 |
 | Portais do Ministério das Finanças | Diversos incumprimentos | [XLS, XLSX e DOC](http://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/tabela_ret_doclib/), [endereços e contactos em XLSX](https://www.portaldasfinancas.gov.pt/pt/contactosEbalcao.action), [lista de formulários, quase na totalidade em formatos proprietários](http://info-aduaneiro.portaldasfinancas.gov.pt/pt/publicacoes_formularios/formularios/Pages/formularios.aspx), [exportação de facturas precisa de flash](https://faturas.portaldasfinancas.gov.pt/factemipf_static/swf/copy_csv_xls_pdf.swf), [Enviar Ficheiro SAF-T exige Java](https://faturas.portaldasfinancas.gov.pt/enviarSaftAppletForm.action) | 2020/08/08 | 2017/03/25 |
@@ -37,7 +37,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | https://www.inventarios.pt | Obriga à utilização de JAVA ou software que só existe para MAC e Windows | [manual de instalação](https://www.inventarios.pt/documentos/manual_instalacao_gosign_v4.pdf) | 2020/08/08 ||
 | http://www.turismodeportugal.pt/ | Informação apenas em XLSX | [página com vários links para informação apenas em XLSX](http://business.turismodeportugal.pt/pt/Planear_Iniciar/Licenciamento_Registo_da_Atividade/Empreendimentos_Turisticos/Paginas/classificacao-et.aspx) | 2020/08/08 ||
 | https://www.norte2020.pt/ | Informação apenas em XLSX | [página com documento apenas em XLSX](https://www.norte2020.pt/investimento-municipal) | 2020/08/08 | 2019/10/29 |
-| https://siac.vet/ | Acessibilidade | [página não cumpre com WCAG 2.0](https://siac.vet/) | 2020/08/08 ||
+| https://siac.vet/ | Acessibilidade | [página não cumpre com WCAG 2.0](https://siac.vet/) | 2020/08/18 ||
 | http://www.estradas.pt | Flash | [página com conteúdo Flash para alguns browsers](http://www.estradas.pt/index) | 2020/08/08 | 2019/11/06 |
 | https://www.sef.pt/ | Documentos em .doc | [Documentos em .doc no final da página (anunciados como .pdf)](https://www.sef.pt/pt/pages/conteudo-detalhe.aspx?nID=73) | 2020/08/08 ||
 | https://online.dgo.pt/ | versão insegura de TLS | [protocolo utilizado para https é TLS 1.0](http://online.dgo.pt/) | 2020/08/08 ||
