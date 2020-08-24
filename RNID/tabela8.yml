@@ -1,0 +1,10 @@
+- dominio: Segurança da Camada de Transporte
+  especificacao:
+    acronimo_com_versao: TLS 1.2
+    designacao: Transport Layer Security 1.2
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: IETF
+    nome: RFC 5246 - The Transport Layer Security (TLS) Protocol Version 1.2
+    fonte: https://tools.ietf.org/html/rfc5246

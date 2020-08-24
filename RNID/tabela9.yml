@@ -1,0 +1,120 @@
+- dominio: Representação gráfica para a especificação de processos de negócio
+  especificacao:
+    acronimo_com_versao: BPMN 2.0
+    designacao: Business Process Model and Notation
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: OMG
+    nome: Documents Associated With Business Process Model And Notation (BPMN) Version 2.0
+    fonte: http://www.omg.org/spec/BPMN/2.0
+
+- dominio: Canal de transporte para integração entre 2 ou mais sistemas de informação não requerendo segurança do canal
+  especificacao:
+    acronimo_com_versao: HTTP/2
+    designacao: Hypertext Transfer Protocol Version 2
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: IETF
+    nome: RFC 7540 - Hypertext Transfer Protocol Version 2 (HTTP/2)
+    fonte: https://tools.ietf.org/html/rfc7540
+
+- dominio: Canal de transporte para integração entre 2 ou mais sistemas de informação requerendo segurança do canal
+  especificacao:
+    acronimo_com_versao: HTTPS
+    designacao: Hypertext Transfer Protocol Secure
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: IETF
+    nome: RFC 2818 - HTTP Over TLS
+    fonte: http://tools.ietf.org/html/rfc2818
+
+- dominio: Acesso a diretórios de informação
+  especificacao:
+    acronimo_com_versao: LDAPv3
+    designacao: Lightweight Directory Access Protocol Version 3
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: IETF
+    nome: "RFC 4511 - Lightweight Directory Access Protocol (LDAP): The Protocol"
+    fonte: http://www.ietf.org/rfc/rfc4511.txt
+
+- dominio: Autenticações, autorizações e troca de atributos entre 2 ou mais SI de interorganismos da AP
+  especificacao:
+    acronimo_com_versao: SAML 2.0
+    designacao: Security Assertion Markup Language 2.0
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: OASIS
+    nome: Security Assertion Markup Language (SAML) V2.0
+    fonte: http://docs.oasisopen.org/security/saml/v2.0/
+
+- dominio: Estrutura das mensagens trocadas para Integração entre 2 ou mais sistemas de informação
+  especificacao:
+    acronimo_com_versao: SOAP 1.2
+    designacao: Simple Object Access Protocol 1.2
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: W3C
+    nome: "SOAP Version 1.2 Part 1: Messaging Format (Second Edition)"
+    fonte: http://www.w3.org/TR/soap12/
+
+- dominio: Comunicação da informação de endereços entre web services entre 2 ou mais SI
+  especificacao:
+    acronimo_com_versao: WS-Addressing 1.0
+    designacao: Web Services Addressing 1.0 - Core
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: W3C
+    nome: Web Services Addressing 1.0
+    fonte: http://www.w3.org/TR/ws-addr-core/
+
+- dominio:  Protocolo para a garantia de entrega de mensagens na integração entre 2 ou mais SI de interorganismos da AP
+  especificacao:
+    acronimo_com_versao: WS-RM 1.2
+    designacao: Web Services Reliable Messaging 1.2
+  classificacao: Recomendado
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: OASIS
+    nome: Web Services Reliable Messaging (WS-ReliableMessaging)
+    fonte: http://docs.oasis-open.org/wsrx/wsrm/200702
+
+- dominio: Segurança de integridade e confidencialidade da comunicação na Integração entre 2 ou mais SI de interorganismos da AP
+  especificacao:
+    acronimo_com_versao: WS-Security 1.2
+    designacao: Web Services Security 1.2
+  classificacao: Recomendado
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: OASIS
+    nome: WS-SecurityPolicy 1.2
+    fonte: http://docs.oasis-open.org/ws-sx/wssecuritypolicy/200702/wssecuritypolicy-1.2-spec-os.html
+
+- dominio: Segurança de autenticação da comunicação na integração entre 2 ou mais SI de interorganismos da AP
+  especificacao:
+    acronimo_com_versao: WS-Security Username Token Profile 1.1.1
+    designacao: WS-Security Username Token Profile 1.1.1
+  classificacao: Recomendado
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: OASIS
+    nome: Web Services Security Username Token Profile Version 1.1.1
+    fonte: http://docs.oasis-open.org/wssm/wss/v1.1.1/os/wssUsernameTokenProfile-v1.1.1-os.html
+
+- dominio: Linguagem de modelação de arquitetura empresarial
+  especificacao:
+    acronimo_com_versao: ArchiMate 2.1
+    designacao: Archimate
+  classificacao: Recomendado
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: Open Group
+    nome: ArchiMate® 2.1 Specification
+    fonte: http://pubs.opengroup.org/architecture/archimate2-doc/toc.html

@@ -1,0 +1,149 @@
+- dominio: Sindicação de conteúdos web
+  especificacao:
+    acronimo_com_versao: ATOM 1.0
+    designacao: Atom Syndication Format 1.0
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Em vigor
+  referencias:
+  - entidade: IETF
+    nome: RFC 4287 - The Atom Syndication Format
+    fonte: http://tools.ietf.org/html/rfc4287
+
+- dominio: Acesso remoto a calendários
+  especificacao:
+    acronimo_com_versao: CalDav
+    designacao: Calendaring Extensions to web DAV
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Em vigor
+  referencias:
+  - entidade: IETF
+    nome: RFC 4791 - Calendaring Extensions to WebDAV (Cal-DAV)
+    fonte: http://tools.ietf.org/html/rfc4791
+
+- dominio: Linguagem para descrição da semântica de apresentação de página web
+  especificacao:
+    acronimo_com_versao: CSS 3
+    designacao: Cascading Style Sheets 3
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: W3C
+    nome: Media Queries
+    fonte: http://www.w3.org/TR/css-mediaqueries/
+  - entidade: W3C
+    nome: CSS Namespaces Module Level 3
+    fonte: http://www.w3.org/TR/css-namespaces-3/
+  - entidade: W3C
+    nome: Selectors Level 3
+    fonte: http://www.w3.org/TR/css3-selectors/
+  - entidade: W3C
+    nome: CSS Color Module Level 3
+    fonte: http://www.w3.org/TR/css3-color/
+
+- dominio: Linguagem para descrição de documentos para apresentação nativa em browsers
+  especificacao:
+    acronimo_com_versao: HTML 5
+    designacao: Hypertext Markup Language 5
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: W3C
+    nome: HTML5 - A vocabulary and associated APIs for HTML and XHTML
+    fonte: http://www.w3.org/TR/html5/
+
+- dominio: Protocolo de hipertexto para disponibilização de página web
+  especificacao:
+    acronimo_com_versao: HTTP/2
+    designacao: Hypertext Transfer Protocol Version 2
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: IETF
+    nome: RFC 7540 - Hypertext Transfer Protocol Version 2 (HTTP/2)
+    fonte: https://tools.ietf.org/html/rfc7540
+
+- dominio: Protocolo hipertexto seguro para disponibilização de página web, utilizando o protocolo HTTP/2 com TLS 1.2
+  especificacao:
+    acronimo_com_versao: HTTPS
+    designacao: Hypertext Transfer Protocol over TLS/SSL/Secure
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: IETF
+    nome: RFC 2818 - HTTP Over TLS
+    fonte: http://tools.ietf.org/html/rfc2818
+
+- dominio: Linguagem de scripting para página web
+  especificacao:
+    acronimo_com_versao: Javascript 1.8.5
+    designacao: Javascript 1.8.5
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: ISO/IEC
+    nome: ISO/IEC 16262:2011 - Information technology - Programming languages, their environments and system software interfaces - ECMAScript language specification
+    fonte: http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=55755
+  - entidade: ECMA
+    nome: ECMA -262 (6th Edition) - ECMAScript 2015 Language Specification
+    fonte: http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf
+
+- dominio: Cumprimento de requisitos de acessibilidade mínimos do conteúdo dos sítios web e das aplicações móveis previstos no DL n.º 83/2018, de acordo com as normas harmonizadas publicadas pela Comissão Europeia no Jornal Oficial da União Europeia, nos termos do Regulamento (UE) n.º 1025/2012.
+  especificacao:
+    acronimo_com_versao: Nível de conformidade 'AA' das WCAG 2.1/EN 301 549.
+    designacao: Nível de conformidade 'AA' das Web Content Accessibility Guidelines (Diretrizes de Acessibilidade para Conteúdo Web) 2.1/Norma Europeia Harmonizada 301 549.
+  classificacao: Obrigatório
+  prazo_para_aplicacao:
+    - 23 de setembro de 2019, para sítios web publicados a partir de 23 de setembro de 2018, inclusive
+    - 23 de setembro de 2020, para sítios web publicados antes de 23 de setembro de 2018
+    - 23 de junho de 2021, para aplicações móveis
+  referencias:
+  - entidade: W3C, ETSI, CEN, CENELEC
+    nome: Recomendação W3C de 5 de junho 2018
+    fonte: http://www.w3.org/TR/WCAG21
+
+- dominio: Linguagem para descrição de documentos e formatação de dados, para interpretação não-humana, no âmbito de aplicações e sistemas acedidos por dispositivos móveis
+  especificacao:
+    acronimo_com_versao: JSOn
+    designacao: JavaScript Object Notation
+  classificacao: Recomendado
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: IETF
+    nome: The JavaScript Object Notation (JSON) Data Interchange Format
+    fonte: https://tools.ietf.org/html/rfc7159
+
+- dominio: Acesso remoto a sistemas de ficheiros
+  especificacao:
+    acronimo_com_versao: WebDav
+    designacao: Web Distributed Authoring and Versioning Access Control Protocol
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: IETF
+    nome: RFC 3744 - Web Distributed Authoring and Versioning (WebDAV) Access Control Protocol
+    fonte: http://tools.ietf.org/html/rfc3744
+
+- dominio: Linguagem para descrição de documentos e formatação de dados, para interpretação não-humana
+  especificacao:
+    acronimo_com_versao: XML 1.1
+    designacao: Extensible Markup Language 1.1 (Second Edition)
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Entrada em vigor do presente Regulamento
+  referencias:
+  - entidade: W3C
+    nome: Extensible Markup Language (XML) 1.1 (Second Edition)
+    fonte: http://www.w3.org/TR/xml11/
+
+- dominio: Linguagem de definição de estilos XML
+  especificacao:
+    acronimo_com_versao: XSL 1.1
+    designacao: Extensible Stylesheet Language 1.1
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Em vigor
+  referencias:
+  - entidade: IETF
+    nome: RFC 7303 - XML Media Types
+    fonte: https://tools.ietf.org/html/rfc7303
+  - entidade: W3C
+    nome: The Extensible Stylesheet Language Family (XSL)
+    fonte: http://www.w3.org/Style/XSL/

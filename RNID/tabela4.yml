@@ -1,0 +1,10 @@
+- dominio: Streaming de áudio e vídeo
+  especificacao:
+    acronimo_com_versao: RTSP 1.0
+    designacao: Real Time Streaming Protocol 1.0
+  classificacao: Obrigatório
+  prazo_para_aplicacao: Em vigor
+  referencias:
+  - entidade: IETF
+    nome: RFC 2326 - Real Time Streaming Protocol (RTSP)
+    fonte: http://www.ietf.org/rfc/rfc2326.txt
