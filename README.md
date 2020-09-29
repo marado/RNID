@@ -8,7 +8,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 
 | Sítio Web | Incumprimento | Exemplo | Última avaliação | Pedido de Resolução |
 |---|---|---|---|---|
-| www.parlamento.pt | Vídeos disponibilizados em WMV, Canal Parlamento em Flash | [vídeo de audição](http://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheAudiencia.aspx?BID=99371), [canal parlamento](http://www.canal.parlamento.pt) | 2020/09/29 | 2015/03/25 [¹] |
+| www.parlamento.pt | Vídeos disponibilizados em WMV | [vídeo de audição](http://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheAudiencia.aspx?BID=99371) | 2020/09/29 | 2015/03/25 |
 | www.dgae.min-economia.pt | Microsoft Office | [página com formulários OOXML](http://www.dgae.gov.pt/documentacao-/formularios.aspx) | 2020/09/29 | 2015/03/25 |
 | http://www.iefp.pt | Acessibilidade | [site não cumpre WCAG 2.0 AA](http://www.iefp.pt) | 2020/09/29 | 2016/01/05 |
 | www.rtp.pt | Flash e WMV | Páginas com informação sobre o uso de [Flash](http://media.rtp.pt/empresa/utilizacao/flash-player/) e [WMV](http://media.rtp.pt/empresa/utilizacao/windows-media-player/) | 2020/09/29 | 2015/06/07 |
@@ -44,5 +44,3 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | https://accessmonitor.acessibilidade.gov.pt/ | Credenciais sem HTTPS | [Formulário de autenticação sem HTTPS](http://accessmonitor.acessibilidade.gov.pt/mm/) | 2020/09/29 ||
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
-
-[¹] 2020/02/05 - Resposta do Parlamento por email, em relação ao Flash: "Estamos a tratar da migração do streaming de vídeo para HTML5. Por enquanto, precisamos do plugin de flash."
