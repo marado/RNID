@@ -3,7 +3,7 @@
 # XXX: pode haver outro incumprimento com o certificado HTTPS, verificar
 
 # https://www.iefp.pt/ - não cumpre WCAG 2.0 AA
-if [ "$(wget --no-check-certificate https://servicos.min-saude.pt/utente/ -o /dev/null -O - | grep "<img" |grep -v alt|wc -l)" -eq "0" ]; then
+if [ "$(wget --no-check-certificate https://servicos.min-saude.pt/utente/ -o /dev/null -O - | grep "<img" |grep -c "alt=\"\"")" -eq "0" ]; then
 	echo "servicos min-saude: incumprimento pode já não existir";
 else
 	echo "servicos min-saude: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
