@@ -41,6 +41,5 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | https://www.sef.pt/ | Documentos em .doc | [Documentos em .doc no final da página (anunciados como .pdf)](https://www.sef.pt/pt/pages/conteudo-detalhe.aspx?nID=73) | 2020/10/03 ||
 | http://www.base.gov.pt | erros de configuração de HTTPS | [página de autenticação insegura](https://www.base.gov.pt/idp/Authn/UserPassword) | 2020/10/03 ||
 | https://www.presidencia.pt/ | erro de configuração de HTTPS | [certificado https para o domínio errado](https://www.presidencia.pt/) | 2020/10/03 ||
-| https://accessmonitor.acessibilidade.gov.pt/ | Credenciais sem HTTPS | [Formulário de autenticação sem HTTPS](http://accessmonitor.acessibilidade.gov.pt/mm/) | 2020/09/29 ||
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
