@@ -1,70 +1,147 @@
+<div class="contentViva">
+            <p><strong>Para poder carregar passes e zapping no seu cartão Lisboa VIVA necessita de ter uma Conta VIVA. Se ainda não criou a sua, saiba <a href="https://www.portalviva.pt/5573.aspx" title="Criar conta VIVA">aqui</a> quais os passos a seguir.</strong><br></br>
+              <br></br>
+            </p>
 
-<html>
-  <body>
-    <div class="contentViva">
-      <p><strong style="font-size: small;"> </strong></p>
+            <p>A maioria dos títulos de transporte encontra-se disponível para carregamento no Portal VIVA, excluindo-se títulos ocasionais, passes próprios de alguns operadores privados e passes com validade fora da área geográfica da Área Metropolitana de Lisboa.<br></br>
+              <strong><br></br>
+              </strong></p>
 
-      <p><strong>Utilizo o <strong>Google Chrome </strong></strong></p>
+            <p><strong>Passo 1</strong></p>
 
-      <p>As versões 45 ou superior do Google Chrome não permitem a interação com aplicativos de java pelo que sugerimos que utilize o browser Internet Explorer com a nova versão de java instalada (update 121).</p>
+            <p>Selecione a opção “Ler/Carregar” ou entre em carregamentos e selecione "Novo Carregamento".</p>
 
-      <p> </p>
+            <p><img alt="Carregar _cartao _contaviva _1" height="392" src="/media/379896/carregar_cartao_contaviva_1_704x392.jpg" width="704"></img></p>
 
-      <p><strong>Tenho Windows 10 e utilizo Microsoft Edge</strong></p>
+            <p> </p>
 
-      <p>O Microsoft Edge, não permite a interação com aplicativos de java pelo que sugerimos que selecione a opção de Mais (...) no canto superior direito do browser onde poderá escolher a opção de “Abrir com o Internet Explorer”.</p>
+            <p><strong> </strong></p>
 
-      <p> </p>
+            <p><strong>Passo 2</strong></p>
 
-      <p><strong>Utilizo o F<strong>irefox (versão 52.0)</strong></strong></p>
+            <p>Ligue o leitor de cartões ao seu computador e introduza o cartão Lisboa VIVA.</p>
 
-      <p>As versões 52 ou superior do Firefox não permitem a interação com aplicativos de java pelo que sugerimos que utilize o browser Internet Explorer com a nova versão de java instalada (update 121).</p>
+            <p><strong> </strong></p>
 
-      <p> </p>
+            <p><span><strong>AVISO!<br></br>
+              A realização de carregamentos de cartão Lisboa VIVA apenas está disponível no browser Internet Explorer.</strong></span></p>
 
-      <p><strong style="font-size: small;">Utilizo o <strong>Firefox (versão 45.0.2 ou 46)</strong></strong></p>
+            <p><span>Os restantes browsers não suportam o plugin NPAPI (tecnologia necessária para a leitura de applets Java) não sendo possível a leitura do cartão. <br></br>
+              Esta questão é alheia ao Portal VIVA e afeta qualquer website que necessite de aplicativos de Java.</span> </p>
 
-      <p>Existe uma incompatibilidade entre algumas versões do Java (a partir da 8.91) e Firefox (45.0.2 ou 46).</p>
+            <p> </p>
 
-      <p>Para solucionar este problema deverá desinstalar a versão mais recente do java e repor a versão 8.77.</p>
+            <p>Se <strong>está a utilizar o Internet Explorer</strong>, clique em "run".</p>
 
-      <p> </p>
+            <p> </p>
 
-      <p>Desinstalar nova versão do java (8.121)</p>
+            <p><img alt="IE_run" height="407" src="/media/787026/ie_run_700x407.jpg" width="700"></img></p>
 
-      <ol>
-        <li>Ir a painel de controlo</li>
+            <p> </p>
 
-        <li>Desinstalar Programas</li>
+            <p>Para poder proceder à leitura do cartão Lisboa VIVA, deverá permitir que os plugins possam correr no portal.</p>
 
-        <li>Escolher Java 8 Update 121</li>
+            <p> </p>
 
-        <li>Desinstalar</li>
-      </ol>
+            <p><strong><img alt="Carregar _cartao _contaviva _3" height="438" src="/media/379906/carregar_cartao_contaviva_3_700x438.jpg" width="700"></img></strong></p>
 
-      <p>Instalar versão antiga (8.77)</p>
+            <p><strong> </strong></p>
 
-      <ol>
-        <li>Ir ao site <a href="http://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8-2177648.html#jre-8u77-oth-JPR" target="_blank">http://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8-2177648.html#jre-8u77-oth-JPR</a></li>
+            <p><strong> </strong></p>
 
-        <li>Escolher a versão respetiva para o sistema operativo</li>
+            <p><strong>Passo 3</strong></p>
 
-        <li>Instalar</li>
-      </ol>
+            <p>Se o seu cartão foi lido com sucesso, poderá proceder de duas formas:</p>
 
-      <p><span style="font-size: small;"><strong>Utilizo o Safari</strong></span></p>
+            <p><strong>A.</strong> o cartão já tem títulos carregados e o que pretende é o recarregamento de um desse titulos, clique em "recarregar".</p>
 
-      <p>Se utiliza a versão 7+ (versão do OSX [10.9 Mavericks]), a configuração correta para que o browser possa ler e carregar o cartão Lisboa VIVA é a seguinte:  </p>
+            <p><strong>B.</strong> vai carregar o cartão pela 1ª vez ou o titulo que pretende não está disponível para recarregamento, clique em "seguinte".</p>
 
-      <p>Aceda a Preferências -&gt; Segurança -&gt;Permitir Internet Plugins</p>
+            <p> </p>
 
-      <p> </p>
+            <p><img alt="Carregar _cartao _contaviva _4" height="392" src="/media/379941/carregar_cartao_contaviva_4_700x392.jpg" width="700"></img></p>
 
-      <p><strong>Utilizo o <strong>Opera</strong></strong></p>
+            <p> </p>
 
-      <p>O Opera não permite a interação com aplicativos de java pelo que sugerimos que utilize o browser Internet Explorer com a nova versão de java instalada (update 121).</p>
+            <p><strong>Passo 4</strong></p>
 
-      <p><span style="font-size: small;"><strong> </strong></span></p>
-    </div>
-  </body>
-</html>
+            <p>Se esolheu a opção recarregar, confirme se o descritivo do mesmo vai ao encontro daquilo que pretende.</p>
+
+            <p>Clique em "seguinte" para proceder ao pagamento.</p>
+
+            <p> </p>
+
+            <p><strong><img alt="Carregar _cartao _contaviva _5" height="390" src="/media/379956/carregar_cartao_contaviva_5_699x390.jpg" width="699"></img></strong></p>
+
+            <p> </p>
+
+            <p><strong>Se ao invés de escolher a opção "recarregar" selecionou a opção "seguinte" no Passo 3</strong> para proceder à escolha do título, poderá agora pesquisar o titulo que petende, selecionando os operadores que irá utilizar ou introduzindo o nome do título na área da pesquisa de título. Clique em "seguinte".</p>
+
+            <p>Seguidamente ser-lhe-á apresentada uma listagem, onde deverá selecionar a opção mais indicada para si.</p>
+
+            <p> </p>
+
+            <p><img alt="Carregar _cartao _contaviva _9" height="389" src="/media/380051/carregar_cartao_contaviva_9_699x389.jpg" width="699"></img></p>
+
+            <p> </p>
+
+            <p>Confirme sempre se a validade espacial do título é a mais adequada aos percursos que pretende efetuar.</p>
+
+            <p> </p>
+
+            <p><img alt="Carregar _cartao _contaviva _10" height="388" src="/media/380056/carregar_cartao_contaviva_10_699x388.jpg" width="699"></img></p>
+
+            <p> </p>
+
+            <p><strong>Passo 5</strong></p>
+
+            <p>Selecione a opção NetCaixa online e confirme se os seus dados estão corretos. Clique em "Seguinte".</p>
+
+            <p><span>Se pretender inserir novos dados para faturação, deverá ter em conta os limites de 21 caracteres para o nome e 60 caracteres para a morada. </span></p>
+
+            <p>Se pretender proceder a nova pesquisa, deverá clicar em "Anterior".</p>
+
+            <p> </p>
+
+            <p> </p>
+
+            <p>O Portal VIVA aceita qualquer tipo de cartão crédito, seja VISA ou MasterCard. Se preferir também poderá recorrer ao serviço Mbnet onde poderá criar um cartão virtual de débito ou de crédito.</p>
+
+            <p>O serviço Net Caixa online permite-lhe selecionar os diversos meios de pagamento, garantindo a aceitação de pagamentos com cartões de débito e crédito (nacionais e estrangeiros) das marcas Visa e Mastercard ou através de cartão MB Net.</p>
+
+            <p>Deverá selecionar a opção NetCaixa online.</p>
+
+            <p> </p>
+
+            <p><strong>Passo 6</strong> </p>
+
+            <p>Confirme os dados do cartão e título selecionado e clique em "seguinte".</p>
+
+            <p> </p>
+
+            <p> </p>
+
+            <p> </p>
+
+            <p><strong>Passo 7</strong></p>
+
+            <p>Deve efetuar o preenchimento dos dados de informação para pagamento.</p>
+
+            <p>A forma de pagamento é através da introdução do número do cartão, validade (mês/ano) e código CSV.</p>
+
+            <p> </p>
+
+            <p> </p>
+
+            <p> </p>
+
+            <p><strong>Passo 8</strong></p>
+
+            <p><strong>Após o pagamento, deverá manter o cartão no leitor e aguardar que se processe o carregamento com redireccionamento para a página do Portal VIVA.</strong></p>
+
+            <p>Ser-lhe-á apresentada a mensagem "<strong>Carregamento efetuado com sucesso</strong>".</p>
+
+            <p> </p>
+
+            <p>BOA VIAGEM!</p>
+          </div>
