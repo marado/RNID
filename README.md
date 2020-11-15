@@ -41,5 +41,6 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | https://www.sef.pt/ | Documentos em .doc | [Documentos em .doc no final da página (anunciados como .pdf)](https://www.sef.pt/pt/pages/conteudo-detalhe.aspx?nID=73) | 2020/11/15 ||
 | http://www.base.gov.pt | erros de configuração de HTTPS | [página de autenticação insegura](https://www.base.gov.pt/idp/Authn/UserPassword) | 2020/11/15 ||
 | https://www.presidencia.pt/ | erro de configuração de HTTPS | [certificado https para o domínio errado](https://www.presidencia.pt/) | 2020/11/15 ||
+| http://www.precoscombustiveis.dgeg.pt/ | Flash, XLSX | [página que explicita a necessidade de Flash](https://www.precoscombustiveis.dgeg.pt/pagina.aspx?screenwidth=1920&mlkid=pciumvukbs2o1z55tmon3ae3&menucb=1&cn=6160AAAAAAAAAAAAAAAAAAAA), [documento só disponível em XLSX](http://www.precoscombustiveis.dgeg.pt/pagina.aspx?f=1&js=0&mndir=1&codigono=6175AAAAAAAAAAAAAAAAAAAA) | 2020/11/15 ||
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
