@@ -2,7 +2,7 @@
 
 set -ueo pipefail
 
-if curl -L -w "%{url_effective}\n" "http://accessmonitor.acessibilidade.gov.pt/ams/" | grep "^https" > /dev/null; then
+if [ "$(gh -R https://github.com/amagovpt/access-monitor-plus issue view 14|grep ^state|cut -f2)" != "OPEN" ]; then
 	echo "accessmonitor: incumprimento pode já não existir";
 else
 	echo "accessmonitor: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
