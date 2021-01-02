@@ -1,6 +1,6 @@
 #!/bin/bash
 
-fails="$(wget https://www.base.gov.pt/base2-backoffice/images/fundo_base.png -o -|grep -c ^Unable)"
+fails="$(wget https://www.base.gov.pt/base2-backoffice/images/fundo_base.png -o - -O /dev/null|grep -c ^Unable)"
 
 if [ "$fails" -eq "0" ]; then
 	echo "base: incumprimento pode já não existir (1)";
