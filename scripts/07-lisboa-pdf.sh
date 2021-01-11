@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ "$(wget http://www.cm-lisboa.pt/fileadmin/DOCS/Formularios/transversais/CML_participacao_ocorrencia.pdf -o /dev/null -O - | strings | grep -i XFA -c)" -eq "0" ]; then
+if [ "$(wget https://informacoeseservicos.lisboa.pt/fileadmin/informacoes_servicos/pedidos/pagamentos_taxas_tarifas/CML_participacao_ocorrencia.pdf -o /dev/null -O - | strings | grep -i XFA -c)" -eq "0" ]; then
 	echo "lisboa-pdf: incumprimento pode já não existir";
 else
 	echo "lisboa-pdf: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
