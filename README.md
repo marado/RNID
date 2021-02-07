@@ -21,7 +21,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | http://www.rcaap.pt/ | obriga depósito de dados em formatos não-livres ([lista de formatos autorizados](https://dre.pt/application/conteudo/72779297)) | MP3 | 2021/02/07 | |
 | https://servicos.min-saude.pt/utente/ | Acessibilidade | [site não cumpre WCAG 2.0 AA](https://servicos.min-saude.pt/utente/) | 2021/02/07 | 2016/09/27 |
 | http://www.act.gov.pt/ | Acessibilidade | [site não cumpre WCAG 2.0 A](http://www.act.gov.pt/) | 2021/02/07 ||
-| https://www.igcp.pt/ | XLS | [conteúdo em XLS](https://www.igcp.pt/pt/gca/?id=80) | 2021/01/11 | 2019/05/14 |
+| https://www.igcp.pt/ | XLS | [conteúdo em XLS](https://www.igcp.pt/pt/gca/?id=80) | 2021/02/07 | 2019/05/14 |
 | https://www.portalviva.pt/ | Java | [necessita plugin JAVA](https://www.portalviva.pt/lx/pt/myvivaclient/client-account-area/loads/new-load.aspx) | 2021/02/07 | 2020/05/04 |
 | https://prevpap.gov.pt | Acessibilidade | [site não cumpre WCAG 2.0 A](https://prevpap.gov.pt) | 2021/02/07 | 2019/08/13 |
 | http://www.museudoazulejo.gov.pt/ | Flash | [conteúdo Flash](http://www.museudoazulejo.gov.pt/) | 2021/02/07 | 2019/07/30 |
