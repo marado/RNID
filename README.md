@@ -39,7 +39,6 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | https://siac.vet/ | Acessibilidade | [página não cumpre com WCAG 2.0](https://siac.vet/) | 2021/03/04 ||
 | http://www.estradas.pt | Flash | [página com conteúdo Flash para alguns browsers](http://www.estradas.pt/index) | 2021/03/04 | 2019/11/06 |
 | https://www.sef.pt/ | Documentos em .doc | [Documentos em .doc no final da página (anunciados como .pdf)](https://www.sef.pt/pt/pages/conteudo-detalhe.aspx?nID=73) | 2021/03/04 ||
-| http://www.base.gov.pt | erros de configuração de HTTPS | [página de autenticação insegura](https://www.base.gov.pt/idp/Authn/UserPassword) | 2021/02/28 ||
 | https://accessmonitor.acessibilidade.gov.pt/ | Acessibilidade | [Não cumpre regras de acessibilidade, segundo si mesmo](https://github.com/amagovpt/access-monitor-plus/issues/14) | 2021/03/04 | 2020/12/08 |
 | http://www.precoscombustiveis.dgeg.pt/ | Flash, XLSX | [página que explicita a necessidade de Flash](https://www.precoscombustiveis.dgeg.pt/pagina.aspx?screenwidth=1920&mlkid=pciumvukbs2o1z55tmon3ae3&menucb=1&cn=6160AAAAAAAAAAAAAAAAAAAA), [documento só disponível em XLSX](http://www.precoscombustiveis.dgeg.pt/pagina.aspx?f=1&js=0&mndir=1&codigono=6175AAAAAAAAAAAAAAAAAAAA) | 2021/03/04 ||
 
