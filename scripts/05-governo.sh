@@ -8,11 +8,13 @@
 ## several images without an alt attribute:
 ## Empty links are also WCAG violations
 
-fails="$(wget https://www.portugal.gov.pt -o /dev/null -O - | grep "<img" |grep -v alt|wc -l)"
-fails=$((fails + $(wget https://www.portugal.gov.pt -o /dev/null -O - | hxnormalize -x -l 10000|hxselect a -c -s'\n'|grep -c ^$)))
+fails="$(wget --no-check-certificate https://www.portugal.gov.pt -o /dev/null -O - | grep "<img" |grep -v alt|wc -l)"
+fails=$((fails + $(wget --no-check-certificate https://www.portugal.gov.pt -o /dev/null -O - | hxnormalize -x -l 10000|hxselect a -c -s'\n'|grep -c ^$)))
 
 if [ "$fails" -eq "0" ]; then
 	echo "gov.pt: incumprimento pode já não existir";
+	echo "        MAS! Há que testar se o problema do certificado HTTPS já foi resolvido.";
+	# TODO: transforma isto num teste... https://whatsmychaincert.com/?www.portugal.gov.pt
 else
 	echo "gov.pt: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
 	while IFS='' read -r line || [[ -n "$line" ]]; do
