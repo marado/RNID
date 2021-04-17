@@ -13,9 +13,9 @@ rm tmp
 
 ## b) Canal Parlamento em Flash
 b=0; # 0 significa que incumprimento mantém-se
-test $(wget https://canal.parlamento.pt/ -o /dev/null -O -|grep embedplayer.min.js|wc -l) -eq "1" \
+test $(wget --no-check-certificate https://canal.parlamento.pt/ -o /dev/null -O -|grep embedplayer.min.js|wc -l) -eq "1" \
 	&& (
-		wget https://canal.parlamento.pt/scripts/embedplayer.min.js -o /dev/null;
+		wget --no-check-certificate https://canal.parlamento.pt/scripts/embedplayer.min.js -o /dev/null;
 		test "$(diff embedplayer.min.js scripts/01/embedplayer.min.js|wc -l)" -eq "0" || b=1;
 		rm embedplayer.min.js;
 	) || b=2
@@ -37,5 +37,8 @@ if [ $((a + b)) -eq "0" ]; then
 	mv new README.md
 else
 	# TODO: fazer disto o teste (c) (e meter este incumprimento também no README)
+    ## c) certificado mal configurado
+    ##   -- https://whatsmychaincert.com/?canal.parlamento.pt
+    ##   -- TODO: escrever o teste!
 	echo "https://www.canal.parlamento.pt/ ainda tem problemas de https?";
 fi
