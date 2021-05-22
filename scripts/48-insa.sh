@@ -1,6 +1,6 @@
 #!/bin/bash
 
-wget http://www.insa.min-saude.pt/category/areas-de-atuacao/epidemiologia/covid-19-curva-epidemica-e-parametros-de-transmissibilidade/ -o /dev/null -O -|hxnormalize -x -l 1000|hxselect tr|hxselect a -s"\n" > INSA
+wget http://www.insa.min-saude.pt/category/areas-de-atuacao/epidemiologia/covid-19-curva-epidemica-e-parametros-de-transmissibilidade/ -o /dev/null -O -|hxnormalize -x -l 1000|hxselect tr|hxselect a -s"\n"|grep -v Report_covid19_ > INSA
 if [ ! "$(diff INSA scripts/48/INSA|wc -l)" -eq "0" ]; then
 	echo "insa: incumprimento pode já não existir";
 else
