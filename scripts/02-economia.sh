@@ -1,7 +1,7 @@
 #!/bin/bash
 
 fail=0;
-if [ "$(curl https://www.dgae.gov.pt -o /dev/null || echo $?)" -eq "60" ]; then
+if [ "$(curl https://www.dgae.gov.pt -o /dev/null; echo $?)" -eq "60" ]; then
 	echo "economia: problema com o certificado SSL";
 	fail=1;
 elif [ "$(curl -s -I https://www.dgae.gov.pt/gestao-de-ficheiros-externos-dgae-ano-2015/1_formulario-registo_mf_nao_harmonizadas-doc.aspx|grep filename|cut -d= -f2| tr -d '\r')" == "i010066.doc" ]; then
