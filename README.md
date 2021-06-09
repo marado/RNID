@@ -42,5 +42,6 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | https://accessmonitor.acessibilidade.gov.pt/ | Acessibilidade | [Não cumpre regras de acessibilidade, segundo si mesmo](https://github.com/amagovpt/access-monitor-plus/issues/14) | 2021/06/07 | 2020/12/08 |
 | http://www.precoscombustiveis.dgeg.pt/ | Flash, XLSX | [página que explicita a necessidade de Flash](https://www.precoscombustiveis.dgeg.pt/pagina.aspx?screenwidth=1920&mlkid=pciumvukbs2o1z55tmon3ae3&menucb=1&cn=6160AAAAAAAAAAAAAAAAAAAA), [documento só disponível em XLSX](http://www.precoscombustiveis.dgeg.pt/pagina.aspx?f=1&js=0&mndir=1&codigono=6175AAAAAAAAAAAAAAAAAAAA) | 2021/06/07 ||
 | http://www.insa.min-saude.pt | XLSX | [dados do R(t) em XLSX](http://www.insa.min-saude.pt/category/areas-de-atuacao/epidemiologia/covid-19-curva-epidemica-e-parametros-de-transmissibilidade/) | 2021/06/07 | 2021/03/12 |
+| https://apambiente.pt/ | Informação apenas em XLSX | [Página com vários documentos em suportes proprietários, nomeadamente em XLSX](https://apambiente.pt/sites/default/files/_Residuos/FluxosEspecificosResiduos/VFV/Todos_Centros_de_Abate_08-03-2021.xlsx) | 2021/09/06 | | 
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
