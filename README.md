@@ -42,6 +42,6 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | https://accessmonitor.acessibilidade.gov.pt/ | Acessibilidade | [Não cumpre regras de acessibilidade, segundo si mesmo](https://github.com/amagovpt/access-monitor-plus/issues/14) | 2021/06/09 | 2020/12/08 |
 | http://www.precoscombustiveis.dgeg.pt/ | Flash, XLSX | [página que explicita a necessidade de Flash](https://www.precoscombustiveis.dgeg.pt/pagina.aspx?screenwidth=1920&mlkid=pciumvukbs2o1z55tmon3ae3&menucb=1&cn=6160AAAAAAAAAAAAAAAAAAAA), [documento só disponível em XLSX](http://www.precoscombustiveis.dgeg.pt/pagina.aspx?f=1&js=0&mndir=1&codigono=6175AAAAAAAAAAAAAAAAAAAA) | 2021/06/09 ||
 | http://www.insa.min-saude.pt | XLSX | [dados do R(t) em XLSX](http://www.insa.min-saude.pt/category/areas-de-atuacao/epidemiologia/covid-19-curva-epidemica-e-parametros-de-transmissibilidade/) | 2021/06/09 | 2021/03/12 |
-| https://www.imt-ip.pt/sites/IMTT/Portugues/Formularios/Documents/Mod9IMT.pdf | Certificado SSL/TLS expirado há um ano, havendo um novo que alberga todos os domínios \*.imt-ip.pt - sugerindo má configuração do servidor.| 2021/06/09 | | 
+| https://www.imt-ip.pt | TLS | [Certificado SSL/TLS expirado há um ano, havendo um novo que alberga todos os domínios \*.imt-ip.pt - sugerindo má configuração do servidor](https://www.imt-ip.pt/sites/IMTT/Portugues/Formularios/Documents/Mod9IMT.pdf) | 2021/06/09 | |
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
