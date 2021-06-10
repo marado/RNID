@@ -1,4 +1,4 @@
-## Formato de dados, incluindo código de carateres, formato de som e imagens (fixas e animadas), audiovisuais, dados gráficos e de pré -impressão
+## Formato de dados, incluindo código de carateres, formato de som e imagens (fixas e animadas), audiovisuais, dados gráficos e de pré-impressão
 ### Interação com SGBD
 
 - Especificação técnica: SQL:2011 / Structured Query Language 2011
