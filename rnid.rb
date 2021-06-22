@@ -40,28 +40,28 @@ def yml2md(filename)
 end
 
 puts "## Formato de dados, incluindo código de carateres, formato de som e imagens (fixas e animadas), audiovisuais, dados gráficos e de pré -impressão"
-yml2md("RNID/tabela1.yml")
+yml2md("_data/tabela1.yml")
 
 puts "## Formato de documentos (estruturados e não estruturados) e gestão de conteúdos, incluindo gestão documental"
-yml2md("RNID/tabela2.yml")
+yml2md("_data/tabela2.yml")
 
 puts "## Tecnologias de interface web, incluindo acessibilidade, ergonomia, compatibilidade e integração de serviços"
-yml2md("RNID/tabela3.yml")
+yml2md("_data/tabela3.yml")
 
 puts "## Protocolos de streaming ou transmissão de som e imagens animadas em tempo real, incluindo o transporte e distribuição de conteúdos e os serviços ponto a ponto"
-yml2md("RNID/tabela4.yml")
+yml2md("_data/tabela4.yml")
 
 puts "## Protocolos de correio eletrónico, incluindo acesso a conteúdos e extensões e serviços de mensagem instantânea"
-yml2md("RNID/tabela5.yml")
+yml2md("_data/tabela5.yml")
 
 puts "## Sistemas de informação geográfica, incluindo cartografia, cadastro digital, topografia e modelação"
-yml2md("RNID/tabela6.yml")
+yml2md("_data/tabela6.yml")
 
 puts "## Especificações técnicas e protocolos de comunicação em redes informáticas"
-yml2md("RNID/tabela7.yml")
+yml2md("_data/tabela7.yml")
 
 puts "## Especificações técnicas e protocolos de integração, troca de dados e orquestração de processos de negócio na integração interorganismos"
-yml2md("RNID/tabela8.yml")
+yml2md("_data/tabela8.yml")
 
 puts "## Especificações técnicas e protocolos de integração, troca de dados e orquestração de processos de negócio na integração interorganismos "
-yml2md("RNID/tabela9.yml")
+yml2md("_data/tabela9.yml")
