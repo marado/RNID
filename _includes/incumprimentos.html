@@ -1,0 +1,27 @@
+<div class="datatable-begin" />
+<table>
+	<tr>
+		<td>Domínio</td>
+		<td>Especificação</td>
+		<td>Classificação</td>
+		<td>Prazo para Aplicação</td>
+		<td>Referências</td>
+	</tr>
+	{% for file_hash in site.data %}
+	{% assign file = file_hash[1] %}
+		{% for inc in file %}
+			<tr>
+			<td>{{ inc.dominio }}</td>
+			<td>{{ inc.especificacao.acronimo_com_versao }} - {{ inc.especificacao.designacao }}</td>
+			<td>{{ inc.classificacao }}</td>
+			<td>{{ inc.prazo_para_aplicacao }}</td>
+			<td>
+				{% for ref in inc.referencias %}
+					<a href="{{ ref.fonte }}">{{ ref.entidade }} - {{ ref.nome }} </a><br><br>
+				{% endfor %}
+			</td>
+			</tr>
+		{% endfor %}
+	{% endfor %}
+</table>
+<div class="datatable-end" />
