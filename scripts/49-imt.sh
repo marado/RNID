@@ -6,7 +6,7 @@ if [ "$(curl https://www.imt-ip.pt/sites/IMTT/Portugues/Formularios/Documents/Mo
 	fail=1;
 fi
 
-if [ ! "$fail" ]; then
+if [ "$fail" = 0 ]; then
 	echo "imt: incumprimento pode já não existir";
 else
 	echo "imt: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
