@@ -1,7 +1,8 @@
 #!/bin/bash
 
-if [ "$(wget "https://www.precoscombustiveis.dgeg.pt/pagina.aspx?screenwidth=1920&mlkid=pciumvukbs2o1z55tmon3ae3&menucb=1&cn=6160AAAAAAAAAAAAAAAAAAAA" -o /dev/null -O -|grep Flash -c)" -eq "0" ]; then
+if [ "$(wget --no-check-certificate "https://www.precoscombustiveis.dgeg.pt/pagina.aspx?screenwidth=1920&mlkid=pciumvukbs2o1z55tmon3ae3&menucb=1&cn=6160AAAAAAAAAAAAAAAAAAAA" -o /dev/null -O -|grep Flash -c)" -eq "0" ]; then
 	echo "combustiveis: incumprimento pode já não existir";
+	echo "              ...mas há que validar se o problema do HTTPS também já desapareceu."; # o wget funciona sem o --no-check-certificate ?
 else
 	echo "combustiveis: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
 	while IFS='' read -r line || [[ -n "$line" ]]; do
