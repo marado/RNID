@@ -1,9 +1,10 @@
+---
 website: https://www.sg.mai.gov.pt/
 incumprimentos:
-  - description: Cadernos eleitorais disponibilizados em XLS
-    url: /AdministracaoEleitoral/RecenseamentoEleitoral/ResultadosRecenseamento/Paginas/default.aspx
-    last_check: 2021-09-12
-    auto:
-      checker: diff_selector
-      args:
-        selector: '#ctl00_MSO_ContentDiv .customCenterRight > table'
+- description: Cadernos eleitorais disponibilizados em XLS
+  url: "/AdministracaoEleitoral/RecenseamentoEleitoral/ResultadosRecenseamento/Paginas/default.aspx"
+  last_check: 2021-09-17
+  auto:
+    checker: diff_selector
+    args:
+      selector: "#ctl00_MSO_ContentDiv .customCenterRight > table"

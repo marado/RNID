@@ -1,5 +1,6 @@
+---
 website: https://www.autenticacao.gov.pt/
 incumprimentos:
-  - description: Autenticação exige plugin ou alternativa Chave Móvel Digital
-    url: /
-    last_check: 2021-09-12
+- description: Autenticação exige plugin ou alternativa Chave Móvel Digital
+  url: "/"
+  last_check: 2021-09-12

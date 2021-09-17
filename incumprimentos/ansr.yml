@@ -1,9 +1,10 @@
+---
 website: http://www.ansr.pt
 incumprimentos:
-  - description: Formulários disponibilizados em DOCX
-    url: /Contraordenacoes/Formularios/Pages/default.aspx
-    last_check: 2021-09-12
-    auto:
-      checker: diff_selector
-      args:
-        selector: '#listas-download-ficheiros'
+- description: Formulários disponibilizados em DOCX
+  url: "/Contraordenacoes/Formularios/Pages/default.aspx"
+  last_check: 2021-09-17
+  auto:
+    checker: diff_selector
+    args:
+      selector: "#listas-download-ficheiros"
