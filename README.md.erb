@@ -1,0 +1,22 @@
+Estas listas, regularmente actualizadas, registam ocorrências ou reportadas à
+ANSOL, ou observadas pela ANSOL, de sites que não usam Normas Abertas, como
+especificado na Lei das Normas Abertas.
+
+Mais informação sobre a Lei das Normas Abertas [no site da
+ANSOL](https://ansol.org/normasabertas/rnid). As normas no RNID também se
+encontram listadas [aqui](RNID.md).
+
+# Ocorrências de incumprimento
+
+Esta tabela mostra casos de incumprimento do regulamento:
+
+| Sítio Web | Incumprimento | Última avaliação | Pedido de Resolução |
+| --------- | ------------- | ---------------- | ------------------- |
+<% @websites.each do |website| -%>
+<% website["incumprimentos"].each do |infraction| -%>
+| <%= website["website"] %> | [<%= infraction["description"] %>](<%= infraction["url"] %>) | <%= infraction["last_check"] %> | TBD |
+<% end -%>
+<% end -%>
+
+Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade
+LibreOffice Portugal para enviar um pedido de resolução do problema.
