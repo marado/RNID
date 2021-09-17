@@ -1,0 +1,10 @@
+website: https://www.dgae.gov.pt
+incumprimentos:
+  - description: Formulários disponibilizados em OOXML
+    url: /documentacao-/formularios.aspx
+    last_check: 2021-09-12
+    auto:
+      checker: diff_selector
+      args:
+        url: /documentacao-/formularios/materias-fertilizantes-colocacao-no-mercado.aspx
+        selector: '#mlkFrame'

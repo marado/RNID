@@ -1,0 +1,9 @@
+website: https://www.parlamento.pt
+incumprimentos:
+  - description: Vídeos disponibilizados em WMV
+    url: /ActividadeParlamentar/Paginas/DetalheAudiencia.aspx?BID=99371
+    last_check: 2021-09-12
+    auto:
+      checker: diff_selector
+      args:
+        selector: '#ctl00_ctl50_g_1d0614cc_f7c9_4544_a067_a6d1e32c35ae_ctl00_pnlLinksAssociados'

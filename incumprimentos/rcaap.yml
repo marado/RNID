@@ -1,0 +1,9 @@
+website: https://www.rcaap.pt/
+incumprimentos:
+  - description: Legislação apenas permite a submissão de audio em MP3
+    url: https://dre.tretas.org/dre/2159741/despacho-14167-2015-de-1-de-dezembro
+    last_check: 2021-09-12
+    auto:
+      checker: absent_selector
+      args:
+        selector: "a[name=in_links]"

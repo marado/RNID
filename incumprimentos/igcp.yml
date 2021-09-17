@@ -1,0 +1,9 @@
+website: https://www.igcp.pt/
+incumprimentos:
+  - description: Documentos disponibilizados apenas em XLS
+    url: https://www.igcp.pt/pt/menu-lateral/leiloes/obrigacoes-do-tesouro/
+    last_check: 2021-09-12
+    auto:
+      checker: diff_selector
+      args:
+        selector: '#print_simul .texto > table'

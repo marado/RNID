@@ -1,0 +1,26 @@
+website: https://www.portaldasfinancas.gov.pt/
+incumprimentos:
+  - description: Documentos disponibilizados em XLSX, XLS, e DOC
+    url: https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/tabela_ret_doclib/Pages/default.aspx
+    last_check: 2021-09-12
+    auto:
+      checker: diff_selector
+      args:
+        selector: '#doc-list-table'
+  - description: Documentos disponibilizados em XLSX
+    url: https://info.portaldasfinancas.gov.pt/pt/dgci/contactos_servicos/enderecos_contactos/Pages/contactos.aspx
+    last_check: 2021-09-12
+    auto:
+      checker: diff_selector
+      args:
+        selector: '#listdocs'
+  - description: Formulários disponibilizados em DOCX, XLS, PDF com extensões XFA
+    url: https://info-aduaneiro.portaldasfinancas.gov.pt/pt/publicacoes_formularios/formularios/Pages/formularios.aspx
+    last_check: 2021-09-12
+    auto:
+      checker: diff_selector
+      args:
+        selector: '#listdocs'
+  - description: Submissão de relatórios SAF-T exige Java
+    url: https://faturas.portaldasfinancas.gov.pt/enviarSaftAppletForm.action
+    last_check: 2021-09-12
