@@ -8,7 +8,7 @@
 #    https://www.portaldasfinancas.gov.pt/pt/contactosEbalcao.action
 # c) lista de formulários, quase na totalidade em formatos proprietários
 #    http://info-aduaneiro.portaldasfinancas.gov.pt/pt/publicacoes_formularios/formularios/Pages/formularios.aspx
-# d) efacturas -- exportação de facturas depende de flash
+# d) --- já não existe
 # e) Enviar Ficheiro SAF-T exige Java -- https://faturas.portaldasfinancas.gov.pt/enviarSaftAppletForm.action
 
 # Visto que para um destes casos podem os ficheiros continuar disponíveis e o
@@ -40,7 +40,7 @@ wget "http://info-aduaneiro.portaldasfinancas.gov.pt/pt/publicacoes_formularios/
 c=$(diff forms scripts/09/forms|wc -l)
 rm forms
 
-# (d) && (e)
+# (e)
 # TODO
 
 if [ ! "$c" -eq "0" ]; then
