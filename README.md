@@ -21,7 +21,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | https://servicos.min-saude.pt/utente/ | Acessibilidade | [site não cumpre WCAG 2.0 AA](https://servicos.min-saude.pt/utente/) | 2021/09/25 | 2016/09/27 |
 | http://www.act.gov.pt/ | Acessibilidade | [site não cumpre WCAG 2.0 A](http://www.act.gov.pt/) | 2021/09/25 ||
 | https://www.igcp.pt/ | XLS | [conteúdo em XLS](https://www.igcp.pt/pt/gca/?id=80) | 2021/09/25 | 2019/05/14 |
-| https://www.portalviva.pt/ | Java | [necessita plugin JAVA](https://www.portalviva.pt/lx/pt/myvivaclient/client-account-area/loads/new-load.aspx) | 2021/09/25 | 2020/05/04 |
+| https://www.portalviva.pt/ | Java | [necessita plugin JAVA](https://www.portalviva.pt/lx/pt/myvivaclient/client-account-area/loads/new-load.aspx) [(outro exemplo)](https://www.portalviva.pt/lx/pt/public/client-register-modes.aspx) | 2021/09/29 | 2020/05/04 |
 | https://prevpap.gov.pt | Acessibilidade | [site não cumpre WCAG 2.0 A](https://prevpap.gov.pt) | 2021/09/25 | 2019/08/13 |
 | http://www.museudoazulejo.gov.pt/ | Flash | [conteúdo Flash](http://www.museudoazulejo.gov.pt/) | 2021/09/25 | 2019/07/30 |
 | http://www.matriznet.dgpc.pt/ | Flash | [conteúdo Flash](http://www.matriznet.dgpc.pt/) | 2021/09/25 ||
