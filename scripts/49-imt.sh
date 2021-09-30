@@ -5,6 +5,10 @@ if [ "$(curl https://www.imt-ip.pt/sites/IMTT/Portugues/Formularios/Documents/Mo
 	echo "imt: problema com o certificado SSL";
 	fail=1;
 fi
+if [ "$(curl https://www.imt-ip.pt/sites/IMTT/Portugues/Formularios/Documents/Mod9IMT.pdf -o /dev/null; echo $?)" -eq "60" ]; then
+	echo "imt: problema com o certificado SSL";
+	fail=2;
+fi
 
 if [ "$fail" = 0 ]; then
 	echo "imt: incumprimento pode já não existir";
