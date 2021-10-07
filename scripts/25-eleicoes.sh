@@ -4,7 +4,8 @@ maybeOK=0;
 
 wget "https://jigsaw.w3.org/css-validator/validator?uri=https://www.eleicoes.mai.gov.pt/autarquicas2017/%2F&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en" -o /dev/null -O - |grep \#errors|cut -d\> -f3|cut -d\< -f1 > aut
 # TODO: check https://www.autarquicas2017.mai.gov.pt https certificate
-# wget "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwww.autarquicas2017.mai.gov.pt%2F&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en" -o /dev/null -O - |grep \#errors|cut -d\> -f3|cut -d\< -f1 > aut
+# TODO: check if https://www.autarquicas2017.mai.gov.pt is pointing to https://www.eleicoes.mai.gov.pt/autarquicas2017/ again
+# TODO: check if https://www.eleicoes.mai.gov.pt/autarquicas2017 and https://www.eleicoes.mai.gov.pt/autarquicas2017/ both work again
 if [ ! "$(diff aut scripts/25/aut|wc -l)" -eq "0" ]; then
 	echo "css autarquicas: incumprimento pode já não existir";
 	maybeOK=1;
