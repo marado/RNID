@@ -2,7 +2,7 @@
 
 fail=0;
 
-if [ "$(curl https://tcp.dgterritorio.gov.pt/procurar -o /dev/null || echo $?)" -eq "60" ]; then
+if [ "$(curl https://tcp.dgterritorio.gov.pt/procurar -o /dev/null --silent; echo $?)" -eq "60" ]; then
 	echo "dgt: erro no certificado HTTPS";
 	fail=1;
 else
