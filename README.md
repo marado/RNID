@@ -36,7 +36,6 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | http://www.turismodeportugal.pt/ | Informação apenas em XLSX | [página com vários links para informação apenas em XLSX](http://business.turismodeportugal.pt/pt/Planear_Iniciar/Licenciamento_Registo_da_Atividade/Empreendimentos_Turisticos/Paginas/classificacao-et.aspx) | 2021/10/13 ||
 | https://www.norte2020.pt/ | Informação apenas em XLSX | [página com documento apenas em XLSX](https://www.norte2020.pt/investimento-municipal) | 2021/10/13 | 2019/10/29 |
 | https://siac.vet/ | Acessibilidade | [página não cumpre com WCAG 2.0](https://siac.vet/) | 2021/10/13 ||
-| http://www.estradas.pt | Flash | [página com conteúdo Flash para alguns browsers](http://www.estradas.pt/index) | 2021/10/04 | 2019/11/06 |
 | https://www.sef.pt/ | Documentos em .doc | [Documentos em .doc no final da página (anunciados como .pdf)](https://www.sef.pt/pt/pages/conteudo-detalhe.aspx?nID=73) | 2021/10/13 ||
 | https://accessmonitor.acessibilidade.gov.pt/ | Acessibilidade | [Não cumpre regras de acessibilidade, segundo si mesmo](https://github.com/amagovpt/access-monitor-plus/issues/14) | 2021/10/13 | 2020/12/08 |
 | http://www.insa.min-saude.pt | XLSX | [dados do R(t) em XLSX](http://www.insa.min-saude.pt/category/areas-de-atuacao/epidemiologia/covid-19-curva-epidemica-e-parametros-de-transmissibilidade/) | 2021/10/13 | 2021/03/12 |
