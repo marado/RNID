@@ -1,28 +1,18 @@
 #!/bin/bash
 
-fail=0;
-
-# Testing HTTPS
-if [ "$(curl https://www.imt-ip.pt/sites/IMTT/Portugues/Formularios/Documents/Mod9IMT.pdf -o /dev/null; echo $?)" -eq "35" ]; then
-	echo "imt: problema com o certificado SSL";
-	fail=1;
-fi
-
-# Testing HTTPS
-if [ "$(curl https://www.imt-ip.pt/sites/IMTT/Portugues/Formularios/Documents/Mod9IMT.pdf -o /dev/null; echo $?)" -eq "60" ]; then
-	echo "imt: problema com o certificado SSL";
-	fail=2;
-fi
-
 # https://www.imt-ip.pt/ - não cumpre WCAG 2.0 AA (nem A)
-## 23/10/2021: there are empty alts
-emptyalt=$(curl -k -L https://www.imt-ip.pt/ | hxclean | hxselect -s '\n' img | hxselect -s '\n' -c 'img::attr(alt)'|grep -c ^$);
-if [ "$emptyalt" -ne "0" ]; then
-	echo "imt: problemas de acessibilidade";
-	fail=3;
-fi
 
-if [ "$fail" = 0 ]; then
+#TODO: find a good tool to make the validation on request
+# https://achecker.ca/documentation/web_service_api.php - API usage depends on user account creation
+# webaim.org - API's not gratis
+
+# While we don't have a validator on request, let's find out if a known violation exists
+
+## 23/10/2021: there are empty alts
+
+emptyalt=$(curl -k -L https://www.imt-ip.pt/ | hxclean | hxselect -s '\n' img | hxselect -s '\n' -c 'img::attr(alt)'|grep -c ^$);
+
+if [ "$emptyalt" -eq "0" ]; then
 	echo "imt: incumprimento pode já não existir";
 else
 	echo "imt: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
