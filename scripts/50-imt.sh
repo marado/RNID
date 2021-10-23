@@ -19,8 +19,9 @@ if [ "$(wget https://www.imt-ip.pt/ -o /dev/null -O -| hxnormalize -x -l 10000|h
 else
 	echo "iefp: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
 	while IFS='' read -r line || [[ -n "$line" ]]; do
-		test $(echo "$line"|grep -v iefp|wc -l) -eq "1" \
+		test $(echo "$line"|grep -v imt|wc -l) -eq "1" \
 			&& echo "$line" \
 			|| (h=$(echo "$line"|cut -d\| -f1-4); t=$(echo "$line"|cut -d\| -f6-); echo "$h| $(date +%Y/%m/%d) |$t");
 	done < README.md > new
 	mv new README.md
+fi
