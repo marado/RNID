@@ -22,6 +22,14 @@ if [ "$emptyalt" -ne "0" ]; then
 	fail=3;
 fi
 
+# https://servicos.imt-ip.pt/ - não cumpre WCAG 2.0 AA (nem A)
+## 23/10/2021: there are empty alts
+emptyalt=$(curl -k -L https://servicos.imt-ip.pt/ | hxclean | hxselect -s '\n' img | hxselect -s '\n' -c 'img::attr(alt)'|grep -c ^$);
+if [ "$emptyalt" -ne "0" ]; then
+	echo "imtonline: problemas de acessibilidade";
+	fail=4;
+fi
+
 if [ "$fail" = 0 ]; then
 	echo "imt: incumprimento pode já não existir";
 else
@@ -34,22 +42,4 @@ else
 	mv new README.md
 fi
 
-# https://servicos.imt-ip.pt/ - não cumpre WCAG 2.0 AA (nem A)
-## 23/10/2021: there are empty alts
-emptyalt=$(curl -k -L https://servicos.imt-ip.pt/ | hxclean | hxselect -s '\n' img | hxselect -s '\n' -c 'img::attr(alt)'|grep -c ^$);
-if [ "$emptyalt" -ne "0" ]; then
-	echo "imtonline: problemas de acessibilidade";
-	fail=3;
-fi
 
-if [ "$fail" = 0 ]; then
-	echo "imtonline: incumprimento pode já não existir";
-else
-	echo "imtonline: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
-	while IFS='' read -r line || [[ -n "$line" ]]; do
-		test $(echo "$line"|grep -v imt|wc -l) -eq "1" \
-			&& echo "$line" \
-			|| (h=$(echo "$line"|cut -d\| -f1-4); t=$(echo "$line"|cut -d\| -f6-); echo "$h| $(date +%Y/%m/%d) |$t");
-	done < README.md > new
-	mv new README.md
-fi

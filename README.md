@@ -39,7 +39,6 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | https://www.sef.pt/ | Documentos em .doc | [Documentos em .doc no final da página (anunciados como .pdf)](https://www.sef.pt/pt/pages/conteudo-detalhe.aspx?nID=73) | 2021/10/13 ||
 | https://accessmonitor.acessibilidade.gov.pt/ | Acessibilidade | [Não cumpre regras de acessibilidade, segundo si mesmo](https://github.com/amagovpt/access-monitor-plus/issues/14) | 2021/10/13 | 2020/12/08 |
 | http://www.insa.min-saude.pt | XLSX | [dados do R(t) em XLSX](http://www.insa.min-saude.pt/category/areas-de-atuacao/epidemiologia/covid-19-curva-epidemica-e-parametros-de-transmissibilidade/) | 2021/10/13 | 2021/03/12 |
-| https://www.imt-ip.pt | TLS, Acessibilidade | [Certificado SSL/TLS expirado há um ano, havendo um novo que alberga todos os domínios \*.imt-ip.pt - sugerindo má configuração do servidor](https://www.imt-ip.pt/sites/IMTT/Portugues/Formularios/Documents/Mod9IMT.pdf), [site não cumpre WCAG 2.0 A](https://www.imt-ip.pt/) | 2021/10/23 | |
-| https://servicos.imt-ip.pt | Acessibilidade |[site não cumpre WCAG 2.0 A](https://www.imt-ip.pt/) | 2021/10/23 | |
+| https://www.imt-ip.pt | TLS, Acessibilidade | [Certificado SSL/TLS expirado há um ano, havendo um novo que alberga todos os domínios \*.imt-ip.pt - sugerindo má configuração do servidor](https://www.imt-ip.pt/sites/IMTT/Portugues/Formularios/Documents/Mod9IMT.pdf), [site não cumpre WCAG 2.0 A](https://www.imt-ip.pt/), [outro site que não cumpre WCAG 2.0 A](https://servicos.imt-ip.pt) | 2021/10/24 | |
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
