@@ -2,7 +2,7 @@ Esta lista, regularmente actualizada, regista ocorrências ou reportadas à ANSO
 
 Mais informação sobre a Lei das Normas Abertas [no site da ANSOL](https://ansol.org/normasabertas/rnid). As normas no RNID também se encontram listadas [aqui](RNID.md).
 
-Na eventualidade de teres encontrado incumprimento das Normas Abertas, podes reportar da seguinte forma, abrir um [issue no github](https://github.com/marado/RNID/issues/new/choose), ou enviares um email para [contacto@ansol.org](mailto:contact@ansol.org). 
+Na eventualidade de teres encontrado incumprimento das Normas Abertas, podes reportar da seguinte forma, abrir um [issue no github](https://github.com/marado/RNID/issues/new/choose), ou enviares um email para [contacto@ansol.org](mailto:contacto@ansol.org).
 
 # Ocorrências de incumprimento
 
