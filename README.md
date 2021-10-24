@@ -57,5 +57,6 @@ Lista de requisitos para correr os scripts:
 Em Debian/Ubuntu pode resolver-se com:
 ```
 $ sudo apt install curl html-xml-utils wget
-$ sudo snap install gh
 ```
+No caso do gh, sigam as instruções [aqui](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)
+
