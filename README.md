@@ -43,4 +43,20 @@ Esta tabela mostra casos de incumprimento do regulamento:
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
 
-Para correr todos os scripts de validação de uma só vez, pode-se fazer `for i in {01..49}; do bash scripts/$i-*sh ; done`.
+Para correr todos os scripts de validação de uma só vez, pode-se fazer:
+```
+$ for i in {01..49}; do bash scripts/$i-*sh ; done
+```
+
+Lista de requisitos para correr os scripts:
+* curl
+* gh
+* html-xml-utils
+* wget
+
+Em Debian/Ubuntu pode resolver-se com:
+```
+$ sudo apt install curl html-xml-utils wget
+```
+No caso do gh, sigam as instruções [aqui](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)
+
