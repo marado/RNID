@@ -6,7 +6,7 @@ Na eventualidade de teres encontrado incumprimento das Normas Abertas, podes rep
 
 # Ocorrências de incumprimento
 
-[![Validação automática](https://github.com/tcarrondo/RNID/actions/workflows/scripts.yml/badge.svg)](https://github.com/tcarrondo/RNID/actions/workflows/scripts.yml)
+[![Validação automática](https://github.com/marado/RNID/actions/workflows/scripts.yml/badge.svg)](https://github.com/marado/RNID/actions/workflows/scripts.yml)
 
 Esta tabela mostra casos de incumprimento do regulamento:
 
