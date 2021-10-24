@@ -1,4 +1,4 @@
-name: Run validation scripts
+name: Validação automática
 
 on:
   schedule:
