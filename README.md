@@ -42,3 +42,5 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | https://www.imt-ip.pt | TLS, Acessibilidade | [Certificado SSL/TLS expirado há um ano, havendo um novo que alberga todos os domínios \*.imt-ip.pt - sugerindo má configuração do servidor](https://www.imt-ip.pt/sites/IMTT/Portugues/Formularios/Documents/Mod9IMT.pdf), [site não cumpre WCAG 2.0 A](https://www.imt-ip.pt/), [outro site que não cumpre WCAG 2.0 A](https://servicos.imt-ip.pt) | 2021/10/24 | |
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
+
+Para correr todos os scripts de validação de uma só vez, pode-se fazer `for i in {01..49}; do bash scripts/$i-*sh ; done`.
