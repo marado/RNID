@@ -8,10 +8,8 @@ fi
 
 if [ "$( echo "$content" | grep -i "<img" |grep -v -i alt|wc -l)" -eq "0" ]; then
 	echo "act: incumprimento pode já não existir";
-	echo "DEBUG: a página tem $(echo "$content" |wc -l) linhas";
-	echo "DEBUG: ...e $(echo "$content" | grep -i "<img"|wc -l) imagens";
-	echo "DEBUG: ...e para estarmos aqui todas têm alt... são elas:";
-	echo "$(echo "$content" | grep -i "<img")";
+	echo "DEBUG: a página tem $(echo "$content" |wc -l) linhas:";
+	echo "$content";
 	# TODO: verificar também se o problema com o certiicado ja' esta' resolvido
 else
 	echo "act: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
