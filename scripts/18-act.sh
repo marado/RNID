@@ -4,13 +4,14 @@
 content=$(wget -t 1 --no-check-certificate http://www.act.gov.pt/ --user-agent="Mozilla/5.0 Gecko/20100101 Firefox/21.0" -o /dev/null -O -);
 if [ "$( echo "$content" | wc -l )" -eq "0" ]; then
 	echo "act: página vazia! Pode ser problema no site, ou no script.";
-	echo "DEBUG: ";
-	wget -t 1 --no-check-certificate http://www.act.gov.pt/ --user-agent="Mozilla/5.0   Gecko/20100101 Firefox/21.0";
-	rm index.html;
 fi
 
 if [ "$( echo "$content" | grep -i "<img" |grep -v -i alt|wc -l)" -eq "0" ]; then
 	echo "act: incumprimento pode já não existir";
+	echo "DEBUG: a página tem $(echo "$content" |wc -l) linhas";
+	echo "DEBUG: ...e $(echo "$content" | grep -i "<img"|wc -l) imagens";
+	echo "DEBUG: ...e para estarmos aqui todas têm alt... são elas:";
+	echo "$(echo "$content" | grep -i "<img")";
 	# TODO: verificar também se o problema com o certiicado ja' esta' resolvido
 else
 	echo "act: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
