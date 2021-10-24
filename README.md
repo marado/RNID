@@ -58,5 +58,5 @@ Em Debian/Ubuntu pode resolver-se com:
 ```
 $ sudo apt install curl html-xml-utils wget
 ```
-No caso do gh, sigam as instruções [aqui](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)
+No caso do gh, sigam as instruções de instalação [aqui](https://github.com/cli/cli/blob/trunk/docs/install_linux.md).
 
