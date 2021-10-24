@@ -1,0 +1,31 @@
+name: Run validation scripts
+
+on:
+  schedule:
+    # Every day at 1:00 (AM) UTC
+    - cron: '*/5 * * * *'
+
+jobs:
+  run-validation-scripts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: Run validation scripts
+        run: |
+          sudo apt install curl git html-xml-utils wget -y
+          "${GITHUB_WORKSPACE}/scripts/01-parlamento.sh"
+
+      - name: Commit file(s)
+        run: |
+          git config --local user.email "<>"
+          git config --local user.name "GitHub Actions"
+          git add ./README.md
+          git commit -m "Update de $(date +"%Y-%m-%d")"
+
+      - name: Push changes # push the output folder to your repo
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
