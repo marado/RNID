@@ -44,3 +44,5 @@ Esta tabela mostra casos de incumprimento do regulamento:
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
 
 Para correr todos os scripts de validação de uma só vez, pode-se fazer `for i in {01..49}; do bash scripts/$i-*sh ; done`.
+
+[![Validação de incumprimentos](https://github.com/tcarrondo/RNID/actions/workflows/scripts.yml/badge.svg)](https://github.com/tcarrondo/RNID/actions/workflows/scripts.yml)
