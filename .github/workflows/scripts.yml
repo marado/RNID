@@ -3,7 +3,7 @@ name: Validação automática
 on:
   schedule:
     # Every day at 11:00 (AM) UTC
-    - cron: '0 11 * * *'
+    - cron: '0 13 * * *'
 
 jobs:
   run-validation-scripts:
@@ -35,7 +35,6 @@ jobs:
           "${GITHUB_WORKSPACE}/scripts/24-matrizpix.sh"
           "${GITHUB_WORKSPACE}/scripts/25-eleicoes.sh"
           "${GITHUB_WORKSPACE}/scripts/26-snirh.sh"
-          "${GITHUB_WORKSPACE}/scripts/27-cnpd.sh"
           "${GITHUB_WORKSPACE}/scripts/28-terratreme.sh"
           "${GITHUB_WORKSPACE}/scripts/29-inpi.sh"
           "${GITHUB_WORKSPACE}/scripts/32-dgt.sh"
@@ -44,7 +43,6 @@ jobs:
           "${GITHUB_WORKSPACE}/scripts/36-norte2020.sh"
           "${GITHUB_WORKSPACE}/scripts/38-siac.sh"
           "${GITHUB_WORKSPACE}/scripts/40-sef.sh"
-          "${GITHUB_WORKSPACE}/scripts/46-accessmonitor.sh"
           "${GITHUB_WORKSPACE}/scripts/48-insa.sh"
           "${GITHUB_WORKSPACE}/scripts/49-imt.sh"
 
