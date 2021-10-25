@@ -8,8 +8,9 @@ fi
 
 if [ "$( echo "$content" | grep -i "<img" |grep -v -i alt|wc -l)" -eq "0" ]; then
 	echo "act: incumprimento pode já não existir";
-	echo "DEBUG: aqui o output do wget:";
-	wget -t 1 --no-check-certificate http://www.act.gov.pt/ --user-agent="Mozilla/5.0 Gecko/20100101 Firefox/21.0"
+	if [ "$(wget -t 1 --no-check-certificate http://www.act.gov.pt/ --user-agent="Mozilla/5.0 Gecko/20100101 Firefox/21.0"; echo $?)" -eq "4" ]; then
+		echo "[!] o teste falhou: o wget não conseguiu obter o site, por 'Network failure'.";
+	fi
 	# TODO: verificar também se o problema com o certiicado ja' esta' resolvido
 else
 	echo "act: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
