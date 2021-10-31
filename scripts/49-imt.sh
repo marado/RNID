@@ -14,22 +14,6 @@ if [ "$(curl https://www.imt-ip.pt/sites/IMTT/Portugues/Formularios/Documents/Mo
 	fail=2;
 fi
 
-# https://www.imt-ip.pt/ - não cumpre WCAG 2.0 AA (nem A)
-## 23/10/2021: there are empty alts
-emptyalt=$(curl -k -L https://www.imt-ip.pt/ | hxclean | hxselect -s '\n' img | hxselect -s '\n' -c 'img::attr(alt)'|grep -c ^$);
-if [ "$emptyalt" -ne "0" ]; then
-	echo "imt: problemas de acessibilidade";
-	fail=3;
-fi
-
-# https://servicos.imt-ip.pt/ - não cumpre WCAG 2.0 AA (nem A)
-## 23/10/2021: there are empty alts
-emptyalt=$(curl -k -L https://servicos.imt-ip.pt/ | hxclean | hxselect -s '\n' img | hxselect -s '\n' -c 'img::attr(alt)'|grep -c ^$);
-if [ "$emptyalt" -ne "0" ]; then
-	echo "imtonline: problemas de acessibilidade";
-	fail=4;
-fi
-
 if [ "$fail" = 0 ]; then
 	echo "imt: incumprimento pode já não existir";
 else
@@ -41,5 +25,3 @@ else
 	done < README.md > new
 	mv new README.md
 fi
-
-
