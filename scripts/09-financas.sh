@@ -4,8 +4,7 @@
 
 # a) XLS, XLSX e DOC
 #    http://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/tabela_ret_doclib/Pages/default.aspx
-# b) endereços e contactos em XLSX
-#    https://www.portaldasfinancas.gov.pt/pt/contactosEbalcao.action
+# b) --- já não existe
 # c) lista de formulários, quase na totalidade em formatos proprietários
 #    http://info-aduaneiro.portaldasfinancas.gov.pt/pt/publicacoes_formularios/formularios/Pages/formularios.aspx
 # d) --- já não existe
@@ -24,15 +23,6 @@
 # rm docs-2018
 # if [ ! "$a" -eq "0" ]; then
 # 	echo "financas: 'documentos XLS, XLSX e DOC' pode já estar resolvido.";
-# fi
-
-# FIXME: voltar a validar o cenário (b), agora em http://info.portaldasfinancas.gov.pt/pt/dgci/contactos_servicos/enderecos_contactos/Pages/contactos.aspx
-# # (b)
-# wget https://www.portaldasfinancas.gov.pt/pt/contactosEbalcao.action -o /dev/null -O -|grep -i "Lista de Contactos" > contactos
-# b=$(diff contactos scripts/09/contactos|wc -l)
-# rm contactos
-# if [ ! "$b" -eq "0" ]; then
-# 	echo "financas: incumprimento nos contactos pode já estar resolvido.";
 # fi
 
 # (c)
