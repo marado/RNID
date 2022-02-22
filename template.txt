@@ -16,6 +16,6 @@ Com os nossos melhores cumprimentos,
 -- 
 TODO - NOME
 ANSOL - Associação Nacional para o Software Livre
-http://ansol.org
+https://ansol.org
 Comunidade LibreOffice Portugal
-http://www.libreoffice.pt
+https://www.libreoffice.pt
