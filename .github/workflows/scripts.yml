@@ -34,7 +34,6 @@ jobs:
           "${GITHUB_WORKSPACE}/scripts/28-terratreme.sh"
           "${GITHUB_WORKSPACE}/scripts/29-inpi.sh"
           "${GITHUB_WORKSPACE}/scripts/32-dgt.sh"
-          "${GITHUB_WORKSPACE}/scripts/34-inventarios.sh"
           "${GITHUB_WORKSPACE}/scripts/35-turismo.sh"
           "${GITHUB_WORKSPACE}/scripts/36-norte2020.sh"
           "${GITHUB_WORKSPACE}/scripts/40-sef.sh"
