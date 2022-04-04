@@ -40,6 +40,7 @@ jobs:
           "${GITHUB_WORKSPACE}/scripts/48-insa.sh"
           "${GITHUB_WORKSPACE}/scripts/49-imt.sh"
           "${GITHUB_WORKSPACE}/scripts/50-bud.sh"
+          "${GITHUB_WORKSPACE}/scripts/51-dgeg.sh"
 
       - name: Commit file(s)
         run: |
