@@ -1,6 +1,7 @@
 #!/bin/bash
 
-wget https://www.dgeg.gov.pt/pt/estatistica/energia/petroleo-e-derivados/vendas-mensais/ -o /dev/null -O dgeg
+wget https://www.dgeg.gov.pt/pt/estatistica/energia/petroleo-e-derivados/vendas-mensais/ -o /dev/null -O - | \
+	hxnormalize -x -l 1000 | hxselect div .tema-content > dgeg
 
 if [ ! "$(diff dgeg scripts/51/dgeg|wc -l)" -eq "0" ]; then
 	echo "dgeg: incumprimento pode já não existir";
