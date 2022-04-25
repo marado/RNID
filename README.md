@@ -44,6 +44,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | https://www.imt-ip.pt                        | TLS                                                                                                                                | [Certificado SSL/TLS expirado há um ano, havendo um novo que alberga todos os domínios \*.imt-ip.pt - sugerindo má configuração do servidor](https://www.imt-ip.pt/sites/IMTT/Portugues/Formularios/Documents/Mod9IMT.pdf)                                                                                                                                                                                                                                                                        | 2022/04/23 |                     |
 | https://bud.gov.pt/ | Documento em .doc | [página com formulário em .doc, sem outra alternativa](https://bud.gov.pt/ddn/dispensa/requerer.html) | 2022/04/24 ||
 | https://www.dgeg.gov.pt/ | Documentos em .xlsx | [página com documentos em formato XLSX, sem outra alternativa](https://www.dgeg.gov.pt/pt/estatistica/energia/petroleo-e-derivados/vendas-mensais/) | 2022/04/24 ||
+| https://covid19.min-saude.pt | Documentos em .xlsx | [página com documentos em formato XLSX, sem outra alternativa](https://covid19.min-saude.pt/numero-de-novos-casos-e-obitos-por-dia) | 2022/04/24 ||
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
 
