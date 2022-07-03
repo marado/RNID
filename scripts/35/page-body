@@ -2,7 +2,7 @@
                             <div id="ctl00_PagePlaceHolder_PlaceHolderMain_ctl00_ctl06_label" style="display:none">Texto Rico</div>
 
                             <div aria-labelledby="ctl00_PagePlaceHolder_PlaceHolderMain_ctl00_ctl06_label" class="ms-rtestate-field" id="ctl00_PagePlaceHolder_PlaceHolderMain_ctl00_ctl06__ControlWrapper_RichHtmlField" style="display:inline">
-                              <div>​​​​​​​​​​​​​​​​​​​​​​​​O processo de classificação dos empreendimentos turísticos destina-se a atribuir, confirmar ou alterar a tipologia, o grupo (quando aplicável) e a categoria dos empreendimentos turísticos, mediante um conjunto de requisitos que se encontram estipulados, ou genericamente no <a href="https&#58;//dre.pt/web/guest/pesquisa/-/search/107596685/details/maximized" target="_blank" title="Regime Jurídico dos Empreendimentos Turísticos (RJET)">Regime Jurídico dos Empreendimentos Turísticos (RJET)</a>, ou nos regulamentos por tipologias, que dele derivam.<br></br>
+                              <div>​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​O processo de classificação dos empreendimentos turísticos destina-se a atribuir, confirmar ou alterar a tipologia, o grupo (quando aplicável) e a categoria dos empreendimentos turísticos, mediante um conjunto de requisitos que se encontram estipulados, ou genericamente no <a href="https&#58;//dre.pt/web/guest/pesquisa/-/search/107596685/details/maximized" target="_blank" title="Regime Jurídico dos Empreendimentos Turísticos (RJET)">Regime Jurídico dos Empreendimentos Turísticos (RJET)</a>, ou nos regulamentos por tipologias, que dele derivam.<br></br>
                               </div>
 
                               <div><br></br>
@@ -222,10 +222,10 @@
 
                                 <div>ESTABELECIMENTOS HOTELEIROS</div>
 
-                                <div>&gt;&#160;<a href="/SiteCollectionDocuments/empreendimentos-turisticos/EH1-pontuacao-anexo-A.xlsx" target="_blank" title="EH 1 estrela">Uma estrela (1*)</a><br></br>
+                                <div>&gt;&#160;<a href="/SiteCollectionDocuments/empreendimentos-turisticos/eh-1-pontuacao-anexo-a.xlsx" target="_blank" title="EH1 Pontuação Anexo A">Uma estrela (1*)</a><br></br>
                                 </div>
 
-                                <div>&gt;&#160;<a href="/SiteCollectionDocuments/empreendimentos-turisticos/EH2-pontuacao-anexo-A.xlsx" target="_blank" title="EH 2 estrelas">Duas estrelas (2*)</a><br></br>
+                                <div>&gt;&#160;<a href="/SiteCollectionDocuments/empreendimentos-turisticos/eh-2-pontuacao-anexo-a.xlsx" target="_blank" title="EH2 Pontuação Anexo A">Duas estrelas (2*)</a><br></br>
                                 </div>
 
                                 <div><br></br>
@@ -236,13 +236,13 @@
 
                                 <div>ESTABELECIMENTOS HOTELEIROS E HOTÉIS RURAIS</div>
 
-                                <div>&gt;&#160;<a href="/SiteCollectionDocuments/empreendimentos-turisticos/EH3-HR3-pontuacao-anexo-A.xlsx" target="_blank" title="EH e HR 3 estrelas">Três estrelas (3*)</a><br></br>
+                                <div>&gt;&#160;<a href="/SiteCollectionDocuments/empreendimentos-turisticos/eh-3-hr-3-pontuacao-anexo-a.xlsx" target="_blank" title="EH3 e HR3 Pontuação Anexo A">Três estrelas (3*)</a><br></br>
                                 </div>
 
-                                <div>&gt;&#160;<a href="/SiteCollectionDocuments/empreendimentos-turisticos/EH4-HR4-pontuacao-anexo-A.xlsx" target="_blank" title="EH e HR 4 estrelas">Quatro estrelas (4*)</a><br></br>
+                                <div>&gt;&#160;<a href="/SiteCollectionDocuments/empreendimentos-turisticos/eh-4-hr-4-pontuacao-anexo-a.xlsx" target="_blank" title="EH4 e HR4 Pontuação Anexo A">Quatro estrelas (4*)</a><br></br>
                                 </div>
 
-                                <div>&gt;&#160;<a href="/SiteCollectionDocuments/empreendimentos-turisticos/EH5-HR5-pontuacao-anexo-A.xlsx" target="_blank" title="EH e HR 5 estrelas">Cinco estrelas (5*)</a><br></br>
+                                <div>&gt;&#160;<a href="/SiteCollectionDocuments/empreendimentos-turisticos/eh-5-hr-5-pontuacao-anexo-a.xlsx" target="_blank" title="EH5 e HR5 Pontuação Anexo A">Cinco est​relas (5*)</a><br></br>
                                 </div>
 
                                 <div><br></br>
@@ -303,6 +303,8 @@
                               </div>
 
                               <div><br></br>
+                                <br></br>
+                                <br></br>
                               </div>
                             </div>
                           </div><div class="page-body richtext-content">
