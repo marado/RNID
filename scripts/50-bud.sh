@@ -5,7 +5,7 @@ files=$(
 		grep href|cut -d\" -f2|grep -v html$|grep -v ^#|grep -v ^http|grep -v "\.css"|grep -v png$|grep -v ico$
 );
 nfiles=$(echo "$files"|wc -l);
-docs=$(echo "$files"|grep .doc$|wc -l);
+docs=$(echo "$files"|grep .docx$|wc -l);
 
 if [ "$nfiles" != 1 ] || [ "$docs" != 1 ]; then
 	echo "bud: incumprimento pode já não existir";
