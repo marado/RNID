@@ -7,7 +7,7 @@ nnxls=$(echo "$urls"|grep -c -v xlsx);
 
 if [ "$nurls" -eq "0" ]; then
 	echo "covid: não foram encontrados urls, script não deve estar a funcionar correctamente.";
-elif [ "$nnxls" -eq "0" ]; then
+elif [ "$nnxls" -ne "0" ]; then
 	echo "covid: há endereços que não são xlsx, incumprimento pode já não existir";
 else
 	echo "covid: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
