@@ -31,7 +31,6 @@ jobs:
           "${GITHUB_WORKSPACE}/scripts/25-eleicoes.sh"
           "${GITHUB_WORKSPACE}/scripts/26-snirh.sh"
           "${GITHUB_WORKSPACE}/scripts/29-inpi.sh"
-          "${GITHUB_WORKSPACE}/scripts/32-dgt.sh"
           "${GITHUB_WORKSPACE}/scripts/35-turismo.sh"
           "${GITHUB_WORKSPACE}/scripts/36-norte2020.sh"
           "${GITHUB_WORKSPACE}/scripts/40-sef.sh"
