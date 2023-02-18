@@ -8,7 +8,6 @@
 # c) lista de formulários, quase na totalidade em formatos proprietários
 #    http://info-aduaneiro.portaldasfinancas.gov.pt/pt/publicacoes_formularios/formularios/Pages/formularios.aspx
 # d) --- já não existe
-# e) Enviar Ficheiro SAF-T exige Java -- https://faturas.portaldasfinancas.gov.pt/enviarSaftAppletForm.action
 
 # Visto que para um destes casos podem os ficheiros continuar disponíveis e o
 # incumprimento ser à mesma resolvido atravás da disponibilização, em paralelo,
@@ -29,9 +28,6 @@
 wget "http://info-aduaneiro.portaldasfinancas.gov.pt/pt/publicacoes_formularios/formularios/_vti_bin/portalat/docs.svc/listdocs?fields=DocIcon,Modelo,Title&sort=Seq:ASC,Seq_2:ASC,Title:ASC&filter=<IsNotNull><FieldRef Name=\"ID\"></FieldRef></IsNotNull>&id=35" -o /dev/null -O forms
 c=$(diff forms scripts/09/forms|wc -l)
 rm forms
-
-# (e)
-# TODO
 
 if [ ! "$c" -eq "0" ]; then
 	echo "financas: incumprimento nos formulários pode já estar resolvido.";
