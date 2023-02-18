@@ -1,6 +1,9 @@
 #!/bin/bash
 
-if [ "$(wget https://informacoeseservicos.lisboa.pt/fileadmin/informacoes_servicos/pedidos/pagamentos_taxas_tarifas/CML_participacao_ocorrencia.pdf -o /dev/null -O - | strings | grep -i XFA -c)" -eq "0" ]; then
+# Apesar do processo ser através do portal do cidadão Lisboeta, com um
+# formulário web e tal, a determinada altura o forumlário pede que se
+# descarregue este ficheiro, preencha, e anexe ao formulário web...
+if [ "$(wget https://informacoeseservicos.lisboa.pt/fileadmin/informacoes_servicos/pedidos/_transversais/CML_participacao_ocorrencia.pdf -o /dev/null -O - | strings | grep -i XFA -c)" -eq "0" ]; then
 	echo "lisboa-pdf: incumprimento pode já não existir";
 else
 	echo "lisboa-pdf: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
