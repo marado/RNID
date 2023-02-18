@@ -26,7 +26,6 @@ jobs:
           "${GITHUB_WORKSPACE}/scripts/16-saude.sh"
           "${GITHUB_WORKSPACE}/scripts/19-igcp.sh"
           "${GITHUB_WORKSPACE}/scripts/20-viva.sh"
-          "${GITHUB_WORKSPACE}/scripts/22-azulejo.sh"
           "${GITHUB_WORKSPACE}/scripts/23-matriznet.sh"
           "${GITHUB_WORKSPACE}/scripts/24-matrizpix.sh"
           "${GITHUB_WORKSPACE}/scripts/25-eleicoes.sh"
