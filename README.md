@@ -40,7 +40,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | http://www.insa.min-saude.pt                 | XLSX                                                                                                                               | [dados do R(t) em XLSX](http://www.insa.min-saude.pt/category/areas-de-atuacao/epidemiologia/covid-19-curva-epidemica-e-parametros-de-transmissibilidade/)                                                                                                                                                                                                                                                                                                                                        | 2023/04/03 | 2021/03/12          |
 | https://bud.gov.pt/ | Documento em .doc | [página com formulário em .doc, sem outra alternativa](https://bud.gov.pt/ddn/dispensa/requerer.html) | 2023/04/03 ||
 | https://www.dgeg.gov.pt/ | Documentos em .xlsx | [página com documentos em formato XLSX, sem outra alternativa](https://www.dgeg.gov.pt/pt/estatistica/energia/petroleo-e-derivados/vendas-mensais/) | 2023/04/03 ||
-| https://covid19.min-saude.pt | Documentos em .xlsx | [página com documentos em formato XLSX, sem outra alternativa](https://covid19.min-saude.pt/numero-de-novos-casos-e-obitos-por-dia) | 2023/02/18 ||
+| https://covid19.min-saude.pt | Documentos em .xlsx | [página com documentos em formato XLSX, sem outra alternativa](https://covid19.min-saude.pt/numero-de-novos-casos-e-obitos-por-dia) | 2023/04/03 ||
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
 
