@@ -1,6 +1,6 @@
 #!/bin/bash
 
-wget http://business.turismodeportugal.pt/pt/Planear_Iniciar/Licenciamento_Registo_da_Atividade/Empreendimentos_Turisticos/Paginas/classificacao-et.aspx -o /dev/null -O - |hxnormalize -x -l 1000|hxselect .page-body > page-body
+wget https://business.turismodeportugal.pt/pt/Planear_Iniciar/Licenciamento_Registo_da_Atividade/Empreendimentos_Turisticos/Paginas/classificacao-et.aspx -o /dev/null -O - |hxnormalize -x -l 1000|hxselect .page-body > page-body
 if [ ! "$(diff page-body scripts/35/page-body|wc -l)" -eq "0" ]; then
 	echo "turismo: incumprimento pode já não existir";
 else
