@@ -1,9 +1,9 @@
 #!/bin/bash
 
-urls=$(for item in $(wget https://covid19.min-saude.pt/numero-de-novos-casos-e-obitos-por-dia/ -o /dev/null -O - | hxnormalize -x -l 1000| hxselect .wp-block-spms-accordion-item|hxselect a -s'\n'); do echo "$item"|grep href; done|cut -d\" -f2|grep -v ^$|grep -v http://Novos);
+urls=$(for item in $(wget https://covid19.min-saude.pt/numero-de-novos-casos-e-obitos-por-dia/ -o /dev/null -O - | hxnormalize -x -l 1000| hxselect .wp-block-spms-accordion-item|hxselect a -s'\n'); do echo "$item"|grep href; done|cut -d\" -f2|grep -v http://Novos);
 
-nurls=$(echo "$urls"|wc -l);
-nnxls=$(echo "$urls"|grep -c -v xlsx);
+nurls=$(echo "$urls"|grep -v ^$|wc -l);
+nnxls=$(echo "$urls"|grep -v ^$|grep -c -v xlsx);
 
 if [ "$nurls" -eq "0" ]; then
 	echo "covid: não foram encontrados urls, script não deve estar a funcionar correctamente.";
