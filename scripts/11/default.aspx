@@ -1,6 +1,6 @@
 <div id="listas-download-ficheiros" style="display:none"> 
                                                           <ul>
-                                                            <li><a href="http://www.ansr.pt/Contraordenacoes/Formularios/Documents/F301 - Pedido de Certidão de Registo de Infrações do Condutor 2022.docx" target="_blank">F301 - Pedido de Certidão de Registo de Infrações do Condutor.</a></li>
+                                                            <li><a href="http://www.ansr.pt/Contraordenacoes/Formularios/Documents/F301 - Pedido de Certidão de Registo de Infrações do Condutor 2022(8).docx" target="_blank">F301 - Pedido de Certidão de Registo de Infrações do Condutor.</a></li>
 
                                                             <li><a href="http://www.ansr.pt/Contraordenacoes/Formularios/Documents/F302 - Pedido de suspensão da sanção acessória.docx" target="_blank">F302 - Pedido de suspensão da sanção acessória.</a></li>
 
