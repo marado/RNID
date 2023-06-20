@@ -41,7 +41,7 @@ Esta tabela mostra casos de incumprimento do regulamento:
 | https://bud.gov.pt/ | Documento em .doc | [página com formulário em .doc, sem outra alternativa](https://bud.gov.pt/ddn/dispensa/requerer.html) | 2023/06/20 ||
 | https://www.dgeg.gov.pt/ | Documentos em .xlsx | [página com documentos em formato XLSX, sem outra alternativa](https://www.dgeg.gov.pt/pt/estatistica/energia/petroleo-e-derivados/vendas-mensais/) | 2023/05/01 ||
 | https://covid19.min-saude.pt | Documentos em .xlsx | [página com documentos em formato XLSX, sem outra alternativa](https://covid19.min-saude.pt/numero-de-novos-casos-e-obitos-por-dia) | 2023/04/03 ||
-| https://ssaigt.dgterritorio.pt/ | Formatos vetoriais admitidos em SHP ou GDB | [SSAIGT – REN Manual do utilizador, estabelece no Quadro 9 - "Formatos admitidos para os elementos instrutórios", os formatos vetoriais: Shapefile ou GeoDataBase, sem a alternativa de formato aberto OGC GeoPackage estabelecido como obrigatório na Tabela VI do RNID](https://ssaigt.dgterritorio.pt/Manuais_SSAIGT/Manual_SSAIGT-REN.pdf) | 2022/09/15 ||
+| https://ssaigt.dgterritorio.pt/ | Formatos vetoriais admitidos em SHP ou GDB | [SSAIGT – REN Manual do utilizador, estabelece no Quadro 9 - "Formatos admitidos para os elementos instrutórios", os formatos vetoriais: Shapefile ou GeoDataBase, sem a alternativa de formato aberto OGC GeoPackage estabelecido como obrigatório na Tabela VI do RNID](https://ssaigt.dgterritorio.pt/Manuais_SSAIGT/Manual_SSAIGT-REN.pdf) | 2023/06/20 ||
 
 Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOffice Portugal para enviar um pedido de resolução do problema.
 
