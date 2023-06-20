@@ -2,15 +2,15 @@ name: Validação automática
 
 on:
   schedule:
-    # Every day at 18:15 UTC
-    - cron: '15 18 * * *'
+    # Every day at 20:25 UTC
+    - cron: '25 20 * * *'
 
 jobs:
   run-validation-scripts:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Run validation scripts
         run: |
