@@ -7,6 +7,8 @@ nnxls=$(echo "$urls"|grep -v ^$|grep -c -v xlsx);
 
 if [ "$nurls" -eq "0" ]; then
 	echo "covid: não foram encontrados urls, script não deve estar a funcionar correctamente.";
+	echo "DEBUG:"
+	wget https://covid19.min-saude.pt/numero-de-novos-casos-e-obitos-por-dia/ && cat index.html && rm index.html
 elif [ "$nnxls" -ne "0" ]; then
 	echo "covid: há ($nnxls/$nurls) endereços que não são xlsx, incumprimento pode já não existir";
 	echo "DEBUG: ";

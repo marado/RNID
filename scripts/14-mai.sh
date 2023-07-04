@@ -7,6 +7,8 @@ if [ ! "$(diff mai scripts/14/mai|wc -l)" -eq "0" ]; then
 	echo "DEBUG: mai-tmp:"
 	cat mai-tmp
 	echo "EOF"
+	echo "EXTRA DEBUG:"
+	wget --no-check-certificate https://www.sg.mai.gov.pt/AdministracaoEleitoral/RecenseamentoEleitoral/ResultadosRecenseamento/Paginas/default.aspx && cat default.aspx && rm default.aspx
 else
 	echo "mai: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
 	while IFS='' read -r line || [[ -n "$line" ]]; do
