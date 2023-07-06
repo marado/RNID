@@ -11,8 +11,7 @@ if [ "$nurls" -eq "0" ]; then
 	wget https://covid19.min-saude.pt/numero-de-novos-casos-e-obitos-por-dia/ && cat index.html && rm index.html
 elif [ "$nnxls" -ne "0" ]; then
 	echo "covid: há ($nnxls/$nurls) endereços que não são xlsx, incumprimento pode já não existir";
-	echo "DEBUG: ";
-	echo "$urls"|grep -n -v xlsx;
+	echo "NOTA: tentaste isto vindo dos IPs do github? Se sim, provavelmente bateste num 405 Method Not Allowed...";
 else
 	echo "covid: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
 	while IFS='' read -r line || [[ -n "$line" ]]; do
