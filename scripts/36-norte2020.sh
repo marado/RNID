@@ -1,6 +1,7 @@
 #!/bin/bash
 
-docs="$(for a in $(wget https://www.norte2020.pt/investimento-municipal -o /dev/null -O - |hxnormalize -x -l 1000|hxselect .a-dload); do echo "$a"|grep -i http; done)";
+docs="$(for a in $(wget --no-check-certificate https://www.norte2020.pt/investimento-municipal -o /dev/null -O - |hxnormalize -x -l 1000|hxselect .a-dload); do echo "$a"|grep -i http; done)";
+# TODO: add verification about SSL/certificate state!
 dcount=$(echo "$docs"|wc -l);
 xls=$(echo "$docs"|grep -c -i xls)
 
