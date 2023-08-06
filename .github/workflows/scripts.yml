@@ -37,7 +37,6 @@ jobs:
           "${GITHUB_WORKSPACE}/scripts/48-insa.sh"
           "${GITHUB_WORKSPACE}/scripts/50-bud.sh"
           "${GITHUB_WORKSPACE}/scripts/51-dgeg.sh"
-          "${GITHUB_WORKSPACE}/scripts/53-ssaigt.sh"
 
       - name: Commit file(s)
         run: |
