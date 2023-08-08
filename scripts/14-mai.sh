@@ -1,6 +1,11 @@
 #!/bin/bash
 
 wget --no-check-certificate https://www.sg.mai.gov.pt/AdministracaoEleitoral/RecenseamentoEleitoral/ResultadosRecenseamento/Paginas/default.aspx -o /dev/null -O -|grep -v __REQUESTDIGEST|grep -v VIEWSTATE|hxnormalize -x -l 1000|hxselect .conteudo > mai-tmp
+if [ $? -eq 4 ]; then
+	echo "mai: Network error. Site em baixo? Rede bloqueada?";
+	exit;
+fi
+
 cat mai-tmp|hxselect a -s'\n' > mai
 if [ ! "$(diff mai scripts/14/mai|wc -l)" -eq "0" ]; then
 	echo "mai: incumprimento pode já não existir";
