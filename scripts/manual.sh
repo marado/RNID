@@ -4,7 +4,6 @@
 ## automatically tested by Github Actions due to network restrictions.
 
 if [ -e scripts/manual.sh ]; then
-    ./scripts/14-mai.sh
     ./scripts/52-covid.sh
 else
     echo "Estás a correr isto a partir da directoria certa?"
