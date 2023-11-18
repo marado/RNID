@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ "$(wget http://www.matriznet.dgpc.pt/matriznet/home.aspx -o /dev/null -O -|grep -i x-shockwave-flash -c)" -eq "0" ]; then
+if [ "$(wget -U "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)" http://www.matriznet.dgpc.pt/matriznet/home.aspx -o /dev/null -O -|grep -i x-shockwave-flash -c)" -eq "0" ]; then
 	echo "matriznet: incumprimento pode já não existir";
 else
 	echo "matriznet: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
