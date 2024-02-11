@@ -1,4 +1,5 @@
 ## Formato de dados, incluindo código de carateres, formato de som e imagens (fixas e animadas), audiovisuais, dados gráficos e de pré-impressão
+
 ### Interação com SGBD
 
 - Especificação técnica: SQL:2011 / Structured Query Language 2011
@@ -110,7 +111,9 @@
 - Prazo para aplicação: Entrada em vigor do presente Regulamento
 - Referências:
   - [Theora Specification](http://theora.org/doc/Theora.pdf), XPHI [deveria ler-se XIPH]
+
 ## Formato de documentos (estruturados e não estruturados) e gestão de conteúdos, incluindo gestão documental
+
 ### Documentos editáveis para apresentação, gráficos, folhas de cálculo e processamento de texto
 
 - Especificação técnica: ODF 1.2 / Open Document Format for Office Applications (OpenDocument) Version 1.2 (Second Edition)
@@ -174,7 +177,9 @@
 - Prazo para aplicação: Entrada em vigor do presente Regulamento
 - Referências:
   - [HTML 5 - A vocabulary and associated APIs for HTML and XHTML](http://www.w3.org/TR/html5/), W3C
+
 ## Tecnologias de interface web, incluindo acessibilidade, ergonomia, compatibilidade e integração de serviços
+
 ### Sindicação de conteúdos web
 
 - Especificação técnica: ATOM 1.0 / Atom Syndication Format 1.0
@@ -289,7 +294,9 @@
 - Referências:
   - [RFC 7303 - XML Media Types](https://tools.ietf.org/html/rfc7303), IETF
   - [The Extensible Stylesheet Language Family (XSL)](http://www.w3.org/Style/XSL/), W3C
+
 ## Protocolos de streaming ou transmissão de som e imagens animadas em tempo real, incluindo o transporte e distribuição de conteúdos e os serviços ponto a ponto
+
 ### Streaming de áudio e vídeo
 
 - Especificação técnica: RTSP 1.0 / Real Time Streaming Protocol 1.0
@@ -297,7 +304,9 @@
 - Prazo para aplicação: Em vigor
 - Referências:
   - [RFC 2326 - Real Time Streaming Protocol (RTSP)](http://www.ietf.org/rfc/rfc2326.txt), IETF
+
 ## Protocolos de correio eletrónico, incluindo acesso a conteúdos e extensões e serviços de mensagem instantânea
+
 ### Consulta de email
 
 - Especificação técnica: IMAP4 / MIME
@@ -363,7 +372,9 @@
 - Prazo para aplicação: Entrada em vigor do presente Regulamento
 - Referências:
   - [RFC 3207 - SMTP Service Extension for Secure SMTP over Transport Layer Security](https://tools.ietf.org/html/rfc3207), IETF
+
 ## Sistemas de informação geográfica, incluindo cartografia, cadastro digital, topografia e modelação
+
 ### Serviço web para transmissão de coberturas de dados geográficos, complementado pelas especificações GML e GeoTIFF
 
 - Especificação técnica: WCS 2.01 / Web Coverage Service 2.01
@@ -488,7 +499,9 @@
 - Prazo para aplicação: Entrada em vigor do presente Regulamento
 - Referências:
   - [ISO 19156:2011 - Geographic information - Observations and measurements](http://www.iso.org/iso/catalogue_detail.htm?csnumber=32574), ISO
+
 ## Especificações técnicas e protocolos de comunicação em redes informáticas
+
 ### Envio de pacotes de dados numa rede informática
 
 - Especificação técnica: IPv6 / Internet Protocol Version 6
@@ -514,7 +527,9 @@
 - Prazo para aplicação: Entrada em vigor do presente Regulamento
 - Referências:
   - [RFC 6116 - ENUM Protocol Specification](https://tools.ietf.org/html/rfc6116), IETF
+
 ## Especificações técnicas e protocolos de integração, troca de dados e orquestração de processos de negócio na integração interorganismos
+
 ### Segurança da Camada de Transporte
 
 - Especificação técnica: TLS 1.2 / Transport Layer Security 1.2
@@ -522,7 +537,9 @@
 - Prazo para aplicação: Entrada em vigor do presente Regulamento
 - Referências:
   - [RFC 5246 - The Transport Layer Security (TLS) Protocol Version 1.2](https://tools.ietf.org/html/rfc5246), IETF
+
 ## Especificações técnicas e protocolos de integração, troca de dados e orquestração de processos de negócio na integração interorganismos 
+
 ### Representação gráfica para a especificação de processos de negócio
 
 - Especificação técnica: BPMN 2.0 / Business Process Model and Notation
