@@ -1,6 +1,9 @@
 #!/bin/bash
 
 if [ "$(wget http://www.insa.min-saude.pt/category/areas-de-atuacao/epidemiologia/covid-19-curva-epidemica-e-parametros-de-transmissibilidade/ -o /dev/null -O -|hxnormalize -x -l 1000|hxselect tr|hxselect a -s"\n"|grep -v Report_covid19_|grep -c xlsx)" -eq "0" ]; then
+	# DEBUG: vamos imprimir o output do wget e o conteúdo da página
+	echo "insa: DEBUG:";
+	wget http://www.insa.min-saude.pt/category/areas-de-atuacao/epidemiologia/covid-19-curva-epidemica-e-parametros-de-transmissibilidade/ -O -;
 	echo "insa: incumprimento pode já não existir";
 else
 	echo "insa: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
