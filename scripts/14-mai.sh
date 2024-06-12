@@ -25,4 +25,4 @@ else
 	done < README.md > new
 	mv new README.md
 fi
-rm mai-tmp mai
+rm mai-tmp mai default.aspx
