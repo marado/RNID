@@ -16,6 +16,7 @@ if [ ! "$(diff mai scripts/14/mai|wc -l)" -eq "0" ]; then
 	# wget --no-check-certificate https://www.sg.mai.gov.pt/AdministracaoEleitoral/RecenseamentoEleitoral/ResultadosRecenseamento/Paginas/default.aspx && cat default.aspx && rm default.aspx
 	echo "wget's return code is:"
 	wget --no-check-certificate https://www.sg.mai.gov.pt/AdministracaoEleitoral/RecenseamentoEleitoral/ResultadosRecenseamento/Paginas/default.aspx ; echo $?
+	rm default.aspx
 else
 	echo "mai: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
 	while IFS='' read -r line || [[ -n "$line" ]]; do
@@ -25,4 +26,4 @@ else
 	done < README.md > new
 	mv new README.md
 fi
-rm mai-tmp mai default.aspx
+rm mai-tmp mai
