@@ -1,6 +1,8 @@
 #!/bin/bash
 
-wget "https://www.sef.pt/pt/pages/conteudo-detalhe.aspx?nID=73" -o /dev/null -O -|grep DOC > SEF
+# TODO: check if the certificate issue is already fixed! Does wget work without --no-check-certificate ?
+
+wget --no-check-certificate "https://www.sef.pt/pt/pages/conteudo-detalhe.aspx?nID=73" -o /dev/null -O -|grep DOC > SEF
 if [ ! "$(diff SEF scripts/40/SEF|wc -l)" -eq "0" ]; then
 	echo "SEF: incumprimento pode já não existir";
 else
