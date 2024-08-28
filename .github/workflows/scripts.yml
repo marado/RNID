@@ -19,7 +19,6 @@ jobs:
           "${GITHUB_WORKSPACE}/scripts/02-economia.sh"
           "${GITHUB_WORKSPACE}/scripts/07-lisboa-pdf.sh"
           "${GITHUB_WORKSPACE}/scripts/09-financas.sh"
-          "${GITHUB_WORKSPACE}/scripts/11-ansr.sh"
           "${GITHUB_WORKSPACE}/scripts/12-autentic.sh"
           "${GITHUB_WORKSPACE}/scripts/14-mai.sh"
           "${GITHUB_WORKSPACE}/scripts/15-rcaap.sh"
