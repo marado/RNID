@@ -3,8 +3,8 @@
 # Incumprimentos: Vídeos disponibilizados em WMV, Canal Parlamento em Flash
 
 ## a) Vídeos disponibilizados em WMV
-wget http://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheAudiencia.aspx?BID=99371 -o /dev/null -O - | \
-	hxnormalize -x -l 10000 | grep "Links associados" -A 100 | \
+wget 'http://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheAudiencia.aspx?BID=99371' -o /dev/null -O - | \
+	hxnormalize -x -l 10000 2>/dev/null | grep "Links associados" -A 100 | \
 	grep "Bottom Fixed Nav" -B 100 | hxnormalize -x -l 10000|hxselect a -s '\n'|hxnormalize|grep href|cut -d\" -f2 > tmp
 
 a=$(diff tmp scripts/01/DetalheAudiencia.aspx?BID=99371 |wc -l)
