@@ -9,7 +9,7 @@ if [ "$nurls" -eq "0" ]; then
 	echo "sg.pcm.gov.pt: não foram encontrados urls, script não deve estar a funcionar correctamente.";
 	echo "DEBUG:"
 	wget https://www.sg.pcm.gov.pt/servicos/fundacoes-e-entidades-de-utilidade-publica/ && cat index.html && rm index.html
-elif ! [ "${nurls}/${ndocx}" = "8/4" ]; then
+elif ! [ "$ndocx/$nurls" = "4/8" ]; then
 	echo "sg.pcm.gov.pt: existiam 4/8 endereços em .docx, e agora são ($ndocx/$nurls). Verificar se incumprimentose mantem";
 	echo "NOTA: tentaste isto vindo dos IPs do github? Se sim, provavelmente bateste num 405 Method Not Allowed...";
 else
