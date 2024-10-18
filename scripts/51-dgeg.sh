@@ -10,7 +10,7 @@ else
 	while IFS='' read -r line || [[ -n "$line" ]]; do
 		test "$(echo "$line"|grep -v -c "dgeg")" -eq "1" \
 			&& echo "$line" \
-			|| (h=$(echo "$line"|cut -d\| -f1-4); t=$(echo "$line"|cut -d\| -f6-); echo "$h| $(date +%Y/%m/%d) |$t");
+			|| (h=$(echo "$line"|cut -d\| -f1-4); t=$(echo "$line"|cut -d\| -f6-); nc=$(echo "$line"|cut -d\| -f5 | wc -m); printf "%s| %-$((nc-2))s|%s\n" "$h" "$(date +%Y/%m/%d)" "$t");
 	done < README.md > new
 	mv new README.md
 fi
