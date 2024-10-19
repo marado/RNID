@@ -13,8 +13,7 @@ elif ! [ "$ndocx/$nurls" = "4/8" ]; then
 	echo "sg.pcm.gov.pt: existiam 4/8 endereços em .docx, e agora são ($ndocx/$nurls). Verificar se incumprimento se mantem";
 	echo "NOTA: tentaste isto vindo dos IPs do github? Se sim, provavelmente bateste num 405 Method Not Allowed...";
 else
-	echo "sg.pcm.gov.pt: Incumprimento mantém-se, há ($ndocx/$nurls) endereços em .docx"
-	echo "a actualizar o README (faça um git diff, valide, e commit!)";
+	echo "sg.pcm.gov.pt: Incumprimento mantém-se, há ($ndocx/$nurls) endereços em .docx, a actualizar o README (faça um git diff, valide, e commit!)";
 	while IFS='' read -r line || [[ -n "$line" ]]; do
 		test "$(echo "$line"|grep -v -c "sg.pcm.gov.pt")" -eq "1" \
 			&& echo "$line" \
