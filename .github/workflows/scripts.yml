@@ -23,7 +23,6 @@ jobs:
           "${GITHUB_WORKSPACE}/scripts/14-mai.sh"
           "${GITHUB_WORKSPACE}/scripts/15-rcaap.sh"
           "${GITHUB_WORKSPACE}/scripts/16-saude.sh"
-          "${GITHUB_WORKSPACE}/scripts/19-igcp.sh"
           "${GITHUB_WORKSPACE}/scripts/20-viva.sh"
           "${GITHUB_WORKSPACE}/scripts/25-eleicoes.sh"
           "${GITHUB_WORKSPACE}/scripts/26-snirh.sh"
