@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Catálogo Nacional de Qualificações</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-20335091-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  </script>
+<link rel="stylesheet" href="/styles.8719197583c4070f192c.css"></head>
+<body>
+  <app-root></app-root>
+<script src="/runtime-es2015.c03ee15803d8540ec81a.js" type="module"></script><script src="/polyfills-es2015.9aaba84b721d907ae919.js" type="module"></script><script src="/runtime-es5.ce6326d9b6aeea6dbead.js" nomodule defer></script><script src="/polyfills-es5.9c4d86ba7d3fe6df1ecc.js" nomodule defer></script><script src="/scripts.568be36f95a3f46cdfc9.js" defer></script><script src="/main-es2015.b744f00cc7c082df350a.js" type="module"></script><script src="/main-es5.0224e1e0cfd366104148.js" nomodule defer></script></body>
+
+</html>
