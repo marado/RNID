@@ -1,10 +1,12 @@
 #!/bin/bash
 
-wget https://www.dgeg.gov.pt/pt/estatistica/energia/petroleo-e-derivados/vendas-mensais/ -o /dev/null -O - | \
+wget --no-check-certificate https://www.dgeg.gov.pt/pt/estatistica/energia/petroleo-e-derivados/vendas-mensais/ -o /dev/null -O - | \
 	hxnormalize -x -l 1000 | hxselect div .tema-content > dgeg
 
+# TODO: testar-lhe também este incumprimento: https://whatsmychaincert.com/?www.dgeg.gov.pt
+
 if [ ! "$(diff dgeg scripts/51/dgeg|wc -l)" -eq "0" ]; then
-	echo "dgeg: incumprimento pode já não existir";
+	echo "dgeg: um incumprimento pode já não existir (e outro não está a ser testado!)";
 else
 	echo "dgeg: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
 	while IFS='' read -r line || [[ -n "$line" ]]; do
