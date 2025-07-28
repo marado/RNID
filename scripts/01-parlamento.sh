@@ -10,7 +10,7 @@ rm tmp
 
 ## resultados:
 # Se $a for 0, então o incumprimento mantém-se
-if [ ! "$a" -eq "0" ]; then
+if [ "$a" -eq "0" ]; then
 	echo "parlamento: incumprimento mantém-se, a actualizar README (faça um git diff, valide, e commit!)";
 	while IFS='' read -r line || [[ -n "$line" ]]; do
 		test $(echo "$line"|grep -v www.parlamento.pt|wc -l) -eq "1" \
