@@ -15,3 +15,4 @@ else
 	done < README.md > new
 	mv new README.md
 fi
+rm ufcdPesquisa
