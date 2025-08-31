@@ -33,6 +33,7 @@ jobs:
           "${GITHUB_WORKSPACE}/scripts/50-bud.sh"
           "${GITHUB_WORKSPACE}/scripts/51-dgeg.sh"
           "${GITHUB_WORKSPACE}/scripts/53-sg-pcm-gov.sh"
+          "${GITHUB_WORKSPACE}/scripts/54-rtp.sh"
           "${GITHUB_WORKSPACE}/scripts/55-anqep.sh"
           "${GITHUB_WORKSPACE}/scripts/56-territorio.sh"
 
