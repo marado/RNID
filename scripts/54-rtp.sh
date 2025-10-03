@@ -1,7 +1,7 @@
 #!/bin/bash
 
 url="https://www.rtp.pt/play/direto/rtp1"
-url="https://www.rtp.pt/play/p15472/e872635/a-juventude-de-jane"
+url="https://www.rtp.pt/play/zigzag/p14295/e879403/escola-de-herois"
 
 if [ "$(wget $url -o /dev/null -O - |grep -c 'drm: true')" -ne "1" ]; then
 	echo "RTP: não encontrei DRM no stream testado, incumprimento pode já não existir";
