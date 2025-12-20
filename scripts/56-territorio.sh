@@ -3,7 +3,8 @@
 # Se a página onde está o .zip mudou, então pode apresentar também fontes alternativas
 # Se a página não mudou, o .zip ainda assim pode ter sido actualizado para passar a ter normas abertas
 different=0
-wget https://www.dgterritorio.gov.pt/cartografia/cartografia-tematica/caop -o /dev/null
+wget --no-check-certificate https://www.dgterritorio.gov.pt/cartografia/cartografia-tematica/caop -o /dev/null
+# TODO: faz outro teste para ver se o --no-check-certificate é necessário. Se for, então há outro incumprimento relacionado com o HTTPS
 
 if [ "$(diff caop scripts/56/caop|wc -l)" -eq "0" ]; then
 	curl -sI https://www.dgterritorio.gov.pt/sites/default/files/ficheiros-cartografia/Areas_Freg_Mun_Dist_Pais_CAOP2024.1.zip |grep last-modified > lm
@@ -22,4 +23,4 @@ else
 	done < README.md > new
 	mv new README.md
 fi
-rm caop
+rm -f caop
