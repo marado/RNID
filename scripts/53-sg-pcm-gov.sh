@@ -1,6 +1,8 @@
 #!/bin/bash
 
-urls=$(for item in $(wget https://www.sg.pcm.gov.pt/servicos/fundacoes-e-entidades-de-utilidade-publica/ -o /dev/null -O - | hxnormalize -x -l 1000 | hxselect .file | hxselect a -s'\n'); do echo "$item" | grep href ; done | cut -d\" -f2);
+urls=$(for item in $(wget --no-check-certificate https://www.sg.pcm.gov.pt/servicos/fundacoes-e-entidades-de-utilidade-publica/ -o /dev/null -O - | hxnormalize -x -l 1000 | hxselect .file | hxselect a -s'\n'); do echo "$item" | grep href ; done | cut -d\" -f2);
+
+# TODO: testar também se o wget funciona bem sem o --no-check-certificate, que é outro erro a testar (se o https está a funcionar bem, porque nem sempre esteve)
 
 nurls=$(echo "$urls" | grep -v '^$' | wc -l);
 ndocx=$(echo "$urls" | grep -v '^$' |grep -c -v docx);
@@ -9,7 +11,7 @@ if [ "$nurls" -eq "0" ]; then
 	echo "sg.pcm.gov.pt: não foram encontrados urls, script não deve estar a funcionar correctamente.";
 	echo "NOTA: tentaste isto vindo dos IPs do github? Se sim, provavelmente bateste num 405 Method Not Allowed...";
 	echo "DEBUG:"
-	wget https://www.sg.pcm.gov.pt/servicos/fundacoes-e-entidades-de-utilidade-publica/ && cat index.html && rm index.html
+	wget --no-check-certificate https://www.sg.pcm.gov.pt/servicos/fundacoes-e-entidades-de-utilidade-publica/ && cat index.html && rm index.html
 elif ! [ "$ndocx/$nurls" = "4/8" ]; then
 	echo "sg.pcm.gov.pt: existiam 4/8 endereços em .docx, e agora são ($ndocx/$nurls). Verificar se incumprimento se mantem";
 else
