@@ -2,7 +2,8 @@
 
 # ufcdPesquisa (HTML) includes a few javascripts, including two main-es*5.*js , which are the ones that show that we're getting XLS results
 # As long as those two imports remain the same, so does the RNID violation...
-wget https://catalogo.anqep.gov.pt/ufcdPesquisa -o /dev/null
+# TODO: check if --no-check-certificate is really needed... because this might be another RNID violation
+wget --no-check-certificate https://catalogo.anqep.gov.pt/ufcdPesquisa -o /dev/null -O - | grep main-es > ufcdPesquisa
 if [ $? -ne 0 ]; then
 	echo "anqep: o site parece indisponível, incumprimento pode já não existir";
 elif [ ! "$(diff ufcdPesquisa scripts/55/ufcdPesquisa|wc -l)" -eq "0" ]; then
