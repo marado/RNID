@@ -2,7 +2,7 @@
 
 files=$(
 	for i in $(wget https://bud.gov.pt/ddn/dispensa/requerer.html -o /dev/null -O -); do echo $i; done | \
-		grep href|cut -d\" -f2|grep -v html$|grep -v ^#|grep -v ^http|grep -v ^/$|grep -v "\.css"|grep -v png$|grep -v ico$|grep -v svg$
+		grep href|cut -d\" -f2|grep -v html$|grep -v ^#|grep -v ^http|grep -v ^/$|grep -v "\.css"|grep -v \.png|grep -v ico$|grep -v svg$
 );
 nfiles=$(echo "$files"|wc -l);
 docs=$(echo "$files"|grep .docx$|wc -l);
