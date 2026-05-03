@@ -2,8 +2,8 @@ name: Validação automática
 
 on:
   schedule:
-    # Every day at 16:55 UTC
-    - cron: '55 16 * * *'
+    # Every day at 19:45 UTC
+    - cron: '45 19 * * *'
 
 jobs:
   run-validation-scripts:
@@ -29,7 +29,6 @@ jobs:
           "${GITHUB_WORKSPACE}/scripts/29-inpi.sh"
           "${GITHUB_WORKSPACE}/scripts/35-turismo.sh"
           "${GITHUB_WORKSPACE}/scripts/36-norte2020.sh"
-          "${GITHUB_WORKSPACE}/scripts/40-sef.sh"
           "${GITHUB_WORKSPACE}/scripts/50-bud.sh"
           "${GITHUB_WORKSPACE}/scripts/51-dgeg.sh"
           "${GITHUB_WORKSPACE}/scripts/53-sg-pcm-gov.sh"
