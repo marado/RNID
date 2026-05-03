@@ -17,6 +17,12 @@ xhtmlErrors=$(wget "https://snirh.apambiente.pt/" -o /dev/null -O -|grep media=\
 
 if [ "$xhtmlErrors" -eq "0" ]; then
 	echo "snirh: detalhe do incumprimento que foi testado já não existe, incumprimento pode estar resolvido (testar manualmente)";
+	echo "DEBUG:"
+	wget "https://snirh.apambiente.pt/" -o output -O html
+	echo "> OUTPUT:"
+	cat output
+	echo "> HTML:"
+	cat html
 else
 	echo "snirh: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
 	while IFS='' read -r line || [[ -n "$line" ]]; do

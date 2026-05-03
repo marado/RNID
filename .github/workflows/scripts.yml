@@ -2,8 +2,8 @@ name: Validação automática
 
 on:
   schedule:
-    # Every day at 15:40 UTC
-    - cron: '40 15 * * *'
+    # Every day at 16:55 UTC
+    - cron: '55 16 * * *'
 
 jobs:
   run-validation-scripts:
