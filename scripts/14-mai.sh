@@ -1,6 +1,6 @@
 #!/bin/bash
 
-wget --no-check-certificate https://www.sg.mai.gov.pt/AdministracaoEleitoral/RecenseamentoEleitoral/ResultadosRecenseamento/Paginas/default.aspx -o /dev/null -O -|grep -v __REQUESTDIGEST|grep -v VIEWSTATE|hxnormalize -x -l 1000|hxselect .conteudo > mai-tmp
+wget --no-check-certificate https://www.sg.mai.gov.pt/pt/AdministracaoEleitoral/RecenseamentoEleitoral/ResultadosRecenseamento/Pages/default.aspx -o /dev/null -O -|grep -v __REQUESTDIGEST|grep -v VIEWSTATE|hxnormalize -x -l 1000|hxselect .titulo-conteudo > mai-tmp
 if [ $? -eq 4 ]; then
 	echo "mai: Network error. Site em baixo? Rede bloqueada?";
 	exit;
@@ -13,9 +13,9 @@ if [ ! "$(diff mai scripts/14/mai|wc -l)" -eq "0" ]; then
 	cat mai-tmp
 	echo "EOF"
 	echo "EXTRA DEBUG:"
-	# wget --no-check-certificate https://www.sg.mai.gov.pt/AdministracaoEleitoral/RecenseamentoEleitoral/ResultadosRecenseamento/Paginas/default.aspx && cat default.aspx && rm default.aspx
+	# wget --no-check-certificate https://www.sg.mai.gov.pt/pt/AdministracaoEleitoral/RecenseamentoEleitoral/ResultadosRecenseamento/Pages/default.aspx && cat default.aspx && rm default.aspx
 	echo "wget's return code is:"
-	wget --no-check-certificate https://www.sg.mai.gov.pt/AdministracaoEleitoral/RecenseamentoEleitoral/ResultadosRecenseamento/Paginas/default.aspx ; echo $?
+	wget --no-check-certificate https://www.sg.mai.gov.pt/pt/AdministracaoEleitoral/RecenseamentoEleitoral/ResultadosRecenseamento/Pages/default.aspx ; echo $?
 	rm default.aspx
 else
 	echo "mai: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
