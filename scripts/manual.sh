@@ -6,7 +6,6 @@
 if [ -e scripts/manual.sh ]; then
     ./scripts/26-snirh.sh
     ./scripts/48-insa.sh
-    ./scripts/52-covid.sh
 else
     echo "Estás a correr isto a partir da directoria certa?"
 fi
