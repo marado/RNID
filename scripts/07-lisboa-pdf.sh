@@ -3,7 +3,13 @@
 # Apesar do processo ser através do portal do cidadão Lisboeta, com um
 # formulário web e tal, a determinada altura o forumlário pede que se
 # descarregue este ficheiro, preencha, e anexe ao formulário web...
-if [ "$(wget https://informacoeseservicos.lisboa.pt/fileadmin/informacoes_servicos/pedidos/_transversais/CML_participacao_ocorrencia.pdf -o /dev/null -O - | strings | grep -i XFA -c)" -eq "0" ]; then
+
+wget https://informacoeseservicos.lisboa.pt/fileadmin/informacoes_servicos/pedidos/_transversais/CML_participacao_ocorrencia.pdf -o /dev/null || {
+	echo "lisboa-pdf: PDF já não está acessível?";
+	return 0;
+}
+
+if [ "$(file CML_participacao_ocorrencia.pdf |grep "PDF document, version 1.5" -c)" -eq "0" ]; then
 	echo "lisboa-pdf: incumprimento pode já não existir";
 else
 	echo "lisboa-pdf: Incumprimento mantém-se, a actualizar o README (faça um git diff, valide, e commit!)";
@@ -14,3 +20,5 @@ else
 	done < README.md > new
 	mv new README.md
 fi
+
+rm CML_participacao_ocorrencia.pdf
