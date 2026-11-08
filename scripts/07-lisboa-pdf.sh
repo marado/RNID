@@ -6,7 +6,7 @@
 
 wget https://informacoeseservicos.lisboa.pt/fileadmin/informacoes_servicos/pedidos/_transversais/CML_participacao_ocorrencia.pdf -o /dev/null || {
 	echo "lisboa-pdf: PDF já não está acessível?";
-	return 0;
+	exit;
 }
 
 if [ "$(file CML_participacao_ocorrencia.pdf |grep "PDF document, version 1.5" -c)" -eq "0" ]; then
