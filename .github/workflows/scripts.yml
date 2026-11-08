@@ -17,7 +17,6 @@ jobs:
           sudo apt install curl git html-xml-utils wget -y
           "${GITHUB_WORKSPACE}/scripts/01-parlamento.sh"
           "${GITHUB_WORKSPACE}/scripts/02-economia.sh"
-          "${GITHUB_WORKSPACE}/scripts/07-lisboa-pdf.sh"
           "${GITHUB_WORKSPACE}/scripts/09-financas.sh"
           "${GITHUB_WORKSPACE}/scripts/12-autentic.sh"
           "${GITHUB_WORKSPACE}/scripts/14-mai.sh"
