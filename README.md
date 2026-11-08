@@ -43,7 +43,7 @@ Este [template](template.txt) é utilizado pela ANSOL e pela Comunidade LibreOff
 
 Para correr todos os scripts de validação de uma só vez, pode-se fazer:
 ```
-$ for i in scripts/*sh; do bash $i; done
+$ for i in scripts/*-*sh; do bash $i; done
 ```
 
 Lista de requisitos para correr os scripts:
