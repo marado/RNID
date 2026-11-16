@@ -8,7 +8,11 @@ if [ -e scripts/manual.sh ]; then
     ./scripts/48-insa.sh
 
 	echo ""
-	echo "Falta testar manualmente o incumprimento da CMLisboa:"
+	echo "Falta testar o incumprimento da CMLisboa se o script automático"
+	echo "tiver reportado 'bloqueado/desconhecido':"
+	echo "  ./scripts/07-lisboa-pdf.sh"
+	echo "Se o script não conseguir descarregar o PDF (protecção Cloudflare),"
+	echo "validar manualmente:"
 	echo "1. ir a https://servicos.lisboa.pt/fileadmin/servicos/pedidos/transversais/LLO/CML_participacao_ocorrencia.pdf no browser e guardar o PDF"
 	echo "2. fazer um 'file CML_participacao_ocorrencia.pdf' e ver se o PDF continua a ser 1.5 ou já é 1.7 como dita a norma"
 	echo "3. actualizar o README"
